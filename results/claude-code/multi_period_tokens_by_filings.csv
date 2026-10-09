@@ -1,0 +1,16 @@
+question_id,distinct_key_filings,agent,arm,runs,completed_reps,mean_total_tokens,mean_accuracy
+MP05,5,claude_code,archivist,1,1,166767,1
+MP05,5,claude_code,both,1,1,130135,1
+MP05,5,claude_code,web,1,1,611036,1
+MP01,6,claude_code,archivist,1,1,85173,1
+MP01,6,claude_code,both,1,1,95233,1
+MP01,6,claude_code,web,1,1,225946,1
+MP15,6,claude_code,archivist,1,1,79406,1
+MP15,6,claude_code,both,1,1,81782,1
+MP15,6,claude_code,web,1,1,257326,1
+MP02,8,claude_code,archivist,1,1,83163,1
+MP02,8,claude_code,both,1,1,91621,1
+MP02,8,claude_code,web,1,1,279340,1
+MP06,10,claude_code,archivist,1,1,211907,1
+MP06,10,claude_code,both,1,1,114313,1
+MP06,10,claude_code,web,1,1,294448,1

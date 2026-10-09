@@ -1,0 +1,103 @@
+{
+  "amendment": 5,
+  "date": "2026-10-08",
+  "section": "16",
+  "rule": "Each correction replaces the named fields of one key fact; every other field and fact is unchanged. The frozen question files stay byte for byte.",
+  "corrections": [
+    {
+      "set": "main",
+      "question_id": "MH14",
+      "fact_id": "MH14.f4",
+      "fields": {
+        "statement": "The company produced 396,000 tonnes of copper in 2025 (the same AIF also states 395,772 tonnes for the year ended December 31, 2025)",
+        "accept": ["395,772", "395772"]
+      },
+      "reason": "The AIF filed 2026-02-10 states both figures: 396,000 tonnes in its Copper section (the key's passage) and 395,772 tonnes in its Description of the Business. An answer giving 395,772 states the filed figure.",
+      "also_stated": [
+        {
+          "chunk_id": "bd9b3a53-49dd-459e-85f0-7192ffc6e45d",
+          "permalink": "https://mosaic-finance.com/filings/89ce060d-a50a-4396-bdc7-feae6d112edb/p/bd9b3a53-49dd-459e-85f0-7192ffc6e45d/k1.12CtqBgTTtj2Y-iEL8mqxWImpvHX1fqjhqKx99geFNg/",
+          "quote": "For the year ended December 31, 2025, the Company produced 395,772 tonnes of copper"
+        }
+      ],
+      "owner_ruling": "Ruled correct by the authors after checking the filing"
+    },
+    {
+      "set": "main",
+      "question_id": "BR15",
+      "fact_id": "BR15.f5",
+      "fields": {
+        "statement": "New Gold Inc. (NGD:CA) gold production for the year ended 2025-12-31 (company total), per its MD&A filed 2026-03-20",
+        "value": "353,772",
+        "accept": ["353772"],
+        "source": {
+          "filing_uuid": "8fcea780-9890-4bb7-a32c-d3eac71a1e15",
+          "chunk_id": "2bce22a2-43ff-4caf-bfc2-c49d6a2ca1e1",
+          "permalink": "https://mosaic-finance.com/filings/8fcea780-9890-4bb7-a32c-d3eac71a1e15/p/2bce22a2-43ff-4caf-bfc2-c49d6a2ca1e1/k1.8AHfX4bV_2EY_XMcSITJGHlOvEJAjLMQKbMEA4Crtp8/",
+          "symbol": "NGD:CA",
+          "formtype": "002-002-001098-001004",
+          "datefiled": "2026-03-20",
+          "section_header": "OPERATING HIGHLIGHTS",
+          "quote": "|Produced(4)|**107,778**|80,438|**353,772**|298,303|321,178|",
+          "exchange_document_id": null,
+          "document_id_absent_reason": "SEDAR+ filing: Mosaic stores no exchange document id for SEDAR+ filings"
+        }
+      },
+      "reason": "290,236 ounces is the Rainy River mine (beside its 265,000 to 295,000 ounce guidance); the company total in the MD&A operating highlights table is 353,772 ounces (New Afton 63,536 plus Rainy River 290,236). The question asks for each miner's production.",
+      "owner_ruling": "Ruled correct by the authors after checking the filing; no new runs"
+    },
+    {
+      "set": "main",
+      "question_id": "RC14",
+      "fact_id": "RC14.f16",
+      "fields": {
+        "statement": "Shopify GMV for the year ended December 31, 2023 was USD 235.9 billion, also stated as USD 236 billion (annual MD&A filed 2024-02-13)",
+        "accept": ["236", "$236 billion"]
+      },
+      "reason": "The annual MD&A filed 2024-02-13 states $235.9 billion in its Business Overview (the key's passage) and $236 billion in its Gross Merchandise Volume section. Both are the figure as filed.",
+      "also_stated": [
+        {
+          "chunk_id": "aa407483-f682-4883-a028-5b1d18508a27",
+          "permalink": "https://mosaic-finance.com/filings/bebdab89-16ab-4be9-a940-6928bd57e9c9/p/aa407483-f682-4883-a028-5b1d18508a27/k1.DwehU-CE_YccoEobV5xQN8QBUYrvxdLty92IOIxTzic/",
+          "quote": "For the year ended December 31, 2023 we facilitated GMV of $236 billion"
+        }
+      ],
+      "owner_ruling": "Ruled by the authors after checking the filing: count the as filed figure correct"
+    },
+    {
+      "set": "main",
+      "question_id": "RC14",
+      "fact_id": "RC14.f13",
+      "fields": {
+        "statement": "Shopify GMV for the three months ended March 31, 2023 was USD 49.6 billion, also stated as USD 50 billion (interim MD&A filed 2023-05-04)",
+        "accept": ["50", "$50 billion"]
+      },
+      "reason": "The interim MD&A filed 2023-05-04 states $49.6 billion in its Business Overview (the key's passage) and $50 billion in its Gross Merchandise Volume section. Both are the figure as filed.",
+      "also_stated": [
+        {
+          "chunk_id": "4f712a75-191b-4f31-bdc7-7165c7c60749",
+          "permalink": "https://mosaic-finance.com/filings/49a2a322-800c-4f0b-a13f-396656adb352/p/4f712a75-191b-4f31-bdc7-7165c7c60749/k1.D_Xd3bPiJwjB37J49z5gknz-mhxz0iC9V6Hs7yrTUWQ/",
+          "quote": "For the three months ended March 31, 2023 and 2022, we facilitated GMV of $50 billion and $43 billion"
+        }
+      ],
+      "owner_ruling": "Ruled by the authors after checking the filing: count the as filed figure correct"
+    },
+    {
+      "set": "contamination",
+      "question_id": "CN12",
+      "fact_id": "CN12.f1",
+      "fields": {
+        "statement": "Coca Cola İçecek's average employee count for 2025 was 10,624 (the filing gives the blue collar and white collar split in opposite orders in two tables, so the split is not part of this fact)"
+      },
+      "reason": "The scored value 10,624 is right. The statement's split (5,748 blue collar, 4,876 white collar) follows the corporate governance table (the key's passage); Note 1 of the consolidated financial statements, appended to the same filing (Ekler), gives 4,876 blue collar and 5,748 white collar, so the filing contradicts itself on the split and the key must not decide it.",
+      "also_stated": [
+        {
+          "chunk_id": "75eda2b8-c796-46b7-b792-f1c058c8af4f",
+          "permalink": "https://mosaic-finance.com/filings/2c64505d-5bd5-4195-93e5-057a1b513974/p/75eda2b8-c796-46b7-b792-f1c058c8af4f/k1.gTyb4rTi1ncX4gS3I3LiMUVvAOPkAsox8uYSmFgWf7o/",
+          "quote": "|Maviyakalı|4.876|4.641|"
+        }
+      ],
+      "owner_ruling": "Not part of the human audit rulings: checked against the filing under amendment 5 (correct the key if it is wrong, else record that the answer is wrong)"
+    }
+  ]
+}

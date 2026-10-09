@@ -1,0 +1,16 @@
+Archivist benchmark
+Copyright 2026 Mosaic Finance
+
+This product includes software developed by Mosaic Finance, licensed under the Apache License,
+Version 2.0 (see LICENSE). Data and text are licensed under CC BY 4.0 (see LICENSE-DATA).
+
+Mosaic is not affiliated with, sponsored by or endorsed by OpenAI or Anthropic.
+
+Codex and ChatGPT are products of OpenAI. Claude and Claude Code are products of Anthropic.
+Product names are used only to identify the systems that were measured; all trademarks belong
+to their owners.
+
+Filing passages quoted in this repository (answer keys, key quotes, answers and run logs) are
+quoted from public company filings and remain the filers' content. Web page titles, snippets and
+text returned by the agents' web tools and recorded in answers and run logs remain their owners'
+content.

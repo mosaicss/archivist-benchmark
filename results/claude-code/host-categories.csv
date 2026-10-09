@@ -1,0 +1,491 @@
+host,category,basis,reason,runs,kinds
+10haber.net,news,pass_h,Turkish news outlet reporting corporate transactions and public disclosures.,1,shown
+20260609.aircargoweek.com,news,pass_h,Air Cargo Week is an editorial aviation and air freight trade publication.,1,shown
+247wallst.com,news,pass_h,"Publishes financial journalism, market commentary, and business reporting.",1,shown
+24saatgazetesi.com,news,pass_h,Turkish newspaper providing editorial news reporting.,1,shown
+aa.com.tr,news,seed,seed host aa.com.tr,2,cited; shown
+abc.xyz,issuer,pass_h,Alphabet's official corporate domain hosting annual reports.,1,shown
+about.nike.com,issuer,pass_h,Nike’s official corporate domain publishes its financial results.,1,shown
+ad-hoc-news.de,aggregator,pass_h,Financial portal aggregating corporate news and publishing standardized stock summaries.,1,shown
+advisortools.zacks.com,aggregator,seed,seed host zacks.com,1,shown
+aeromorning.com,news,pass_h,Aviation industry publication covering airline and aerospace developments.,3,shown
+aeroportist.com,news,pass_h,Turkish aviation news publication covering airlines and industry developments.,1,shown
+afaqs.com,news,pass_h,"Editorial trade publication covering advertising, media, and business.",1,shown
+aflcio.org,aggregator,pass_h,Executive Paywatch compiles executive compensation and pay ratios from company disclosures.,1,opened; shown
+ai-cio.com,news,pass_h,Chief Investment Officer publishes editorial reporting for institutional investors.,1,cited; shown
+air-journal.fr,news,pass_h,French aviation news publication with editorial airline coverage.,1,shown
+airandspaceforces.com,news,pass_h,Air and Space Forces Magazine publishes edited defense journalism.,1,shown
+aircargoweek.com,news,pass_h,Air Cargo Week is an editorial aviation and air freight trade publication.,1,shown
+airfreight.news,aggregator,pass_h,Collects and republishes air freight industry news from multiple sources.,1,shown
+airlinehaber.com,news,pass_h,Turkish aviation news outlet reporting airline developments.,1,shown
+airnewstimes.com,news,pass_h,Aviation news outlet reporting on airlines and industry developments.,1,shown
+airportgundem.com,news,pass_h,Aviation news publication covering airline financial results.,2,shown
+ajc-ajc-prod.cdn.arcpublishing.com,news,pass_h,Atlanta Journal-Constitution infrastructure hosting the newspaper's editorial reporting.,1,opened; shown
+ajc.com,news,pass_h,The Atlanta Journal-Constitution publishes edited journalism.,1,cited; opened; shown
+ajot.com,news,pass_h,American Journal of Transportation is an editorial transportation trade publication.,2,shown
+allmind.ai,aggregator,pass_h,Republishes company earnings call transcripts.,3,shown
+alomaliye.com,reference,pass_h,"Provides tax, accounting, and regulatory information, including official legal decisions.",1,shown
+alpha-sense.com,aggregator,pass_h,"Aggregates filings, earnings transcripts, financial research, and company analysis at scale.",1,shown
+alphaquery.com,aggregator,pass_h,Compiles and calculates financial metrics for publicly traded companies.,1,shown
+alphaspread.com,aggregator,pass_h,"Aggregates company valuations, financial data, and earnings call transcripts.",1,shown
+alternatifmenkul.com.tr,promotional,pass_h,Brokerage website offering investment services and research supporting those services.,1,shown
+analizgazetesi.com.tr,news,pass_h,Turkish business newspaper publishing editorial economic and company news.,1,shown
+annualreport.dsm-firmenich.com,issuer,pass_h,DSM-Firmenich's own domain hosting its integrated annual report.,1,shown
+annualreport.stocklight.com,aggregator,pass_h,Stocklight repository hosting company annual reports and filings.,1,shown
+annualreports.com,aggregator,pass_h,Collects and hosts annual reports and corporate filings at scale.,1,shown
+annualreview.pfizer.com,issuer,pass_h,Pfizer's official annual-report website.,1,shown
+aol.com,news,pass_h,General news portal publishing editorial and syndicated coverage.,1,shown
+apara.com.tr,news,pass_h,Turkish financial news broadcaster's website providing editorial economic reporting.,1,shown
+api.rasyonet.com,aggregator,pass_h,Financial data provider distributing company reports and statements.,1,opened; shown
+app.edgar.tools,aggregator,pass_h,"Aggregates SEC filings, company summaries, auditor information, and financial data.",6,shown
+app.getquin.com,forum,pass_h,"Social investing platform featuring user portfolios, discussions, and community posts.",1,shown
+app.stocklight.com,aggregator,pass_h,Investment information platform republishing company financial filings.,1,shown
+arastirma.isyatirim.com.tr,aggregator,pass_h,Brokerage research portal presenting securities and market data.,2,shown
+arc-dev.theglobeandmail.com,news,seed,seed host theglobeandmail.com,1,shown
+army-technology.com,news,pass_h,Editorial defense industry publication covering military technology and companies.,1,shown
+assets.oceanagold.com,issuer,pass_h,OceanaGold's official asset host for financial reports and presentations.,1,opened; shown
+atxjetsetter.com,promotional,pass_h,"Travel blog featuring affiliate-supported airline, hotel, and travel product content.",1,shown
+autozone.gcs-web.com,issuer,pass_h,AutoZone's official investor relations website.,1,shown
+aviacionaldia.com,news,pass_h,Aviation news publication reporting on airlines and industry developments.,1,shown
+aviationsourcenews.com,news,pass_h,Aviation news publication covering airlines and acquisitions.,1,shown
+baijing.cn,news,pass_h,Chinese industry media outlet covering international technology businesses and commerce.,1,shown
+bankadunyasi.com,news,pass_h,Turkish banking and business news publication.,2,shown
+barchart.com,aggregator,pass_h,"Aggregates market prices, company financial data, analysis, and syndicated releases.",11,cited; opened; shown
+benzinga.com,aggregator,pass_h,"Financial information platform providing transcripts, analyst targets, and company coverage at scale.",4,shown
+beta.earningswhispers.com,aggregator,pass_h,"Compiles earnings calendars, estimates, results, and related company financial information.",1,shown
+bhanzu.com,promotional,pass_h,Math education provider publishing learning content to attract customers to its courses.,1,cited; shown
+bhrrc.org,reference,pass_h,Business and Human Rights Resource Centre maintains company profiles and human rights documentation.,1,shown
+bigpara.hurriyet.com.tr,aggregator,pass_h,"Financial portal aggregating stock prices, company data, and disclosures.",3,cited; opened; shown
+bigseller.pro,promotional,pass_h,E-commerce software provider publishing business content to market its product.,1,shown
+bizplanr.ai,promotional,pass_h,Business planning software website using industry statistics content to attract customers.,1,shown
+blackenterprise.com,news,pass_h,"Editorial business publication covering entrepreneurship, finance, and corporate developments.",1,shown
+bloomberght.com,news,seed,seed host bloomberght.com,5,cited; opened; shown
+bnamericas.com,news,pass_h,Business intelligence publication providing editorial Latin American industry reporting and company profiles.,1,shown
+bnnbloomberg.ca,news,seed,seed host bnnbloomberg.ca,2,shown
+boardroomalpha.com,aggregator,pass_h,"Compiles shareholder meeting details, ownership data, and corporate filings.",2,shown
+borsaatlas.com,aggregator,pass_h,"Publishes stock information, company analysis, and share-price forecasts.",2,cited; opened; shown
+borsacoo.com,aggregator,pass_h,Aggregates and summarizes company announcements from KAP.,3,cited; opened; shown
+borsagundem.com.tr,news,pass_h,Financial news outlet reporting company developments and earnings.,2,cited; opened; shown
+borsamatik.com.tr,news,pass_h,Turkish financial news outlet reporting market developments and brokerage price targets.,1,shown
+borsaningundemi.com,aggregator,pass_h,Compiles stock profiles and republishes brokerage market bulletins.,1,shown
+borsatek.com,news,pass_h,Financial news publication covering company announcements and results.,1,shown
+breakingdefense.com,news,pass_h,"Editorial defense news publication covering military policy, technology, and industry.",1,cited; shown
+briefglance.com,aggregator,pass_h,Publishes summarized company developments and financial results across businesses.,1,shown
+bulletin.webull.com,aggregator,pass_h,Brokerage bulletin service distributes financial news and company announcements.,1,shown
+bullfincher.io,aggregator,pass_h,Collects and republishes companies' annual reports and financial information.,3,shown
+bundle.app,aggregator,pass_h,News aggregation application collecting stories from multiple publishers.,1,shown
+business-humanrights.org,reference,pass_h,Business and Human Rights Resource Centre maintains company profiles and human rights documentation.,1,shown
+businessinsider.nl,news,pass_h,Dutch Business Insider edition publishing editorial business and financial journalism.,1,shown
+businessquant.com,aggregator,pass_h,"Compiles financial metrics, historical company data, and SEC filings.",1,shown
+businesswire.com,issuer,seed,seed host businesswire.com,4,cited; shown
+c-8384-20170414-www-goldmansachs-com.i.icims.com,issuer,pass_h,Goldman Sachs-branded hosted infrastructure carrying the company's own financial document.,1,shown
+ca.investing.com,aggregator,seed,seed host investing.com,1,shown
+canadiangrocer.com,news,pass_h,Editorial trade publication reporting on Canada's grocery industry.,1,shown
+canligaste.com,news,pass_h,Turkish news outlet reporting company earnings and current affairs.,2,shown
+capedge.com,aggregator,pass_h,"Aggregates company filings, financial statements, and investment data.",1,shown
+capital.com.tr,news,pass_h,Turkish business magazine publishes editorial reporting and company coverage.,1,cited; opened; shown
+castanetkamloops.net,news,pass_h,Local news publisher carrying business reporting.,1,shown
+caterpillar.com,issuer,pass_h,Caterpillar’s official corporate reports and earnings releases.,1,shown
+cbc.ca,news,pass_h,Canadian public broadcaster with editorially reviewed journalism.,1,shown
+ccentral.ca,news,pass_h,Convenience retail trade publication providing industry reporting.,1,shown
+cdn.infoyatirim.com,promotional,pass_h,Investment brokerage distributing stock research to attract and serve trading clients.,2,opened; shown
+cdn.tbmm.gov.tr,reference,pass_h,Official Turkish parliament host providing legislative documents.,1,shown
+cdn.uc.assets.prezly.com,issuer,pass_h,Hosts issuer-authored Shopify financial results distributed through its press platform.,1,shown
+ceelm.com,news,pass_h,CEE Legal Matters publishes legal industry news and transaction reporting.,1,shown
+chargeback.io,promotional,pass_h,Chargeback service provider publishing content to market its product.,1,shown
+chartexchange.com,aggregator,pass_h,"Compiles securities prices, trading statistics, and financial market data.",2,shown
+chartmill.com,aggregator,pass_h,"Provides stock screening, financial data, and aggregated investment analysis.",1,shown
+checkout.ie,news,pass_h,Retail trade publication providing editorial business reporting.,1,shown
+citibank.com,issuer,pass_h,Citi's own domain hosting its financial statements.,1,shown
+citigroup.com,issuer,pass_h,Citigroup's official investor relations website publishing its own SEC filings.,1,shown
+cliffsnotes.com,forum,pass_h,Hosts user-uploaded coursework and contributor answers alongside study guides.,1,shown
+cn.ca,issuer,pass_h,Canadian National Railway's official domain publishing its own reports and releases.,2,cited; shown
+cnbc.com,news,seed,seed host cnbc.com,1,shown
+cnbce.com,news,pass_h,CNBC's Turkish financial news outlet providing editorial business reporting.,3,cited; opened; shown
+cnnturk.com,news,pass_h,Turkish broadcaster publishing business news.,1,shown
+cno.mediaroom.com,issuer,pass_h,CNO Financial Group's official newsroom carrying company-authored earnings releases.,1,shown
+cnybj.com,news,pass_h,Central New York business newspaper providing editorial reporting.,1,shown
+constellationr.com,promotional,pass_h,Commercial technology research firm publishing insights to market paid research and advisory subscriptions.,1,shown
+constructioncoverage.com,promotional,pass_h,Insurance comparison and referral business publishing industry content to attract customers.,1,shown
+content.edgar-online.com,aggregator,pass_h,EDGAR Online republishes company regulatory filings at scale.,3,shown
+content.schwab.com,issuer,pass_h,Charles Schwab’s own domain hosts its annual report.,1,opened; shown
+context.ph,news,pass_h,Philippine business news publication reporting corporate developments.,1,shown
+corporate.homedepot.com,issuer,pass_h,Home Depot’s own corporate website publishes financial releases and sustainability reports.,1,cited; shown
+ctvnews.ca,news,pass_h,Canadian broadcaster publishing editorially reviewed news.,1,shown
+czechtradeoffices.com,reference,pass_h,Official Czech government trade promotion agency providing business and market information.,1,shown
+d18rn0p25nwr6d.cloudfront.net,issuer,pass_h,Investor relations CDN hosting issuer-published annual reports and regulatory filings.,1,shown
+db.raceface.com,issuer,pass_h,"Race Face's own domain, belonging to a Fox Factory brand.",1,shown
+dcf-analysis.com,promotional,pass_h,Company analysis pages market paid business analysis templates and reports.,1,shown
+dealpointdata.com,aggregator,pass_h,Corporate intelligence platform collecting company filings and governance data.,1,shown
+defensedaily.com,news,pass_h,Defense industry trade publication providing business and financial reporting.,1,shown
+defenseone.com,news,pass_h,Editorial news publication covering defense policy and industry.,1,shown
+devel-news.alphastreet.com,aggregator,pass_h,AlphaStreet summarizes company earnings and publishes financial data and earnings transcripts.,1,shown
+dha.com.tr,news,pass_h,Turkish news agency publishing business and economic reporting.,1,shown
+didipiomine.com.ph,issuer,pass_h,Official Didipio mine website publishing OceanaGold company results.,1,shown
+digitalcommerce360.com,news,pass_h,Editorial trade publication covering ecommerce companies and industry developments.,1,cited; shown
+dijitalhaber.com.tr,news,pass_h,Turkish news publication reporting company financial results.,1,shown
+dis-prod.assetful.loblaw.ca,issuer,pass_h,Loblaw's own domain hosting company reports and earnings releases.,1,opened; shown
+discussion.fool.com,aggregator,seed,seed host fool.com,1,shown
+dividendmax.com,aggregator,pass_h,"Compiles dividend schedules, forecasts, and company dividend histories.",1,shown
+dollarama.com,issuer,pass_h,Dollarama's own website publishing company announcements and financial results.,1,opened; shown
+drugpatentwatch.com,promotional,pass_h,Markets paid pharmaceutical patent intelligence through sales-oriented articles.,1,shown
+ecofinagency.com,news,pass_h,"News agency reporting African business, commodities, and economic developments.",1,shown
+edrmagazine.eu,news,pass_h,European Defence Review magazine publishes defense industry journalism.,1,shown
+ekofin.net,aggregator,pass_h,"Compiles company disclosures, financial reports, and contract information.",1,shown
+ekonomidunya.com,news,pass_h,Turkish economy magazine publishing business news.,1,shown
+ekonomigazetesi.com,news,pass_h,Turkish economic news publication reporting corporate earnings.,1,shown
+ekonomim.net,news,pass_h,Turkish business news site reporting company results.,1,shown
+ekonomist.com.tr,news,pass_h,Business magazine publishing financial journalism and corporate news.,2,shown
+ekovitrin.com,news,pass_h,Turkish business magazine and news publisher.,1,shown
+eldiariony.com,news,pass_h,Spanish-language newspaper publishing consumer and business reporting.,1,shown
+eldoradogold.com,issuer,pass_h,Eldorado Gold's official corporate website publishes financial reports and operating data.,1,cited; shown
+en.wikipedia.org,reference,seed,seed host wikipedia.org,10,shown
+equibles.com,aggregator,pass_h,"Aggregates company filings, financial information, and earnings transcripts.",1,shown
+erdem-erdem.av.tr,other,pass_h,Law firm publishing professional legal explanations and commentary.,1,shown
+es.marketscreener.com,aggregator,seed,seed host marketscreener.com,1,shown
+esghub.delta.com,issuer,pass_h,Delta's official sustainability site publishes its corporate reports and compensation policies.,1,shown
+esmmagazine.com,news,pass_h,European supermarket trade magazine providing editorial retail industry reporting.,2,shown
+etoro.com,forum,pass_h,Social investing platform hosting user profiles and user-generated investment commentary.,1,shown
+extension.okstate.edu,reference,pass_h,University extension service publishing educational research and practical guidance.,1,shown
+familywealthreport.com,news,pass_h,Wealth management trade publication providing editorial financial industry news.,1,shown
+feeds.ajc.com,news,pass_h,Atlanta Journal-Constitution feed carrying newspaper journalism.,1,opened; shown
+filecache.mediaroom.com,issuer,pass_h,Hosts issuer-authored earnings releases and corporate disclosure files.,1,shown
+filing-source,filing,seed,regulator filing system (upstream host pattern),34,cited; opened; shown
+finance.yahoo.com,aggregator,seed,seed host finance.yahoo.com,13,shown
+financhle.com,aggregator,pass_h,Compiles company employee counts from annual filings.,1,shown
+finans.cnnturk.com,aggregator,pass_h,Finance portal republishes company disclosures and market data.,1,shown
+finans.mynet.com,aggregator,pass_h,"Finance portal combines market data, republished company disclosures, and financial reporting.",1,cited; opened; shown
+finansaktuel.com,news,pass_h,Financial publication covering company results and economic developments.,2,shown
+finanshatti.com,news,pass_h,Financial news outlet reporting company agreements and business developments.,2,cited; opened; shown
+finansopia.com,news,pass_h,Financial news outlet reporting corporate developments from public disclosures.,4,cited; opened; shown
+finanznachrichten.de,aggregator,pass_h,Aggregates financial news and republishes releases from external press wires.,1,cited; shown
+finboard.net,aggregator,pass_h,Compiles company financial statements and stock data.,1,shown
+fintables.com,aggregator,pass_h,Financial analysis platform aggregating market data and company disclosures.,3,opened; shown
+fintel.io,aggregator,seed,seed host fintel.io,1,shown
+fintool.com,aggregator,pass_h,Provides financial research tools aggregating company disclosures and earnings transcripts.,4,shown
+finviz.com,aggregator,pass_h,"Stock screening platform aggregating financial data, news, and company releases.",9,cited; shown
+first-quantum.com,issuer,pass_h,First Quantum Minerals' official corporate and investor relations domain.,1,cited; opened; shown
+firstpeninsulamarine.co.uk,promotional,pass_h,Marine business brokerage promoting its services and transaction expertise.,1,shown
+fool.ca,promotional,pass_h,Stock recommendation articles promote investments and paid investment advisory subscriptions.,1,shown
+fool.com,aggregator,seed,seed host fool.com,2,cited; shown
+forbes.com.tr,news,pass_h,Forbes Türkiye provides editorial business and financial journalism.,3,cited; opened; shown
+foreks.com,aggregator,pass_h,"Aggregates market data, financial news, and company disclosures.",1,shown
+fortune.com,news,pass_h,Established business magazine with editorially reviewed journalism.,2,shown
+fourweekmba.com,reference,pass_h,Publishes explanatory business-model profiles and educational business resources.,1,shown
+franchising.com,promotional,pass_h,Franchise marketing portal promoting franchise opportunities and related businesses.,1,shown
+freightwaves.com,news,pass_h,Freight industry publication providing editorial reporting.,1,shown
+fxempire.com,aggregator,pass_h,"Combines financial market data, forecasts, and contributor analysis.",1,shown
+garantibbvaemeklilik.com.tr,issuer,pass_h,Official Garanti BBVA pension company domain publishing its disclosures.,1,shown
+garantibbvafactoring.com,issuer,pass_h,Official Garanti BBVA factoring company domain publishing corporate disclosures.,1,shown
+garantibbvainvestorrelations.com,issuer,pass_h,Garanti BBVA's official investor relations website.,1,cited; opened; shown
+gazette.com,news,pass_h,Colorado newspaper publishing local and investigative journalism.,1,shown
+ge.com,issuer,pass_h,General Electric's official corporate and investor relations domain.,1,shown
+geaerospace.com,issuer,pass_h,GE Aerospace's official website publishing its annual financial reports.,1,shown
+getmidas.com,aggregator,pass_h,Brokerage platform summarizes company announcements and financial market developments at scale.,1,shown
+gevernova.com,issuer,pass_h,GE Vernova's own investor relations website and annual reports.,1,shown
+globaldata.com,promotional,pass_h,Markets proprietary research reports and commercial intelligence subscriptions.,2,shown
+globalminingreview.com,news,pass_h,Mining industry publication providing editorial news coverage.,1,cited; shown
+globenewswire.com,issuer,seed,seed host globenewswire.com,2,cited; opened; shown
+goldmansachs.com,issuer,pass_h,Goldman Sachs's own investor relations website and annual reports.,1,shown
+goldsilver.ai,aggregator,pass_h,"Aggregates precious-metals company information, financial results, and releases.",1,shown
+goodreads.com,forum,pass_h,Book reviews and discussions are primarily user-generated without editorial review.,1,shown
+govconnews.beehiiv.com,news,pass_h,Government contracting newsletter reporting defense industry developments.,1,shown
+govconwire.com,news,pass_h,Editorial publication covering government contracting and corporate developments.,1,shown
+grocerybusiness.ca,news,pass_h,Grocery industry trade magazine publishing editorial business coverage.,1,shown
+grocerytradenews.com,news,pass_h,Trade publication reporting grocery industry business news.,1,shown
+gurufocus.com,aggregator,seed,seed host gurufocus.com,4,shown
+haber.aero,news,pass_h,Specialist aviation publication reporting industry developments.,1,cited; opened; shown
+haberhurriyeti.com,news,pass_h,Turkish news outlet publishing reported business and general news.,1,shown
+haberler.itu.edu.tr,other,pass_h,University communications website publishing institutional news and reports.,1,shown
+haberturk.com,news,pass_h,Established Turkish news outlet with business coverage and supplementary stock data.,1,cited; shown
+halkbank.com.tr,issuer,pass_h,Halkbank's official website hosting investor disclosures and shareholder documents.,1,opened; shown
+halkgyo.com.tr,issuer,pass_h,Official Halk GYO corporate website publishing shareholder disclosures.,1,shown
+halktv.com.tr,news,pass_h,Turkish television news organization's website.,2,shown
+hardwareretailing.com,news,pass_h,Hardware retail trade magazine providing editorial industry coverage.,1,shown
+havahaber.com,news,pass_h,Aviation news publication reporting airline business developments.,1,shown
+havasosyalmedya.com,news,pass_h,Aviation news publication reporting airline corporate developments.,2,shown
+hedeffiyat.com.tr,aggregator,pass_h,"Collects broker research, financial assessments, price targets, and stock recommendations.",1,shown
+herdemaviation.com,news,pass_h,Specialist aviation outlet reporting airline financial results.,1,cited; opened; shown
+hk.finance.yahoo.com,aggregator,seed,seed host finance.yahoo.com,1,shown
+hk.marketscreener.com,aggregator,seed,seed host marketscreener.com,1,shown
+hyring.com,promotional,pass_h,Commercial recruiting platform promoting hiring software and services.,1,shown
+in.benzinga.com,news,pass_h,Benzinga's regional financial journalism website.,1,shown
+in.marketscreener.com,aggregator,seed,seed host marketscreener.com,2,cited; opened; shown
+industrialinfo.com,promotional,pass_h,Markets proprietary industrial intelligence products and subscriptions.,1,shown
+infoyatirim.com,promotional,pass_h,Investment brokerage publishing market commentary to support its trading services.,1,cited; opened; shown
+insidearbitrage.com,aggregator,pass_h,"Compiles investment data and analysis covering arbitrage, insider transactions, and corporate events.",1,shown
+insidentity.com,aggregator,pass_h,Summarizes and republishes corporate financial results and business information.,1,shown
+insightdiy.co.uk,news,pass_h,Trade news website covering home improvement and retail businesses.,1,shown
+integralyatirim.com.tr,promotional,pass_h,Brokerage publishes investment bulletins supporting its trading and investment services.,2,shown
+internethaber.com,news,pass_h,Turkish general news outlet reporting corporate financial developments.,1,shown
+investing.com,aggregator,seed,seed host investing.com,5,shown
+investor.atmeta.com,issuer,pass_h,Meta's official investor relations site publishes earnings results and guidance.,1,cited; opened; shown
+investor.bankofamerica.com,issuer,pass_h,Bank of America's official investor relations site hosts filings and annual reports.,1,shown
+investor.pnc.com,issuer,pass_h,PNC’s own investor relations domain hosting company filings.,1,cited; shown
+investor.turkishairlines.com,issuer,pass_h,Turkish Airlines' official investor relations website.,1,cited; opened; shown
+investors.caterpillar.com,issuer,pass_h,Caterpillar’s own investor relations domain hosting filings and financial results.,1,shown
+investors.dinebrands.com,issuer,pass_h,Dine Brands’ own investor relations domain.,1,shown
+investors.lockheedmartin.com,issuer,pass_h,Lockheed Martin’s own investor relations domain.,3,cited; shown
+investors.nike.com,issuer,pass_h,Nike’s own investor relations domain.,1,shown
+investorshangout.com,forum,pass_h,Investor discussion platform centered on user-generated stock posts.,1,shown
+ir.chipotle.com,issuer,pass_h,Chipotle’s own investor relations domain.,2,cited; shown
+ir.delta.com,issuer,pass_h,Delta Air Lines’ own investor relations domain.,1,shown
+ir.homedepot.com,issuer,pass_h,Home Depot’s own investor relations domain.,1,cited; shown
+ir.mondelezinternational.com,issuer,pass_h,Mondelēz's official investor relations domain hosting SEC filings.,1,shown
+ir.usbank.com,issuer,pass_h,U.S. Bancorp's official investor relations website.,1,shown
+irwendys.com,issuer,pass_h,Wendy's official investor relations website.,1,shown
+istiklal.com.tr,news,pass_h,Turkish newspaper website publishing general and business news.,1,cited; shown
+it.tradingview.com,aggregator,pass_h,"Aggregates market data, financial analysis, and syndicated news.",1,shown
+itiger.com,aggregator,pass_h,"Tiger Brokers compiles financial news, earnings information, and securities filings.",1,shown
+itu.edu.tr,other,pass_h,University's official institutional website publishing administrative reports.,1,shown
+janes.com,news,pass_h,Janes publishes professionally edited defense and security reporting.,1,shown
+journalforclinicalstudies.com,news,pass_h,Trade journal publishing clinical research industry news and reporting.,1,shown
+jpmorganchase.com,issuer,pass_h,JPMorgan Chase’s corporate domain publishes its financial reports and earnings supplements.,1,opened; shown
+jpmorganchaseco.gcs-web.com,issuer,pass_h,JPMorgan Chase’s official investor relations site publishes company filings and releases.,1,shown
+just-food.com,news,pass_h,Food industry trade publication with editorial reporting.,1,shown
+kalkine.ca,promotional,pass_h,Investment research publisher marketing paid stock research subscriptions.,1,shown
+kalkine.com.au,promotional,pass_h,Investment research publisher marketing paid stock research subscriptions.,1,shown
+kapatt.matriksdata.com,aggregator,pass_h,Matriks mirrors and distributes company disclosures and financial information.,1,shown
+karar.com,news,pass_h,Turkish newspaper publishing editorial news coverage.,1,shown
+key.aero,news,pass_h,Aviation trade publisher providing edited industry reporting.,1,shown
+kibrispostasi.com,news,pass_h,Cypriot news publication providing editorial reporting.,1,shown
+kitco.com,news,pass_h,"Kitco provides edited financial and metals news, including wire reporting.",2,shown
+kotaero.substack.com,forum,seed,seed host substack.com,1,shown
+krakenrobotics.com,issuer,pass_h,Kraken Robotics’ official website hosts financial reports and investor announcements.,1,cited; opened; shown
+kuveytturkyatirim.com.tr,aggregator,pass_h,"Brokerage platform compiles company ownership, disclosures, financial calendars, and market analysis.",1,cited; shown
+last10k.com,aggregator,pass_h,Republishes and organizes SEC filings across companies.,8,opened; shown
+loblaw.ca,issuer,pass_h,Loblaw’s official corporate website and financial reporting pages.,1,cited; opened; shown
+lockheedmartin.com,issuer,pass_h,Lockheed Martin’s official corporate website.,1,shown
+lundingold.com,issuer,pass_h,Lundin Gold’s official corporate and investor reporting website.,1,shown
+m.andnowuknow.com,news,pass_h,Produce industry trade publication covering companies and retail developments.,1,shown
+m.sabah.com.tr,news,pass_h,Mobile site of Turkish newspaper Sabah.,1,shown
+mail.haber.aero,news,pass_h,"Aviation news publisher covering airlines, defense, space, and technology.",2,shown
+mail.iconnect007.com,news,pass_h,Electronics industry trade publisher carrying industry news and company announcements.,1,shown
+malatyabirlikgazetesi.com,news,pass_h,Local Turkish newspaper publishing business and general news.,1,shown
+manilatimes.net,news,pass_h,General newspaper with editorial reporting and syndicated company announcements.,2,shown
+mappr.co,reference,pass_h,"Publishes geographic maps, country information, and location statistics.",1,shown
+marbas.com.tr,aggregator,pass_h,Brokerage research platform summarizes company financial results and market data.,1,shown
+marketbeat.com,aggregator,seed,seed host marketbeat.com,6,shown
+marketchameleon.com,aggregator,pass_h,"Aggregates market data, company events, dividends, earnings, and press releases.",4,shown
+markets.financialcontent.com,issuer,pass_h,Distributes issuer-authored corporate earnings releases through syndicated press release feeds.,1,shown
+marketscreener.com,aggregator,seed,seed host marketscreener.com,3,cited; shown
+marriott.gcs-web.com,issuer,pass_h,Marriott’s official investor relations document hosting.,1,shown
+massmarketretailers.com,news,pass_h,Retail industry trade publication providing editorial business coverage.,1,shown
+mathsolver.microsoft.com,other,pass_h,Microsoft mathematics solving application.,1,shown
+mbigpara.hurriyet.com.tr,aggregator,pass_h,Financial portal aggregating market data and company disclosures.,2,opened; shown
+media.corporate-ir.net,issuer,pass_h,Hosts official corporate investor relations presentations and reports.,1,shown
+medicinehatnews.com,news,pass_h,Local newspaper providing editorial news coverage.,1,shown
+medya.turktelekom.com.tr,issuer,pass_h,Türk Telekom's own corporate media domain.,1,shown
+memurlar.net,news,pass_h,"Turkish news portal with editorial coverage of employment, economics, and public affairs.",2,shown
+mfn.se,issuer,pass_h,Press release distribution service carrying issuer-authored financial results.,1,cited; shown
+milliyet.com.tr,news,pass_h,Turkish newspaper publishing editorial news coverage.,1,shown
+minedocs.com,aggregator,pass_h,Document repository republishing mining companies' annual reports and filings.,1,cited; opened; shown
+mining.com,news,pass_h,Mining industry news publication with editorial and syndicated reporting.,1,shown
+miningnorth.com,other,pass_h,Mining industry association website hosting member company announcements.,1,shown
+moomooapp.com,aggregator,pass_h,"Brokerage platform aggregating stock quotes, market information, and company financial data.",1,shown
+moosejawtoday.com,news,pass_h,Local news publication carrying editorial and syndicated business reporting.,1,shown
+morganstanley.com,issuer,pass_h,Morgan Stanley's official domain publishing financial statements for its entities and funds.,1,shown
+mosaic-finance.com,filing,seed,Archivist results (filing passages through Mosaic),77,archivist; cited
+muhasebetr.com,reference,pass_h,"Accounting resource publishing tax rules, regulatory decisions, and professional guidance.",1,shown
+mungomash.com,aggregator,pass_h,Organizes company financial statements and historical SEC filing data.,1,shown
+n24.com.tr,news,pass_h,Turkish news publication covering business and current events.,1,shown
+nasdaq.com,aggregator,seed,seed host nasdaq.com,5,cited; shown
+netnewsledger.com,news,pass_h,Regional news publication covering business and community affairs.,1,shown
+new.quantisnow.com,aggregator,pass_h,"Aggregates company earnings, dividends, financial news, and disclosures.",3,shown
+newgold.com,issuer,pass_h,New Gold's own corporate website.,1,cited; shown
+news-content.foreks.com,aggregator,pass_h,Financial data service distributing company disclosures and earnings documents at scale.,1,shown
+news.bloombergtax.com,news,pass_h,Bloomberg Tax publishes professionally edited tax and accounting journalism.,1,shown
+news.cision.com,issuer,pass_h,Press release wire distributing issuer authored corporate and regulatory announcements.,1,cited; shown
+news.delta.com,issuer,pass_h,Delta Air Lines' official corporate news website.,1,shown
+news.lockheedmartin.com,issuer,pass_h,Lockheed Martin's official newsroom publishes company financial results and announcements.,3,cited; opened; shown
+news.metal.com,news,pass_h,Shanghai Metals Market publishes metals industry news and company reporting.,1,shown
+newsfilecorp.com,issuer,seed,seed host newsfilecorp.com,2,cited; opened; shown
+newshub-stg.delta.com,issuer,pass_h,Delta Air Lines' own corporate news domain.,1,shown
+newsletter-mw.creamermedia.com,news,pass_h,Creamer Media publishes edited mining and engineering industry journalism.,1,shown
+newsletter.en.creamermedia.com,news,pass_h,Creamer Media publishes edited mining and engineering industry journalism.,1,shown
+newsletter.mw.creamermedia.com,news,pass_h,Creamer Media publishes edited mining and engineering industry journalism.,1,shown
+newswire.ca,issuer,pass_h,Canadian press release wire distributing issuer-authored announcements.,4,cited; opened; shown
+nextsmartship.com,promotional,pass_h,Fulfillment provider publishing content to attract customers for its shipping services.,1,shown
+ngstage.aviationweek.com,news,pass_h,Aviation Week provides professionally edited aerospace and defense journalism.,1,shown
+notbir.com.tr,news,pass_h,Turkish news outlet reporting company earnings and other current events.,1,shown
+ns2.haber.aero,news,pass_h,"Subdomain of Haber Aero, an aviation news publication.",1,shown
+nz.finance.yahoo.com,aggregator,seed,seed host finance.yahoo.com,1,shown
+o2.se,other,pass_h,"Available evidence does not establish a recognizable financial, editorial, or reference source.",1,shown
+oceanagold.com,issuer,pass_h,OceanaGold's official corporate website and press releases.,1,cited; shown
+octagonai.co,aggregator,pass_h,AI investment research platform summarizing company financial metrics and disclosures.,2,shown
+old-vers-news.alphastreet.com,aggregator,pass_h,"AlphaStreet publishes company earnings summaries, financial data, and earnings call transcripts at scale.",3,shown
+omaatwp7.onemileatatime.com,promotional,pass_h,Travel publication combining airline coverage with affiliate credit card and travel product marketing.,1,shown
+oncosem.com,issuer,pass_h,Oncosem's corporate domain publishes its own shareholder meeting materials.,1,shown
+onemileatatime.com,promotional,pass_h,Travel publication combining airline coverage with affiliate credit card and travel product marketing.,1,shown
+onenewspage.com,aggregator,pass_h,Aggregates news and press releases from external publishers and distribution services.,1,shown
+orchidsinternational.prod-gke.letseduvate.com,other,pass_h,"School platform asset host, with no substantive source content shown.",1,cited; shown
+otcmarkets.com,aggregator,pass_h,Provides market information and republishes company filings at scale.,2,shown
+paraajansi.com.tr,news,pass_h,Turkish financial news publication covering company results and brokerage reports.,2,cited; opened; shown
+parameter.io,promotional,pass_h,Finance website combining investment articles with affiliate product reviews and recommendations.,1,shown
+paratic.com,news,pass_h,Financial journalism website reporting business and market developments.,2,shown
+pegasusyatirimciiliskileri.com,issuer,pass_h,Official Turkish-language Pegasus Airlines investor relations domain.,1,shown
+pharmaceutical-technology.com,news,pass_h,Trade publication providing edited pharmaceutical industry reporting.,1,shown
+pharmadossier.com,news,pass_h,Specialist publication providing pharmaceutical industry reporting and analysis.,1,shown
+pharmalive.com,news,pass_h,Pharmaceutical trade publication covering industry developments and business news.,1,shown
+pharsight.greyb.com,aggregator,pass_h,Patent intelligence platform compiling drug patent information and expiration analysis.,1,shown
+piapiri.com,aggregator,pass_h,Investment platform publishing company financial results and investment research.,1,shown
+pitchgrade.com,aggregator,pass_h,Publishes company profiles and automated investment analysis at scale.,1,shown
+placera.se,news,pass_h,Swedish financial publication providing editorial market coverage alongside company announcements.,3,cited; shown
+platinonline.com,news,pass_h,Turkish business magazine reporting company developments.,1,shown
+playosmo.com,promotional,pass_h,Educational product seller publishing learning content to attract customers.,1,shown
+plunkettresearch.com,aggregator,pass_h,"Commercial research database compiling company profiles, financial information, and industry analysis.",1,shown
+policyrisk.com,aggregator,pass_h,Compiles company information and assessments of policy exposure across businesses.,1,shown
+politikam.com,news,pass_h,Regional Turkish news publication covering business and company developments.,1,shown
+ppc.land,news,pass_h,Specialist news publication covering advertising technology and digital media.,1,shown
+prnewswire.com,issuer,seed,seed host prnewswire.com,2,cited; opened; shown
+pro.stockalarm.io,aggregator,pass_h,Stock monitoring platform aggregating market data and company financial information.,1,shown
+prod-mssip.morganstanley.com,issuer,pass_h,Morgan Stanley's own subdomain hosts its financial statements.,1,shown
+progressiverailroading.com,news,pass_h,Editorial trade publication covering the railroad industry.,1,shown
+proxypreview.org,reference,pass_h,Nonprofit research resource documenting shareholder proposals and corporate governance issues.,1,shown
+publicnow.com,issuer,seed,seed host publicnow.com,1,shown
+pwc.com.tr,other,pass_h,Professional services firm's guidance on Turkish statutory audit requirements.,1,shown
+qnbinvest.com.tr,aggregator,pass_h,Brokerage publishes financial analysis and earnings assessments of other companies.,1,shown
+qnow.quantisnow.com,aggregator,pass_h,Financial information platform aggregating live company announcements and market feeds.,1,shown
+quantisnow.com,aggregator,pass_h,"Aggregates earnings announcements, dates, and company financial news.",3,shown
+quartr.com,aggregator,pass_h,Summarizes company earnings and distributes investor relations materials at scale.,3,shown
+qz.com,news,pass_h,Quartz is an editorial business news publication.,2,shown
+railpace.com,news,pass_h,Rail industry magazine publishing railroad news and company results.,1,shown
+railwayage.com,news,pass_h,Railway Age is an editorial railway industry publication.,1,shown
+rankia.com.tr,forum,pass_h,Financial community platform hosting user discussions and contributor investment commentary.,1,shown
+rbc.com,issuer,pass_h,Royal Bank of Canada's own domain publishes earnings releases and investor materials.,1,cited; opened; shown
+rddng.openelectiondata.net,reference,pass_h,Open Election Data resource supporting access to election information.,1,shown
+redstagfulfillment.com,promotional,pass_h,Fulfillment company publishing ecommerce content to market its services.,1,shown
+resourceworld.com,news,pass_h,Mining industry publication providing resource company news and reporting.,1,shown
+retail-insider.com,news,pass_h,Canadian retail industry publication reporting company results and sector developments.,2,cited; opened; shown
+retail-insight-network.com,news,pass_h,Trade publication providing edited retail industry news and analysis.,4,shown
+retail-news.de,news,pass_h,German retail industry news publication covering company performance and sector developments.,1,shown
+retailsector.co.uk,news,pass_h,Trade publication covering retail industry news.,1,shown
+reveliolabs.com,aggregator,pass_h,Compiles and analyzes company workforce and headcount data at scale.,1,shown
+richmond-news.com,news,pass_h,Local newspaper publishing editorial reporting and syndicated news.,1,shown
+roic.ai,aggregator,pass_h,Aggregates company financial information and earnings call transcripts.,5,shown
+rotaborsa.com,news,pass_h,Turkish financial news publication reporting company announcements and stock market developments.,4,shown
+ruralradio.com,news,pass_h,"Radio network providing agricultural, business, and regional news.",1,shown
+s1.q4cdn.com,issuer,pass_h,Q4 infrastructure hosts official issuer investor relations documents.,2,cited; opened; shown
+s2.q4cdn.com,issuer,pass_h,Q4 infrastructure hosts official issuer investor relations documents.,1,opened; shown
+s202.q4cdn.com,issuer,pass_h,Q4 infrastructure hosts official issuer investor relations documents.,2,cited; shown
+s203.q4cdn.com,issuer,pass_h,Q4 infrastructure hosts official issuer investor relations documents.,2,shown
+s204.q4cdn.com,issuer,pass_h,Q4 infrastructure hosts official issuer investor relations documents.,1,shown
+s205.q4cdn.com,issuer,pass_h,Q4 infrastructure hosts official issuer investor relations documents.,1,shown
+s206.q4cdn.com,issuer,pass_h,Q4 infrastructure hosts official issuer investor relations documents.,3,cited; opened; shown
+s21.q4cdn.com,issuer,pass_h,Q4 infrastructure hosts official issuer investor relations documents.,1,shown
+s24.q4cdn.com,issuer,pass_h,Q4 CDN hosts issuer-authored financial reports and filings.,2,shown
+s27.q4cdn.com,issuer,pass_h,"Q4 CDN hosts company annual reports, proxy statements, and earnings presentations.",2,shown
+s28.q4cdn.com,issuer,pass_h,Q4 CDN hosts issuers’ official regulatory filings.,1,shown
+sabah.com.tr,news,pass_h,Turkish newspaper covering business and general news.,1,shown
+satellitetoday.com,news,pass_h,Satellite industry trade publication with editorial reporting.,1,shown
+savingadvice.com,promotional,pass_h,Personal finance site featuring affiliate recommendations and commercial product content.,1,shown
+schwab.com,issuer,pass_h,Schwab’s own website publishes its audited financial statements.,1,shown
+science.nasa.gov,reference,pass_h,NASA publishes authoritative educational information about space and planetary science.,1,cited; shown
+scienceinsights.org,reference,pass_h,"Publishes explanatory articles about science, medicine, and related topics.",1,shown
+seafoodsource.com,news,pass_h,Seafood industry trade publication providing editorial business coverage.,1,shown
+seekingalpha.com,aggregator,seed,seed host seekingalpha.com,12,shown
+sehirmedya.com,news,pass_h,Turkish local news publication covering business and current affairs.,1,shown
+sergeycyw.substack.com,forum,seed,seed host substack.com,1,shown
+sg.news.yahoo.com,news,pass_h,Yahoo regional news portal publishing syndicated editorial coverage.,1,shown
+shopifreaks.com,news,pass_h,Ecommerce industry newsletter summarizing and reporting business developments.,1,shown
+shopify.com,issuer,pass_h,Shopify's corporate website publishes investor information and company releases.,1,cited; shown
+shugert.com.mx,promotional,pass_h,Digital marketing agency publishing content to attract customers for its services.,1,shown
+siecledigital.fr,news,pass_h,French digital economy and technology news publication.,1,shown
+simpleflying.com,news,pass_h,Aviation publication providing editorial airline and industry reporting.,1,shown
+simplywall.st,aggregator,seed,seed host simplywall.st,2,shown
+sisecam.com,issuer,pass_h,Şişecam's corporate domain publishing its own reports and disclosures.,1,cited; shown
+skillings.net,news,pass_h,Mining industry magazine providing editorial industry coverage.,1,shown
+skyatnightmagazine.com,news,pass_h,Astronomy magazine publishing edited science journalism and educational features.,2,cited; shown
+smarteye.se,issuer,pass_h,Smart Eye's own corporate website.,1,shown
+sohu.com,forum,pass_h,Sohu hosts self-published contributor content through its open publishing platform.,1,shown
+sozcu.com.tr,news,pass_h,Turkish newspaper publishing reported business journalism.,1,shown
+spk.gov.tr,reference,pass_h,Turkish capital markets regulator publishing official guidance.,1,shown
+starlust.org,promotional,pass_h,Astronomy website combining informational articles with affiliate telescope and equipment recommendations.,2,shown
+statementdog.com,aggregator,pass_h,Financial analysis platform compiling earnings call transcripts and summaries.,2,shown
+static.poder360.com.br,news,pass_h,Static asset domain of Brazilian journalism outlet Poder360.,1,shown
+statista.com,aggregator,pass_h,Commercial platform compiling and summarizing statistics and industry data at scale.,1,shown
+stockanalysis.com,aggregator,seed,seed host stockanalysis.com,2,shown
+stocklight.com,aggregator,pass_h,Republishes company financial filings at scale.,1,shown
+stockmarketguides.com,promotional,pass_h,Markets paid trading research and stock alert subscriptions.,1,shown
+stockopedia.com,aggregator,pass_h,"Financial research platform aggregating company fundamentals, forecasts, and stock analysis.",1,shown
+stocks.cafe,aggregator,pass_h,"Investment platform aggregating stock information, portfolio data, and financial articles.",1,shown
+stocktitan.net,aggregator,pass_h,"Aggregates SEC filings, company announcements, and financial summaries.",5,cited; shown
+stockwatch.com,aggregator,pass_h,"Aggregates market information, company releases, and regulatory filings.",1,shown
+storage.fintables.com,aggregator,pass_h,Financial data platform hosting company reports and financial statements.,4,cited; opened; shown
+streetinsider.com,aggregator,pass_h,Republishes SEC filings and aggregates company financial information.,3,shown
+stripe.jhu.edu,other,pass_h,University subdomain showing anomalous salary content; no clear editorial or financial data publishing role.,1,shown
+studocu.com,forum,pass_h,User uploaded study materials and documents without editorial review.,1,shown
+supermarketnews.com,news,pass_h,Grocery industry trade publication with editorial business reporting.,1,shown
+supermarketperimeter.com,news,pass_h,Food retail trade publication reporting industry developments.,1,shown
+sustainabilityreports.com,aggregator,pass_h,Collects and summarizes corporate sustainability and annual reports.,1,shown
+t24.com.tr,news,pass_h,Independent Turkish news outlet covering current affairs and business.,3,shown
+tabildot.com.tr,aggregator,pass_h,Publishes structured analyses of company financial and activity reports.,1,opened; shown
+taiwannews.com.tw,news,pass_h,News publisher with editorial reporting and syndicated releases.,1,shown
+takeoffchannel.com,news,pass_h,Aviation and travel publication reporting airline financial results and industry news.,1,shown
+takvim.com.tr,news,pass_h,Turkish newspaper publishing general and business news.,1,shown
+tck.com.tr,issuer,pass_h,Kıraç Galvaniz's corporate domain hosting its own company disclosures.,1,shown
+techcrunch.com,news,pass_h,Technology news publication with editorial reporting.,1,shown
+tedmag.com,news,pass_h,Electrical distribution trade magazine publishing industry news and company results.,2,shown
+temettuhisseleri.com,aggregator,pass_h,"Compiles dividend stock information, sector analysis, and corporate announcements.",1,shown
+thecanadianpressnews.ca,issuer,pass_h,Carries issuer-authored corporate press releases through a newswire distribution service.,1,shown
+theconsumerdaily.co,aggregator,pass_h,Publishes company analyses focused on consumer businesses.,1,shown
+theglobeandmail.com,news,seed,seed host theglobeandmail.com,1,shown
+thegrocer.co.uk,news,pass_h,Grocery industry trade magazine with editorial business journalism.,1,shown
+thestreet.com,news,pass_h,Financial publisher providing editorial reporting and market commentary.,1,shown
+thetraveler.org,news,pass_h,Travel publication reporting tourism and airline developments.,1,shown
+thyteknik.com.tr,issuer,pass_h,Turkish Technic's corporate website hosting its own annual reports.,1,shown
+tickerleague.com,aggregator,pass_h,Compiles company metrics such as employee headcounts.,1,shown
+tipranks.com,aggregator,seed,seed host tipranks.com,6,shown
+tobaccotactics.org,reference,pass_h,"University research resource documenting tobacco industry organizations, relationships, and activities.",1,shown
+tooltester.com,promotional,pass_h,Software reviews and comparisons supported by affiliate marketing.,1,shown
+tr.investing.com,aggregator,seed,seed host investing.com,4,cited; opened; shown
+tr.tradingeconomics.com,aggregator,pass_h,Aggregates economic indicators and company financial data.,1,shown
+tr.tradingview.com,aggregator,pass_h,"Financial platform aggregates market data, corporate disclosures, and contributor analysis.",3,cited; shown
+transcripts.platformaeronaut.com,aggregator,pass_h,Provides earnings transcripts and automated summaries across companies.,1,shown
+tsinetwork.ca,promotional,pass_h,Publishes investment recommendations to market paid investment newsletters.,1,shown
+tskb-app.fra1.digitaloceanspaces.com,issuer,pass_h,TSKB-controlled document storage hosting corporate disclosures.,1,shown
+ttyatirimciiliskileri.com.tr,issuer,pass_h,Türk Telekom's official Turkish investor relations website.,1,shown
+tupras.com.tr,issuer,pass_h,Tüpraş's official corporate website publishing company announcements.,1,cited; opened; shown
+turizmgazetesi.com,news,pass_h,Tourism industry newspaper reporting aviation and travel business developments.,1,shown
+turkishtechnic.com,issuer,pass_h,Official domain of Turkish Airlines subsidiary Turkish Technic.,1,shown
+turkiyegazetesi.com.tr,news,pass_h,Established newspaper with editorial business and economics reporting.,1,shown
+turktelekombys.com.tr,issuer,pass_h,Türk Telekom's own shareholder information portal.,1,shown
+twelvedata.com,aggregator,pass_h,Distributes market data and standardized company financial statements.,1,shown
+twinkl.com,promotional,pass_h,Educational resource provider marketing teaching products and subscriptions.,1,shown
+universetoday.com,news,pass_h,Editorial astronomy publication covering space science and exploration.,2,cited; shown
+unmannedsystemstechnology.com,promotional,pass_h,Supplier marketing platform publishing unmanned systems product and company announcements.,1,shown
+usbank.com,issuer,pass_h,U.S. Bancorp’s official banking and corporate website.,1,cited; shown
+uzmanpara.milliyet.com.tr,aggregator,pass_h,"Financial portal compiling stock quotes, company announcements, and investment analysis.",2,cited; shown
+uzmanparam.milliyet.com.tr,aggregator,pass_h,Financial portal aggregating stock information and regulatory announcements.,1,shown
+valens-research.com,promotional,pass_h,Investment research newsletters used to market paid research services.,1,shown
+valuethemarkets.com,promotional,pass_h,Investor publication offering sponsored company coverage and investor marketing.,1,shown
+vectorshift.ai,promotional,pass_h,Commercial AI platform marketing automation products.,1,shown
+verdictfoodservice.com,news,pass_h,Trade journalism covering restaurant businesses and foodservice industry developments.,2,shown
+verticaliq.com,aggregator,pass_h,"Compiles standardized industry research, financial benchmarks, and business data.",1,shown
+vestedfinance.com,promotional,pass_h,Investment platform marketing brokerage services and investment products.,1,shown
+viewpoint.pwc.com,reference,pass_h,PwC's technical accounting and financial reporting guidance library.,1,shown
+vktr.com,news,pass_h,Editorial publication covering enterprise AI and technology developments.,1,shown
+vkyanaliz.com,aggregator,pass_h,Brokerage research portal aggregating company disclosures and financial information.,1,shown
+vnreview.vn,news,pass_h,Vietnamese technology news and product review publication.,1,shown
+wallstreetonparade.com,news,pass_h,Independent financial journalism focused on Wall Street and banking.,1,cited; shown
+wam.ae,news,pass_h,Emirates News Agency publishes general and business journalism.,1,shown
+warc.com,reference,pass_h,"Advertising research library providing case studies, evidence, and industry guidance.",1,shown
+web-api.aztekteknoloji.com,issuer,pass_h,Aztek Teknoloji's own domain hosting its annual report.,1,shown
+web-search-summary,other,seed,the WebSearch tool's own summary (not a web page),40,summary
+webull.ca,promotional,pass_h,Brokerage website marketing trading accounts and investment services.,1,shown
+webull.com,aggregator,pass_h,"Brokerage platform aggregating company filings, market data, and syndicated financial coverage.",1,shown
+westerngrocer.com,news,pass_h,Grocery industry trade publication covering retailers and suppliers.,1,shown
+www-proxy.stockopedia.com,aggregator,pass_h,"Stockopedia aggregates company financial data, screening metrics, and investment analysis.",1,shown
+www1.salary.com,aggregator,pass_h,Compensation data platform computing executive pay information from corporate proxy filings.,1,shown
+wwww.stockwatch.com,aggregator,pass_h,"Financial information service aggregating stock quotes, company announcements, and market coverage.",1,shown
+x.com,forum,seed,seed host x.com,1,shown
+yatirim.akbank.com,promotional,pass_h,Akbank investment portal marketing investment products and services.,1,shown
+yatirimabasliyorum.com,aggregator,pass_h,Provides company stock profiles and investment information across Turkish equities.,1,shown
+yatirimciiliskileri.kordsa.com,issuer,pass_h,Kordsa's official investor relations domain hosting corporate financial reports.,1,shown
+yatirimx.com.tr,news,pass_h,Financial news website reporting company developments and contracts.,1,cited; opened; shown
+yeniasir.com.tr,news,pass_h,Turkish newspaper publishing business and general news.,1,shown
+yenicagri.com,news,pass_h,Turkish newspaper covering current affairs and company results.,1,shown
+yenimesaj.com.tr,news,pass_h,Turkish newspaper publishing general and financial news.,1,shown
+yenisafak.com,news,pass_h,Turkish newspaper with editorial business and current affairs coverage.,1,shown
+zacks.com,aggregator,seed,seed host zacks.com,4,cited; shown
+ziraatyatirim.com.tr,aggregator,pass_h,Brokerage research provider publishing company financial analysis and market reports.,1,shown

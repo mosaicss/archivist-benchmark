@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "archivist-bench"
+version = "1.6.0"
+description = "Pre registered benchmark harness: an agent's own web tools versus the Archivist MCP server"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["archivist_bench"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["unit: hermetic unit tests (no agent, network or quota)"]

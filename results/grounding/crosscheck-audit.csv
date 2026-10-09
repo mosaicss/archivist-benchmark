@@ -1,0 +1,131 @@
+selection,row_id,claim_id,category,stratum,company,metric,value,period,stated_date,kind,bin,subtype,permalink,exchange_document_id,document_id_absent_reason,quote,merit,restatement,restatement_note,archivist_calls,audit_verdict,audit_note
+contradicted,X049,C9a29323181aa,aggregator,breadth,Coca Cola İçecek,FAVÖK Marjı,11.85,2025/03,5 months ago,other,contradicted,wrong_number,https://mosaic-finance.com/filings/d9551fbb-3d7a-44a4-af14-424f5d9a59cd/p/06e6121d-0329-45b6-8ffa-a81d0d890ba5/k1.5S0FKZSCVFFkelfgbtregahANK6trr_Xiw0G4RPbi00/,1600772,,"|**Konsolide (Milyon TL)**|**1Ç26**|**1Ç25**|**Değişim (%)**|
+|---|---|---|---|
+|Satış Hacmi (Milyon Ünite Kasa)|414|387|%6,9|
+|<br>Hasılat|52.369|47.318|%10,7|
+|Brüt Kar|19.028|14.392|%32,2|
+|Faaliyet Karı|6.931|3.760|%84,3|
+|**Faaliyet Karı (Diğer gelir/gider hariç)**|**6.693**|**3.423**|**%95,5**|
+|FAVÖK|9.342|6.119|%52,7|
+|**FAVÖK (Diğer gelir/gider hariç)**<br>|**8.992**|**5.825**|**%54,4**|
+|Vergi Öncesi Faaliyet Karı / (Zararı)|8.327|3.430|%142,8|
+|<br>Net Dönem Karı /(Zararı)|5.237|1.669|<br>%213,8|
+|Brüt Kar Marjı|%36,3|%30,4||
+|Faaliyet Karı Marjı|%13,2|%7,9||
+|**Faaliyet Karı Marjı (Diğer gelir/gider hariç)**|**%12,8**|**%7,2**||
+|FAVÖK Marjı|%17,8|%12,9||",later_refuted,false,,9,correct,"Coca-Cola İçecek states a 1Q25 consolidated FAVÖK margin of 12.9% (1Q26 results release, 2026-05-04, doc id 1600772; the original 1H25 report of 2025-08-11 implies the same 12.9% for 1Q25); the aggregator's 11.85 is its own calculation. Margins are unchanged by the IAS 29 purchasing power restatement, so the restated comparative is valid evidence."
+contradicted,X053,Ca0fdbb8d6f6a,aggregator,breadth,CoreWeave (CRWV),Filing,8-K | 2026-06-18 | 0001769628-26-0002 | crwv-20260618.htm,2026-06-18,last month,other,contradicted,wrong_number,https://mosaic-finance.com/filings/dd381a35-c302-4d7c-aae6-c83ec133c91a/p/d0b11c8c-beb4-4a8b-a236-0b7ecd4ca376/k1.ToD0cAKohkE_ubdfsBm_FmF7zLo0i3mDoMKYPoBipZw/,0001769628-26-000291,,"8K: CoreWeave Inc. Current Report
+
+Filed: 2026-06-18",not_settled,false,,4,incorrect,"corrected to confirmed/none. The checker found the CoreWeave 8-K filed 2026-06-18 with exchange document id 0001769628-26-000291. The aggregator's table truncates every accession to four digits after the year (it shows Oracle's 10-K as 0001193125-26-2775), so '0001769628-26-0002' is the same filing, and form and date match."
+contradicted,X056,Cadf61889e1e1,aggregator,breadth,Coca Cola İçecek,FAVÖK Marjı,15.59,2025/06,5 months ago,other,contradicted,wrong_number,https://mosaic-finance.com/filings/2632cd2a-828f-4bdb-bc64-c6ddaaf0071c/p/747b3e1a-8a09-4879-82fc-dc5b48c74056/k1.uDxPk4caTwQE9szz5Ypwmohog_utcZJXCpjh-O4AiAA/,1647077,,"|**Konsolide (Milyon TL)**|**2Ç26**|**2Ç25**|**Değişim (%)**|**1Y26**|**1Y25**|**Değişim (%)**|
+|---|---|---|---|---|---|---|
+|Satış Hacmi (Milyon Ünite Kasa)|519|473|%9,8|933|860|%8,5|
+|Hasılat|67.218|63.600|%5,7|123.260|114.237|%7,9|
+|Brüt Kar|25.711|22.520|<br>%14,2|46.073|37.922|<br>%21,5|
+|Faaliyet Karı|12.052|9.577|%25,8|19.469|13.600|%43,1|
+|<br>**Faaliyet Karı (Diğer gelir/gider hariç)**|**12.308**|**9.532**|**%29,1**|**19.471**|**13.195**|**%47,6**|
+|FAVÖK|14.985|12.070|%24,1|24.983|18.619|%34,2|
+|**FAVÖK (Diğer gelir/gider hariç)**|**15.261**|**11.977**|**%27,4**|**24.884**|**18.210**|**%36,6**|
+|<br>Vergi Öncesi Faaliyet Karı / (Zararı)|11.244|7.746|%45,2|20.155|11.417|%76,5|
+|<br>Net Dönem Karı /(Zararı)|8.291|6.673|%24,2|13.895|8.459|%64,3|
+|Brüt Kar Marjı|%38,2|%35,4||%37,4|%33,2||
+|Faaliyet Karı Marjı|%17,9|%15,1||%15,8|%11,9||
+|**Faaliyet Karı Marjı (Diğer gelir/gider hariç)**|**%18,3**|**%15,0**||**%15,8**|**%11,6**||
+|FAVÖK Marjı|%22,3|%19,0||%20,3|%16,3||",later_refuted,false,,8,correct,"The original 1H25 results (Faaliyet Raporu, 2025-08-11, doc id 1476090) state a 1Y25 FAVÖK margin of 16.3% (15.9% excluding other income and expense), repeated as 16.3% in the 2Q26 release (doc id 1647077). Neither matches the aggregator's 15.59."
+contradicted,X066,Cdaf9f52cafe2,aggregator,breadth,Coca Cola İçecek,Esas Faaliyet Karı; period values and Değişim(%) as displayed,"9,98 | 2-Özet Bilanço 8 2,616 18,366 281.83 -45.62",2025/06 2025/03 2024/12,5 months ago,reported_figure,contradicted,wrong_number,https://mosaic-finance.com/filings/afa69eb2-7be2-4b4d-bbba-0b1579ef9e46/p/e859e6c0-ed78-4a30-b23f-fbb56e7796a6/k1.Zb24ygulesn32xXlfKU65g9o4zsk6cg4qFIh-qtv-ms/,1647076,,|**Esas Faaliyet Karı /(Zararı)**||**19.468.604**|**12.051.501**|13.600.294|9.576.744|,later_refuted,true,"The original 2025/06 filing reported six-month Esas Faaliyet Karı of 10,294,754 thousand TL, differing from the displayed approximately 9,988 million TL. The filing dated 2026-08-10 restated the 2025/06 comparative to 13,600,294 thousand TL in June 2026 purchasing power under inflation accounting; this is the third numeric column in the quoted row.",8,correct,"The original 1H25 income statement (Finansal Rapor, 2025-08-11, doc id 1476089) states Esas Faaliyet Karı of 10,294,754 thousand TL. The aggregator's 9,988 is gross profit 28,704,861 less general administrative and selling expenses (4,557,548 and 14,159,191), its own figure excluding other operating income and expense under the filing's label. The checker quoted the restated 2026-08-10 comparative (doc id 1647076); the restatement note is right."
+contradicted,X105,Ca55493334b38,aggregator,multi_document,GE Aerospace,revenue,"11,3 mld $",,"05.11.2025, 14:23",reported_figure,contradicted,adjusted_mixed_with_reported,https://mosaic-finance.com/filings/0ad0afd3-dd6a-4fc7-a19f-a758e3fe3174/p/00a434d2-b779-4729-90cb-f3e34d60a155/k1.OL30ERF3Y-oY_P45wDw7scfcyhncnbogj4Uv_xJPiDc/,0000040545-25-000131,,"Third Quarter 2025:
+
+•Total orders of $12.8B, +2%;
+
+•Total revenue (GAAP) of $12.2B, +24%; adjusted revenue* $11.3B, +26%;",not_settled,false,,7,correct,"GE Aerospace's 3Q25 release (8-K, 0000040545-25-000131) states GAAP total revenue of $12.2B and adjusted revenue (non GAAP) of $11.3B. The article gives $11.3B as revenue without the adjusted label."
+contradicted,X130,C32049b10860d,aggregator,multi_hop_document,TÜRK HAVA YOLLARI ANONİM ORTAKLIĞI,Loss on sale of fixed assets (Million US Dollars),-,1 January - 31 December 2025,"Mar 4, 2026",reported_figure,contradicted,wrong_number,https://mosaic-finance.com/filings/be5618fa-2347-4f43-b3c2-a131a020998e/p/be8f25f5-9c70-49e4-92eb-35cb4a77d6d1/k1.kHE46upGz-HFw_WWxfa4X-XNqyXtFYQZ8aJ__KfBRrY/,1565996,,"||**1 Ocak -**<br>**31 Aralık 2025**|**1 Ocak -**<br>**31 Aralık 2024**|
+|---|---|---|
+|Finansal yatırım değerleme zararları|2.611|1.515|
+|Duran varlık satış zararları|28|1.020|
+||2.639|2.535|
+
+
+
+66
+
+**TÜRK HAVA YOLLARI ANONİM ORTAKLIĞI VE BAĞLI ORTAKLIKLARI 31 Aralık 2025 Tarihinde Sona Eren Hesap Dönemine Ait Konsolide Finansal Tablolara İlişkin Dipnotlar (Tutarlar, aksi belirtilmedikçe, Milyon Türk Lirası (TL) olarak gösterilmiştir.)**",not_settled,false,,15,incorrect,"corrected to off_target/none. The claim is in million US dollars, from THY's USD statements, where the FY2025 loss on sale of fixed assets is '-' and FY2024 is 31. The corpus holds only the TL statements (Finansal Rapor, 2026-03-04, doc id 1565996: 28 million TL for 2025, 1,020 for 2024), so the checker compared across currencies. No indexed filing states the USD figure."
+contradicted,X144,C7a1688257c43,aggregator,multi_hop_document,Wynn Resorts,percentage of Annualized Base Rent (%),1.9,"December 31, 2025",7 months ago,reported_figure,contradicted,wrong_company,https://mosaic-finance.com/filings/b91b0536-0e2f-4ad8-bd55-a0e0525d2382/p/4e3e5fcc-02a8-4e84-9bb2-27ac80068db1/k1.Y6_3SpGcSUSUFfTolDgqigKF5KA0rt-UckY9jCQBbBg/,0000726728-26-000011,,"ClientNumber of LeasesPercentage of Portfolio Annualized Base Rent (1)
+
+7-Eleven812 3.3 %
+
+Dollar General1,797 3.2
+
+Walgreens400 3.1
+
+Family Dollar1,257 2.6
+
+Life Time Fitness41 2.1
+
+EG Group414 2.0
+
+(B&Q) Kingfisher70 2.0
+
+Wynn Resorts1 1.9",not_settled,false,,7,incorrect,"corrected to confirmed/none. Realty Income's FY2025 10-K (0000726728-26-000011) lists Wynn Resorts as a client with 1 lease and 1.9% of portfolio annualized base rent at December 31, 2025. That is exactly what the source text says, so the value, entity relation and period match. The wrong_company label comes from pass X naming Wynn as the company; the source did not misattribute anything."
+contradicted,X233,C3fff00857b67,aggregator,reach,CW Enerji Mühendislik Sanayi A.Ş.,CEO,Sinan Özer,,4 Eylül 2025 19:12:36,other,contradicted,wrong_number,https://mosaic-finance.com/filings/209e6af8-e8c9-4de3-b4a0-d76046efb05b/p/a130f7c8-5283-4bd8-9dc8-623f2d993bd8/k1.xa1kIox3ymbcqHFMZ71QtILBNlaY3RuXIdED2ccppEg/,1639757,,| SİNAN ÖZER | Muhasebe ve Mali İşler Direktörü | Üst Düzey Yönetici |  |  |,later_refuted,false,,4,correct,"CW Enerji's Şirket Genel Bilgi Formu of 2025-09-04 (doc id 1486599), the form the aggregator summarised, lists Sinan Özer as Muhasebe ve Mali İşler Müdürü (accounting and finance manager), not CEO. The 2026-07-30 form (doc id 1639757) lists him as director of that function and shows Volkan Yılmaz with the CEO role."
+contradicted,X240,C54935ac30d24,aggregator,reach,CN,EPS,record EPS of C$1.93,Q2 2022,,reported_figure,contradicted,adjusted_mixed_with_reported,https://mosaic-finance.com/filings/5ac4f76c-ee77-48e1-add3-81eea46bf395/p/e427680b-8c62-4e10-aca3-f4747ab5ef0a/k1.wTF6vS8RJhuYSrWAWqV1CqaQHIm78ANPs-HjdlwI_YY/,,No exchange_document_id is stored in the returned passage metadata.,"Financial performance improved year-over-year with record adjusted diluted earnings per share (EPS) of C$1.93, up 30%.[(1)] For the same period, the Company reported diluted EPS up 32% to C$1.92.",not_applicable,false,,3,correct,"CN's Q2 2022 report states record adjusted diluted EPS of C$1.93, up 30%, and reported diluted EPS of C$1.92, up 32%. The claim gives the adjusted figure as EPS."
+contradicted,X311,C510907e2ff97,forum,lookup,Kraken Robotics,prior-year comparable revenue,$22.94 billion,the same quarter last year,4 months ago,reported_figure,contradicted,wrong_number,https://mosaic-finance.com/filings/ead0267e-bc16-4e17-9501-58ddb68e0903/p/740e9194-083b-47e2-8481-fca21b6f764a/k1.6_ra05ox4nb6ijKq1DzrJrloOy8gqVXqvIMg-q1O-kk/,,No exchange_document_id is stored in the returned filing metadata.,"|Q1 2025|16,128|9,238|404|215|(257)|0.00|",later_refuted,false,,9,incorrect,"corrected to contradicted/wrong_company. Kraken Robotics' Q1 2025 revenue is 16,128 (thousands CAD, about $16.1M) in its quarterly table. The '$15.80 billion, down from $22.94 billion' sentence is spliced after a Kraken headline reporting 35% growth, so it belongs to another entity. Contradicted stands, but the figure is another company's, not a misstated Kraken number."
+contradicted,X319,Cf3d575fd0f7b,forum,lookup,Home Depot,Decker compensation,the highest compensation at $14.4 million,,Sunday May 11 2025,reported_figure,contradicted,stale_period,https://mosaic-finance.com/filings/f16aff57-fd7e-4652-ab44-390d8fdd0d29/p/23139d32-9f23-40d3-bab0-32a182b2944f/k1.tidJrUe-uh1xROdT6aLJGcvzTNJ6X64kdc_hL628cIU/,0000354950-26-000090,,"Edward P. Decker
+
+Chair, President and Chief Executive Officer
+
+20251,400,000 — 9,612,251 2,369,917 2,657,631 — 151,328 16,191,127
+
+20241,426,923 — 9,043,035 2,199,952 2,743,532 — 161,237 15,574,678
+
+20231,400,000 — 8,543,529 2,109,958 2,290,880 — 74,885 14,419,252",later_refuted,false,,3,correct,"Home Depot's Summary Compensation Table (2026 proxy, 0000354950-26-000090) gives Decker's total compensation as $14,419,252 for FY2023, $15,574,678 for FY2024 and $16,191,127 for FY2025. $14.4M is the FY2023 figure, cited in May 2025 after FY2024 pay was disclosed (judgment call: the claim has no period, so it is anchored on the stated date)."
+contradicted,X352,C1fd7325930cd,forum,multi_period,tesla,Cash and cash equivalents,$22.6 billion,2023,,reported_figure,contradicted,wrong_number,https://mosaic-finance.com/filings/37287bf3-5667-44f2-bdcc-1b940830768b/p/8143410e-14c0-4a98-9975-12f70ab79e69/k1.oa03BojVL4XNMZ_S8kDnVEvj-nPatLUd1AAtM4q1HMk/,0001628280-24-002390,,"Our total cash and cash equivalents and restricted cash, as presented in the consolidated statements of cash flows, was as follows (in millions):
+
+|                                                                       |     |   | December 31,
+         2023 |     |   | December 31,
+         2022 |     |   | December 31,
+         2021 |
+|:----------------------------------------------------------------------|:----|:--|-------------:|:----|:--|-------------:|:----|:--|-------------:|
+| Cash and cash equivalents                                             |     | $ |       16,398 |     | $ |       16,253 |     | $ |       17,576 |",not_applicable,false,,3,correct,"Tesla's FY2023 10-K (0001628280-24-002390) states cash and cash equivalents of $16,398M at December 31, 2023 ($16,253M for 2022). No 2023 cash measure equals $22.6B."
+contradicted,X358,C35b90e078cc0,forum,multi_period,Intuitive Surgical (ISRG),procedure growth,20%,Q3 2025,last year,reported_figure,contradicted,wrong_number,https://mosaic-finance.com/filings/77c31ce0-e401-46f9-a4ff-29c23f00f29a/p/fc86574a-d629-42c3-b39b-dc7349373969/k1.GdBGqoe-4nzRIpIQPVoRs33he9a5dAegtt8bGQcYLmY/,0001035267-25-000209,,"Overall. Total da Vinci procedures performed by our customers grew approximately 19% for the three months ended September 30, 2025, compared to approximately 18% for the three months ended September 30, 2024.",later_refuted,false,,8,incorrect,"corrected to off_target/none. Intuitive's Q3 2025 10-Q (0001035267-25-000209) states da Vinci procedures grew about 19% and Ion about 52% (37,900 vs 24,900). Weighting these by about 2.68M da Vinci procedures a year gives total procedure growth of about 20%, which fits the analyst's 20%. No indexed filing states the total figure (the 8-K exhibit is not indexed), so the corpus cannot settle it; the checker compared it with da Vinci only."
+contradicted,X365,C91dedeef3db0,forum,multi_period,Kohl's,net sales year-over-year change,decreased 5.1% year-over-year,,Friday August 14 2026,reported_figure,contradicted,stale_period,https://mosaic-finance.com/filings/f3301bbc-e595-421b-8585-d802f2b4508d/p/9ca0a2a8-8725-4297-b2df-a03645990918/k1.92UzXNgx05ZWt3pu4OK1p6XpYlhtkwI1gHiMjeXUY9s/,0000950170-25-113028,,Net sales decreased 5.1% in the second quarter of 2025 and 4.6% year to date 2025.,later_refuted,false,,8,correct,Kohl's Q2 2025 10-Q (0000950170-25-113028) states net sales decreased 5.1% in the second quarter of 2025 (4.6% year to date). The post dated 2026-08-14 repeats that Q2 2025 figure without a period (judgment call: anchored on the stated date).
+confirmed,X024,C531a5c651842,aggregator,breadth,Chipotle Mexican Grill Inc.,10-K reporting period,12/31/25,12/31/25,8 months ago,other,confirmed,none,https://mosaic-finance.com/filings/e3106667-f0a6-4f14-a250-44b83e33221e/p/53e01620-7d28-4368-b1b5-b97dbdc8dea0/k1.P_BUAHQV8p8WtU2vPHV6eHszP9h9T6w1C-eqDGHj4dM/,0001058090-26-000028,,"Segment information is prepared and managed on the same basis as described in our Annual Report on Form 10-K for the year ended December 31, 2025.",later_confirmed,false,,8,correct,"Chipotle's later 10-Q (0001058090-26-000028) refers to its Annual Report on Form 10-K for the year ended December 31, 2025. The reporting period matches."
+confirmed,X137,C5fdf9989df98,aggregator,multi_hop_document,TÜRK HAVA YOLLARI ANONİM ORTAKLIĞI VE BAĞLI ORTAKLIKLARI,"Gains on sales of securities, million TL",4.887 3.369,,,reported_figure,confirmed,none,https://mosaic-finance.com/filings/be5618fa-2347-4f43-b3c2-a131a020998e/p/be8f25f5-9c70-49e4-92eb-35cb4a77d6d1/k1.kHE46upGz-HFw_WWxfa4X-XNqyXtFYQZ8aJ__KfBRrY/,1565996,,"||**1 Ocak -**<br>**31 Aralık 2025**|**1 Ocak -**<br>**31 Aralık 2024**|
+|---|---|---|
+|Finansal yatırımlar faiz geliri|36.840|42.958|
+|Devlet teşvik gelirleri|13.372|8.809|
+|Menkul kıymet satış karları|4.887|3.369|",not_applicable,false,,2,correct,"THY's FY2025 TL statements (Finansal Rapor, 2026-03-04, doc id 1565996) note investment activity income: Menkul kıymet satış karları 4,887 million TL for 2025 and 3,369 for 2024."
+confirmed,X139,C660fc9b97fca,aggregator,multi_hop_document,"NIKE, Inc.","Greater China equipment revenues, dollars in millions",165,FISCAL 2025,2 months ago,reported_figure,confirmed,none,https://mosaic-finance.com/filings/5621bbc8-21d1-410e-9978-aecc9295b8a3/p/a0ba55fe-dbe5-4e76-a0a5-618e8cccdd9d/k1.GCVvzK8gIgErHSHi7M6f2KltzhoDHqrsUu4tJNJFUxI/,0000320187-25-000047,,"GREATER CHINA
+
+(Dollars in millions)
+
+FISCAL 2025FISCAL 2024% CHANGE% CHANGE EXCLUDING CURRENCY CHANGESFISCAL 2023% CHANGE% CHANGE EXCLUDING CURRENCY CHANGES
+
+Revenues by:
+
+Footwear$4,805$5,552-13 %-13 %$5,4352 %6 %
+
+Apparel1,6161,828-12 %-12 %1,66610 %14 %
+
+Equipment1651650 %1 %14712 %17 %",not_settled,false,,6,correct,NIKE's FY2025 10-K (0000320187-25-000047) gives Greater China equipment revenues of $165M for fiscal 2025 (also $165M in fiscal 2024).
+confirmed,X143,C76b833051b16,aggregator,multi_hop_document,PFIZER INC.,GLOBAL BIOPHARMACEUTICALS BUSINESS (BIOPHARMA) revenue,"27,746",SIX MONTHS 2025,2 months ago,reported_figure,confirmed,none,https://mosaic-finance.com/filings/0462ef98-c992-4eb6-b855-40b15f96f4ff/p/e8119a68-5601-4304-bfc1-5fcc11131ce9/k1.qkBe-toSkxsBGF9JcB_rrvRLUxpq15VQsgjLvlzokSQ/,0000078003-25-000138,,"(MILLIONS)Three Months EndedSix Months Ended
+
+PRODUCTPRIMARY INDICATION OR CLASSJune 29,2025June 30,2024June 29,2025June 30,2024
+
+TOTAL REVENUES$14,653 $13,283 $28,367 $28,162
+
+GLOBAL BIOPHARMACEUTICALS BUSINESS (BIOPHARMA)
+
+$14,305 $12,991 $27,746 $27,595",not_settled,false,,4,correct,"Pfizer's Q2 2025 10-Q (0000078003-25-000138) gives Biopharma revenue of $27,746M for the six months ended June 29, 2025."
+confirmed,X192,C94b0521559ea,aggregator,multi_period,TÜRK HAVA YOLLARI A.O.,Satışların Maliyeti,-147.629,01.04.2024 - 30.06.2024,,reported_figure,confirmed,none,https://mosaic-finance.com/filings/8be690aa-6d29-48ea-8a49-958c29762db7/p/68e918d7-2393-427c-a3a5-5400c9881973/k1.-DsQ0IzmeOt59wthI_Vgj7Cl_PuNs6x3Ds1ucRLmS9E/,1472624,,"||**1 Ocak -**<br>**30 Haziran 2025**|**1 Nisan -**<br>**30 Haziran 2025**|**1 Ocak -**<br>**30 Haziran 2024**|**1 Nisan -**<br>**30 Haziran 2024**|
+|<br>Satışların maliyeti (-)|(351.890)|(186.909)|(278.727)|(147.629)|",not_applicable,false,,4,correct,"THY's 1H25 TL statements (doc id 1472624) give cost of sales of (147,629) million TL for 1 April to 30 June 2024 in the comparative column."
+confirmed,X200,Cd7c465cb5ff7,aggregator,multi_period,Alphabet Inc.,filing accession number,1652044-25-14,12/31/24,"Tuesday, 2/4/25, at 8:41pm ET",other,confirmed,none,https://mosaic-finance.com/filings/0d53a3d4-8d8f-4765-a248-68a076605ba5/p/ce3b2687-d93c-4512-82de-3124b6410709/k1.sgv3sQJnaUl4V28YrtR37dyRwUUqZnBMbUioEz6wxZs/,0001652044-25-000014,,"For the fiscal year ended December 31, 2024",later_confirmed,false,,3,correct,"Alphabet's FY2024 10-K carries exchange document id 0001652044-25-000014 for the fiscal year ended December 31, 2024. '1652044-25-14' is the same number with leading zeros dropped."
+confirmed,X241,C5520f8c9e0c8,aggregator,reach,FB,Family daily active people (DAP),2.82,,,reported_figure,confirmed,none,https://mosaic-finance.com/filings/d0f0cc87-80b3-47ad-af97-17ec3add6117/p/8c74d0c2-2a82-4bd3-95e5-d8961b2d6ecb/k1.IK3AC19gYMeCZi-gkJhK6Y7Dv5Ao5aThii_pz5ePdxc/,0001326801-23-000013,,Worldwide DAP increased 5% to 2.96 billion on average during December 2022 from 2.82 billion during December 2021.,not_applicable,false,,4,correct,"Meta's FY2022 10-K (0001326801-23-000013) states worldwide DAP of 2.82 billion on average during December 2021. The claim has no period, and 2.82B is the filed figure for that period."
+confirmed,X271,Cc6ece31b223f,aggregator,reach,"AutoZone, Inc.",net sales,$10.9 billion,"comparable prior year period for the thirty-six weeks ended May 6, 2023",3.3 years ago,reported_figure,confirmed,none,https://mosaic-finance.com/filings/336bf94f-8c2c-40cd-a064-17879ffce5d0/p/1ea966c5-1529-4fc7-89a6-77669b44fa71/k1.UWt1DSIOhdFVxzrZG6jPh7XcHzpiOlXklgINzUwCkmE/,0001558370-23-010958,,"Thirty-Six Weeks Ended May 6, 2023
+
+Compared with Thirty-Six Weeks Ended May 7, 2022
+
+Net sales for the thirty-six weeks ended May 6, 2023 increased $862.7 million to $11.8 billion, or 7.9% over net sales of $10.9 billion for the comparable prior year period.",not_settled,false,,5,correct,"AutoZone's Q3 FY2023 10-Q (0001558370-23-010958) states net sales of $10.9 billion for the comparable prior year thirty-six weeks (ended May 7, 2022)."
+confirmed,X356,C2e80801be7c9,forum,multi_period,Uber,Revenue growth,increased 18%,,Thursday August 07 2025,reported_figure,confirmed,none,https://mosaic-finance.com/filings/95f72dab-2251-4772-baec-c97b87fe2212/p/65c3a2b3-618f-4544-ab6f-8faf6f527d6d/k1.d1W3XQFn1H8yUS2PPlOf4NqrgpjjwjvOg9fWOIqIQQI/,0001543151-25-000023,,"Three Months Ended June 30, 2025 Compared with the Same Period in 2024
+
+Revenue increased $2.0 billion, or 18%, primarily attributable to an increase in Gross Bookings of 17%.",later_confirmed,false,,6,correct,"Uber's Q2 2025 10-Q (0001543151-25-000023) states revenue increased $2.0 billion, or 18%, for the three months ended June 30, 2025."
+confirmed,X367,Cd3253b5b2c42,forum,multi_period,QSR,total revenue,$2.291 billion,Q3 2024,,reported_figure,confirmed,none,https://mosaic-finance.com/filings/9c078929-87f3-4e9f-90a6-a3d4a5c4bb97/p/35819e9f-bc85-43eb-a779-2cfb7228e080/k1.Yw42aPQLQp1UdygiS2_wScG6oF6YSn_DKlPshRz3-WY/,0001618756-24-000190,,"| Total revenues                           |     | $                  | 2,291 |     | $    | 1,837 |     | $                 | 6,110 |     | $    | 5,202 |",not_applicable,false,,3,correct,"Restaurant Brands International's Q3 2024 10-Q (0001618756-24-000190) gives total revenues of $2,291M for the three months ended September 30, 2024."

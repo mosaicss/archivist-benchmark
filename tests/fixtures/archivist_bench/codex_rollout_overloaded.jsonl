@@ -1,0 +1,6 @@
+{"type":"session_meta","payload":{"id":"t1","cli_version":"0.160.0"}}
+{"type":"turn_context","payload":{"model":"gpt-6.1-sol","effort":"medium","approval_policy":"never","sandbox_policy":{"type":"read-only"}}}
+{"type":"event_msg","payload":{"type":"thread_settings_applied","thread_settings":{"model":"gpt-6.1-sol","service_tier":"default"}}}
+{"type":"token_usage_record","payload":{"usage":{"input_tokens":15000,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":10,"reasoning_output_tokens":0,"total_tokens":15010}}}
+{"type":"event_msg","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":15000,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":10,"reasoning_output_tokens":0,"total_tokens":15010},"last_token_usage":{"input_tokens":15000,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":10,"reasoning_output_tokens":0,"total_tokens":15010},"model_context_window":258400}}}
+{"type":"event_msg","payload":{"type":"task_complete","last_agent_message":null,"error":{"message":"The server is overloaded, try again later.","codex_error_info":"server_overloaded"}}}

@@ -1,0 +1,4 @@
+{"type":"session_meta","payload":{"id":"t1","cli_version":"0.160.0"}}
+{"type":"turn_context","payload":{"model":"gpt-6.1-sol","effort":"medium","approval_policy":"never","sandbox_policy":{"type":"read-only"}}}
+{"type":"event_msg","payload":{"type":"thread_settings_applied","thread_settings":{"model":"gpt-6.1-sol","service_tier":"default"}}}
+{"type":"event_msg","payload":{"type":"task_complete","last_agent_message":"partial"}}

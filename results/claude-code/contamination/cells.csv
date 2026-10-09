@@ -1,0 +1,4 @@
+agent,stratum,arm,questions,runs,completed,excluded_attempts,question_mean_accuracy,accuracy_questions,question_mean_total_tokens,token_questions,question_mean_completion,completion_questions
+claude_code,contamination,archivist,8,8,8,0,1,8,24625,8,1,8
+claude_code,contamination,both,8,8,8,0,1,8,23311,8,1,8
+claude_code,contamination,web,8,8,8,0,1,8,91628,8,1,8

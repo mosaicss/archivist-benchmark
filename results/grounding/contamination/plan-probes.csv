@@ -1,0 +1,5 @@
+time,kind,source,ok,error,status,windows,credits_balance,has_credits,overage_status,overage_disabled_reason,is_using_overage,warning
+2026-10-07T22:51:21Z,codex_closing,plan-probes.jsonl,true,,,primary 19% (10080 min),62500,true,,,,
+2026-10-07T22:56:32Z,codex_judge_closing,plan-probes.jsonl,true,,,primary 19% (10080 min),62500,true,,,,
+2026-10-07T22:56:36Z,codex_judge_closing,plan-probes.jsonl,true,,,primary 19% (10080 min),62500,true,,,,
+2026-10-07T22:58:07Z,codex_judge_closing,plan-probes.jsonl,true,,,primary 19% (10080 min),62500,true,,,,

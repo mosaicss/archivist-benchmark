@@ -1,0 +1,4 @@
+agent,stratum,arm,questions,runs,completed,excluded_attempts,question_mean_accuracy,accuracy_questions,question_mean_total_tokens,token_questions,question_mean_completion,completion_questions
+codex,contamination,archivist,17,51,51,0,1,17,83271,17,1,17
+codex,contamination,both,17,51,51,0,1,17,51781,17,1,17
+codex,contamination,web,17,51,51,0,1,17,43264,17,1,17

@@ -1,0 +1,28 @@
+Data and text license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright 2026 Mosaic Finance
+
+The following parts of this repository are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0):
+
+  - preregistration/  (the pre registration, question sets, answer keys and key corrections,
+                       the smoke record and the cost estimate)
+  - results/          (results documents, analysis JSON, CSV tables, link redacted answers and
+                       redacted run logs)
+  - docs/             (the harness reference)
+  - the prose of README.md, RUNBOOK.md, REDACTIONS.md and NOTICE
+
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:    https://creativecommons.org/licenses/by/4.0/
+
+Attribution: "Archivist benchmark: Codex and Claude Code, own web tools versus Archivist",
+Mosaic Finance, 2026, https://github.com/mosaicss/archivist-benchmark, licensed under CC BY 4.0.
+Indicate if you changed the material.
+
+The code (archivist_bench/, tests/, pyproject.toml) is licensed under the Apache License 2.0;
+see LICENSE.
+
+This license covers Mosaic's own contribution only. It grants no rights in third party content
+the files quote or record (see NOTICE): passages quoted from public company filings remain the
+filers' content, and web page titles, snippets and text that the agents' web tools returned,
+which appear in the answers and run logs, remain their owners' content.

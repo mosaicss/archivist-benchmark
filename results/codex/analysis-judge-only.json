@@ -1,0 +1,3604 @@
+{
+  "harness_version": "1.3.0",
+  "primary_judge": "B",
+  "evidence_fingerprint": "0a9bb5d6587cf5f276b6c531df2d792630f266dae8e6648b929f42d152149920",
+  "questions_sha256": "53e7f9ef1906d5a34ffbab85896156039279bf835cd102bf40da675935a4d21a",
+  "audit_files": [],
+  "comparisons": [
+    {
+      "agent": "codex",
+      "stratum": "all_scored",
+      "arm": "archivist",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.9345,
+        "ci95": [
+          1.6014,
+          2.318
+        ],
+        "n_questions": 90,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": -0.0009,
+        "ci95": [
+          -0.0057,
+          0.0034
+        ],
+        "n_questions": 90,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 90,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "all_scored",
+      "arm": "both",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.62,
+        "ci95": [
+          1.3547,
+          1.9267
+        ],
+        "n_questions": 90,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": -0.0013,
+        "ci95": [
+          -0.006,
+          0.002
+        ],
+        "n_questions": 90,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 90,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "all_scored",
+      "arm": "both",
+      "baseline": "archivist",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.8374,
+        "ci95": [
+          0.7802,
+          0.9004
+        ],
+        "n_questions": 90,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": -0.0005,
+        "ci95": [
+          -0.0039,
+          0.0037
+        ],
+        "n_questions": 90,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 90,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "breadth",
+      "arm": "archivist",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 2.8832,
+        "ci95": [
+          1.8375,
+          4.1347
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0056,
+        "ci95": [
+          0.0,
+          0.0167
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "breadth",
+      "arm": "both",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 2.2601,
+        "ci95": [
+          1.4519,
+          3.209
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0031,
+        "ci95": [
+          -0.0074,
+          0.0167
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "breadth",
+      "arm": "both",
+      "baseline": "archivist",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.7839,
+        "ci95": [
+          0.6622,
+          0.9514
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": -0.0025,
+        "ci95": [
+          -0.0074,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "lookup",
+      "arm": "archivist",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.779,
+        "ci95": [
+          0.6204,
+          0.9877
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "lookup",
+      "arm": "both",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.866,
+        "ci95": [
+          0.7426,
+          0.9672
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "lookup",
+      "arm": "both",
+      "baseline": "archivist",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.1117,
+        "ci95": [
+          0.9058,
+          1.3785
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_document",
+      "arm": "archivist",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.227,
+        "ci95": [
+          0.8929,
+          1.6263
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": -0.0089,
+        "ci95": [
+          -0.0267,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_document",
+      "arm": "both",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.9143,
+        "ci95": [
+          0.7838,
+          1.0393
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_document",
+      "arm": "both",
+      "baseline": "archivist",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.7451,
+        "ci95": [
+          0.5999,
+          0.95
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0089,
+        "ci95": [
+          0.0,
+          0.0267
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_hop_document",
+      "arm": "archivist",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.7784,
+        "ci95": [
+          0.8727,
+          3.2959
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0056,
+        "ci95": [
+          0.0,
+          0.0167
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_hop_document",
+      "arm": "both",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.5052,
+        "ci95": [
+          0.8573,
+          2.311
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_hop_document",
+      "arm": "both",
+      "baseline": "archivist",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.8464,
+        "ci95": [
+          0.6787,
+          1.0637
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": -0.0056,
+        "ci95": [
+          -0.0167,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_period",
+      "arm": "archivist",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.2195,
+        "ci95": [
+          0.9488,
+          1.5082
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_period",
+      "arm": "both",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.0318,
+        "ci95": [
+          0.8218,
+          1.2923
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_period",
+      "arm": "both",
+      "baseline": "archivist",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.8461,
+        "ci95": [
+          0.7277,
+          0.9969
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "reach",
+      "arm": "archivist",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 2.3059,
+        "ci95": [
+          1.9267,
+          2.7248
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": -0.0074,
+        "ci95": [
+          -0.0222,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "reach",
+      "arm": "both",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.9453,
+        "ci95": [
+          1.6262,
+          2.3099
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": -0.0111,
+        "ci95": [
+          -0.0333,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "reach",
+      "arm": "both",
+      "baseline": "archivist",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.8436,
+        "ci95": [
+          0.7595,
+          0.9387
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": -0.0037,
+        "ci95": [
+          -0.0111,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    }
+  ],
+  "single_judge_sensitivity": {
+    "deferred": "deferred with the Claude Code arm (pre registration section 13, amendment 2): the family interaction and the single judge recomputations need both answering families and both judges on every answer; pass_agreement reports the descriptive pass A and pass B agreement"
+  },
+  "judge_bias": {
+    "deferred": "deferred with the Claude Code arm (pre registration section 13, amendment 2): the family interaction and the single judge recomputations need both answering families and both judges on every answer; pass_agreement reports the descriptive pass A and pass B agreement"
+  },
+  "pass_agreement": {
+    "label": "exploratory",
+    "description": "descriptive agreement of pass A (Claude Code) and pass B (Codex) on the answers both graded; not a judge bias check (amendment 2)",
+    "answers": 551,
+    "facts": 2715,
+    "agreed_facts": 2714,
+    "agreement_share": 0.9996,
+    "complete_agreement_share": 1.0,
+    "cross_table_rows_A_columns_B": {
+      "correct": {
+        "correct": 2711,
+        "incorrect": 1,
+        "missing": 0
+      },
+      "incorrect": {
+        "correct": 0,
+        "incorrect": 3,
+        "missing": 0
+      },
+      "missing": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0
+      }
+    }
+  },
+  "token_sensitivity_with_partial_usage": [
+    {
+      "agent": "codex",
+      "stratum": "all_scored",
+      "arm": "archivist",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.9345,
+        "ci95": [
+          1.6014,
+          2.318
+        ],
+        "n_questions": 90,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "all_scored",
+      "arm": "both",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.62,
+        "ci95": [
+          1.3547,
+          1.9267
+        ],
+        "n_questions": 90,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "all_scored",
+      "arm": "both",
+      "baseline": "archivist",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.8374,
+        "ci95": [
+          0.7802,
+          0.9004
+        ],
+        "n_questions": 90,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "breadth",
+      "arm": "archivist",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 2.8832,
+        "ci95": [
+          1.8375,
+          4.1347
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "breadth",
+      "arm": "both",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 2.2601,
+        "ci95": [
+          1.4519,
+          3.209
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "breadth",
+      "arm": "both",
+      "baseline": "archivist",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.7839,
+        "ci95": [
+          0.6622,
+          0.9514
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "lookup",
+      "arm": "archivist",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.779,
+        "ci95": [
+          0.6204,
+          0.9877
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "lookup",
+      "arm": "both",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.866,
+        "ci95": [
+          0.7426,
+          0.9672
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "lookup",
+      "arm": "both",
+      "baseline": "archivist",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.1117,
+        "ci95": [
+          0.9058,
+          1.3785
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_document",
+      "arm": "archivist",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.227,
+        "ci95": [
+          0.8929,
+          1.6263
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_document",
+      "arm": "both",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.9143,
+        "ci95": [
+          0.7838,
+          1.0393
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_document",
+      "arm": "both",
+      "baseline": "archivist",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.7451,
+        "ci95": [
+          0.5999,
+          0.95
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_hop_document",
+      "arm": "archivist",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.7784,
+        "ci95": [
+          0.8727,
+          3.2959
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_hop_document",
+      "arm": "both",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.5052,
+        "ci95": [
+          0.8573,
+          2.311
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_hop_document",
+      "arm": "both",
+      "baseline": "archivist",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.8464,
+        "ci95": [
+          0.6787,
+          1.0637
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_period",
+      "arm": "archivist",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.2195,
+        "ci95": [
+          0.9488,
+          1.5082
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_period",
+      "arm": "both",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.0318,
+        "ci95": [
+          0.8218,
+          1.2923
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_period",
+      "arm": "both",
+      "baseline": "archivist",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.8461,
+        "ci95": [
+          0.7277,
+          0.9969
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "reach",
+      "arm": "archivist",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 2.3059,
+        "ci95": [
+          1.9267,
+          2.7248
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "reach",
+      "arm": "both",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.9453,
+        "ci95": [
+          1.6262,
+          2.3099
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "reach",
+      "arm": "both",
+      "baseline": "archivist",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.8436,
+        "ci95": [
+          0.7595,
+          0.9387
+        ],
+        "n_questions": 15,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    }
+  ],
+  "control_overhead": [
+    {
+      "agent": "codex",
+      "arm": "archivist",
+      "runs": 6,
+      "mean_total_tokens": 39982
+    },
+    {
+      "agent": "codex",
+      "arm": "both",
+      "runs": 6,
+      "mean_total_tokens": 37452
+    },
+    {
+      "agent": "codex",
+      "arm": "web",
+      "runs": 6,
+      "mean_total_tokens": 26282
+    }
+  ],
+  "audit_queue": [
+    {
+      "run_id": "20261007T042531491694Z-codex.both.MH14.r2-a1",
+      "fact_id": "MH14.f4",
+      "verdict": "incorrect",
+      "selection": "disputed"
+    },
+    {
+      "run_id": "20261007T034046535551Z-codex.web.LK04.r1-a1",
+      "fact_id": "LK04.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T034214719637Z-codex.archivist.LK01.r2-a1",
+      "fact_id": "LK01.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T034243347318Z-codex.web.LK02.r2-a1",
+      "fact_id": "LK02.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T034333985993Z-codex.archivist.LK04.r2-a1",
+      "fact_id": "LK04.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T034351824627Z-codex.archivist.LK05.r2-a1",
+      "fact_id": "LK05.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T034407765842Z-codex.both.LK05.r2-a1",
+      "fact_id": "LK05.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T034946880524Z-codex.both.LK09.r1-a1",
+      "fact_id": "LK09.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T035042335351Z-codex.both.LK06.r2-a1",
+      "fact_id": "LK06.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T035126794698Z-codex.web.LK08.r2-a1",
+      "fact_id": "LK08.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T035154959788Z-codex.web.LK09.r2-a1",
+      "fact_id": "LK09.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T035240733903Z-codex.web.LK06.r3-a1",
+      "fact_id": "LK06.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T035341373830Z-codex.web.LK08.r3-a1",
+      "fact_id": "LK08.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T035746957758Z-codex.both.LK11.r2-a1",
+      "fact_id": "LK11.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T035836797015Z-codex.both.LK13.r2-a1",
+      "fact_id": "LK13.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T035849164102Z-codex.web.LK14.r2-a1",
+      "fact_id": "LK14.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T035850052807Z-codex.archivist.LK14.r2-a1",
+      "fact_id": "LK14.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T035913395581Z-codex.web.LK15.r2-a1",
+      "fact_id": "LK15.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T040104503276Z-codex.web.LK14.r3-a1",
+      "fact_id": "LK14.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T040220867606Z-codex.web.MH01.r1-a1",
+      "fact_id": "MH01.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T040242488695Z-codex.both.MH01.r1-a1",
+      "fact_id": "MH01.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T040347506169Z-codex.both.MH03.r1-a1",
+      "fact_id": "MH03.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T040724598354Z-codex.archivist.MH04.r2-a1",
+      "fact_id": "MH04.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T040724598354Z-codex.archivist.MH04.r2-a1",
+      "fact_id": "MH04.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T040848246122Z-codex.archivist.MH01.r3-a1",
+      "fact_id": "MH01.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T040959339170Z-codex.web.MH03.r3-a1",
+      "fact_id": "MH03.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T041102338561Z-codex.both.MH04.r3-a1",
+      "fact_id": "MH04.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T041204202903Z-codex.web.MH06.r1-a1",
+      "fact_id": "MH06.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T041247199109Z-codex.archivist.MH07.r1-a1",
+      "fact_id": "MH07.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T041351953233Z-codex.both.MH09.r1-a1",
+      "fact_id": "MH09.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T041409219263Z-codex.web.MH10.r1-a1",
+      "fact_id": "MH10.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T041502418850Z-codex.web.MH07.r2-a1",
+      "fact_id": "MH07.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T041511614737Z-codex.archivist.MH07.r2-a1",
+      "fact_id": "MH07.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T041823580770Z-codex.both.MH08.r3-a1",
+      "fact_id": "MH08.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T041838813465Z-codex.web.MH09.r3-a1",
+      "fact_id": "MH09.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T041842815330Z-codex.archivist.MH09.r3-a1",
+      "fact_id": "MH09.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T041940267764Z-codex.archivist.MH11.r1-a1",
+      "fact_id": "MH11.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T042017169544Z-codex.archivist.MH12.r1-a1",
+      "fact_id": "MH12.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T042104431049Z-codex.web.MH14.r1-a1",
+      "fact_id": "MH14.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T042227576402Z-codex.both.MH15.r1-a1",
+      "fact_id": "MH15.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T042537521304Z-codex.web.MH15.r2-a1",
+      "fact_id": "MH15.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T042537521304Z-codex.web.MH15.r2-a1",
+      "fact_id": "MH15.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T042814939509Z-codex.web.MH13.r3-a1",
+      "fact_id": "MH13.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T042819049420Z-codex.archivist.MH13.r3-a1",
+      "fact_id": "MH13.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T042911207541Z-codex.both.MH14.r3-a1",
+      "fact_id": "MH14.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T043100240646Z-codex.both.MD01.r1-a1",
+      "fact_id": "MD01.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T043112132138Z-codex.web.MD02.r1-a1",
+      "fact_id": "MD02.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T043330922620Z-codex.both.MD05.r1-a1",
+      "fact_id": "MD05.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T043348059830Z-codex.web.MD01.r2-a1",
+      "fact_id": "MD01.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T043423751265Z-codex.archivist.MD02.r2-a1",
+      "fact_id": "MD02.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T043633461396Z-codex.archivist.MD05.r2-a1",
+      "fact_id": "MD05.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T043733483258Z-codex.web.MD02.r3-a1",
+      "fact_id": "MD02.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T043814035872Z-codex.both.MD03.r3-a1",
+      "fact_id": "MD03.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T043913799982Z-codex.web.MD05.r3-a1",
+      "fact_id": "MD05.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T043941303590Z-codex.archivist.MD05.r3-a1",
+      "fact_id": "MD05.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T044107685038Z-codex.archivist.MD07.r1-a1",
+      "fact_id": "MD07.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T044257326099Z-codex.archivist.MD10.r1-a1",
+      "fact_id": "MD10.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T044638177862Z-codex.web.MD06.r3-a1",
+      "fact_id": "MD06.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T044721936940Z-codex.web.MD07.r3-a1",
+      "fact_id": "MD07.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T044753345407Z-codex.web.MD08.r3-a1",
+      "fact_id": "MD08.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T044845240767Z-codex.archivist.MD09.r3-a1",
+      "fact_id": "MD09.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T044917246681Z-codex.archivist.MD10.r3-a1",
+      "fact_id": "MD10.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T044934911591Z-codex.both.MD10.r3-a1",
+      "fact_id": "MD10.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045052955262Z-codex.archivist.MD12.r1-a1",
+      "fact_id": "MD12.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045052955262Z-codex.archivist.MD12.r1-a1",
+      "fact_id": "MD12.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045052955262Z-codex.archivist.MD12.r1-a1",
+      "fact_id": "MD12.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045100249414Z-codex.both.MD12.r1-a1",
+      "fact_id": "MD12.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045150040967Z-codex.web.MD14.r1-a1",
+      "fact_id": "MD14.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045150040967Z-codex.web.MD14.r1-a1",
+      "fact_id": "MD14.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045150974479Z-codex.archivist.MD14.r1-a1",
+      "fact_id": "MD14.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045217308713Z-codex.web.MD15.r1-a1",
+      "fact_id": "MD15.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045255378579Z-codex.web.MD11.r2-a1",
+      "fact_id": "MD11.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045428325470Z-codex.both.MD13.r2-a1",
+      "fact_id": "MD13.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045448323564Z-codex.archivist.MD14.r2-a1",
+      "fact_id": "MD14.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045609651110Z-codex.both.MD11.r3-a1",
+      "fact_id": "MD11.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045642896432Z-codex.archivist.MD12.r3-a1",
+      "fact_id": "MD12.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045712479444Z-codex.archivist.MD13.r3-a1",
+      "fact_id": "MD13.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045723124001Z-codex.both.MD13.r3-a1",
+      "fact_id": "MD13.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045906679068Z-codex.archivist.MP01.r1-a1",
+      "fact_id": "MP01.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045946757667Z-codex.web.MP02.r1-a1",
+      "fact_id": "MP02.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T045946757667Z-codex.web.MP02.r1-a1",
+      "fact_id": "MP02.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T050241599894Z-codex.archivist.MP04.r1-a1",
+      "fact_id": "MP04.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T050303540559Z-codex.both.MP04.r1-a1",
+      "fact_id": "MP04.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T050314307731Z-codex.web.MP05.r1-a1",
+      "fact_id": "MP05.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T050341233403Z-codex.archivist.MP05.r1-a1",
+      "fact_id": "MP05.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T050341233403Z-codex.archivist.MP05.r1-a1",
+      "fact_id": "MP05.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T050530898562Z-codex.web.MP02.r2-a1",
+      "fact_id": "MP02.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T050622108458Z-codex.both.MP02.r2-a1",
+      "fact_id": "MP02.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T050721933632Z-codex.archivist.MP03.r2-a1",
+      "fact_id": "MP03.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T050759910206Z-codex.both.MP03.r2-a1",
+      "fact_id": "MP03.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T050759910206Z-codex.both.MP03.r2-a1",
+      "fact_id": "MP03.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T050936019948Z-codex.web.MP05.r2-a1",
+      "fact_id": "MP05.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T051222413846Z-codex.archivist.MP02.r3-a1",
+      "fact_id": "MP02.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T051245254342Z-codex.both.MP02.r3-a1",
+      "fact_id": "MP02.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T051401351386Z-codex.both.MP03.r3-a1",
+      "fact_id": "MP03.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T051510733661Z-codex.both.MP04.r3-a1",
+      "fact_id": "MP04.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T051727693787Z-codex.web.MP06.r1-a1",
+      "fact_id": "MP06.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T051950192489Z-codex.web.MP08.r1-a1",
+      "fact_id": "MP08.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T052310859505Z-codex.archivist.MP06.r2-a1",
+      "fact_id": "MP06.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T052506337176Z-codex.web.MP08.r2-a1",
+      "fact_id": "MP08.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T052541803388Z-codex.both.MP08.r2-a1",
+      "fact_id": "MP08.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T052628966627Z-codex.web.MP09.r2-a1",
+      "fact_id": "MP09.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T052639444675Z-codex.archivist.MP09.r2-a1",
+      "fact_id": "MP09.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T052831553813Z-codex.web.MP06.r3-a1",
+      "fact_id": "MP06.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T053008924347Z-codex.archivist.MP07.r3-a1",
+      "fact_id": "MP07.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T053046247282Z-codex.both.MP07.r3-a1",
+      "fact_id": "MP07.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T053129458733Z-codex.archivist.MP08.r3-a1",
+      "fact_id": "MP08.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T053218736312Z-codex.both.MP08.r3-a1",
+      "fact_id": "MP08.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T053311614464Z-codex.archivist.MP09.r3-a1",
+      "fact_id": "MP09.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T053400895021Z-codex.archivist.MP10.r3-a1",
+      "fact_id": "MP10.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T053508140892Z-codex.web.MP11.r1-a1",
+      "fact_id": "MP11.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T053618901096Z-codex.web.MP12.r1-a1",
+      "fact_id": "MP12.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T053803005241Z-codex.web.MP13.r1-a1",
+      "fact_id": "MP13.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T053923399749Z-codex.web.MP14.r1-a1",
+      "fact_id": "MP14.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T053931232790Z-codex.archivist.MP14.r1-a1",
+      "fact_id": "MP14.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054034276844Z-codex.archivist.MP15.r1-a1",
+      "fact_id": "MP15.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054049510591Z-codex.both.MP15.r1-a1",
+      "fact_id": "MP15.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054133169594Z-codex.web.MP11.r2-a1",
+      "fact_id": "MP11.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054133536221Z-codex.archivist.MP11.r2-a1",
+      "fact_id": "MP11.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054133536221Z-codex.archivist.MP11.r2-a1",
+      "fact_id": "MP11.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054225494505Z-codex.both.MP11.r2-a1",
+      "fact_id": "MP11.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054226931167Z-codex.web.MP12.r2-a1",
+      "fact_id": "MP12.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054254560705Z-codex.archivist.MP12.r2-a1",
+      "fact_id": "MP12.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054338895581Z-codex.both.MP12.r2-a1",
+      "fact_id": "MP12.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054406266696Z-codex.archivist.MP13.r2-a1",
+      "fact_id": "MP13.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054406266696Z-codex.archivist.MP13.r2-a1",
+      "fact_id": "MP13.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054520880903Z-codex.both.MP14.r2-a1",
+      "fact_id": "MP14.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054559819247Z-codex.archivist.MP15.r2-a1",
+      "fact_id": "MP15.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054622081588Z-codex.web.MP11.r3-a1",
+      "fact_id": "MP11.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054747036559Z-codex.web.MP12.r3-a1",
+      "fact_id": "MP12.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054823339692Z-codex.archivist.MP12.r3-a1",
+      "fact_id": "MP12.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054828161070Z-codex.both.MP12.r3-a1",
+      "fact_id": "MP12.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054828161070Z-codex.both.MP12.r3-a1",
+      "fact_id": "MP12.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T054920110584Z-codex.web.MP13.r3-a1",
+      "fact_id": "MP13.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T055231752939Z-codex.web.BR01.r1-a1",
+      "fact_id": "BR01.f13",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T055334206438Z-codex.both.BR01.r1-a1",
+      "fact_id": "BR01.f11",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T055447137481Z-codex.archivist.BR02.r1-a1",
+      "fact_id": "BR02.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T055447137481Z-codex.archivist.BR02.r1-a1",
+      "fact_id": "BR02.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T055542066765Z-codex.web.BR03.r1-a1",
+      "fact_id": "BR03.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T055827526674Z-codex.both.BR04.r1-a1",
+      "fact_id": "BR04.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T055840782109Z-codex.web.BR05.r1-a1",
+      "fact_id": "BR05.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T055935538937Z-codex.both.BR05.r1-a1",
+      "fact_id": "BR05.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060033113849Z-codex.web.BR01.r2-a1",
+      "fact_id": "BR01.f12",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060033113849Z-codex.web.BR01.r2-a1",
+      "fact_id": "BR01.f15",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060203053191Z-codex.both.BR01.r2-a1",
+      "fact_id": "BR01.f14",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060203053191Z-codex.both.BR01.r2-a1",
+      "fact_id": "BR01.f16",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060419664052Z-codex.archivist.BR03.r2-a1",
+      "fact_id": "BR03.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060521349155Z-codex.web.BR04.r2-a1",
+      "fact_id": "BR04.f9",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060620418661Z-codex.archivist.BR04.r2-a1",
+      "fact_id": "BR04.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060628048333Z-codex.both.BR04.r2-a1",
+      "fact_id": "BR04.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060713138580Z-codex.web.BR05.r2-a1",
+      "fact_id": "BR05.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060713138580Z-codex.web.BR05.r2-a1",
+      "fact_id": "BR05.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060809351558Z-codex.both.BR05.r2-a1",
+      "fact_id": "BR05.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060828387990Z-codex.web.BR01.r3-a1",
+      "fact_id": "BR01.f12",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060828387990Z-codex.web.BR01.r3-a1",
+      "fact_id": "BR01.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060913099988Z-codex.archivist.BR01.r3-a1",
+      "fact_id": "BR01.f10",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060913099988Z-codex.archivist.BR01.r3-a1",
+      "fact_id": "BR01.f13",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060913099988Z-codex.archivist.BR01.r3-a1",
+      "fact_id": "BR01.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T060956109137Z-codex.both.BR01.r3-a1",
+      "fact_id": "BR01.f12",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T061200323240Z-codex.web.BR03.r3-a1",
+      "fact_id": "BR03.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T061315448275Z-codex.both.BR03.r3-a1",
+      "fact_id": "BR03.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T061451919471Z-codex.archivist.BR04.r3-a1",
+      "fact_id": "BR04.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T061536035348Z-codex.web.BR05.r3-a1",
+      "fact_id": "BR05.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T061818096670Z-codex.web.BR07.r1-a1",
+      "fact_id": "BR07.f9",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T061856955863Z-codex.archivist.BR07.r1-a1",
+      "fact_id": "BR07.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T061856955863Z-codex.archivist.BR07.r1-a1",
+      "fact_id": "BR07.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T061920371012Z-codex.both.BR07.r1-a1",
+      "fact_id": "BR07.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T062031501193Z-codex.archivist.BR08.r1-a1",
+      "fact_id": "BR08.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T062224394761Z-codex.web.BR09.r1-a1",
+      "fact_id": "BR09.f10",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T062324951892Z-codex.archivist.BR09.r1-a1",
+      "fact_id": "BR09.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T062344590351Z-codex.both.BR09.r1-a1",
+      "fact_id": "BR09.f9",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T062436099136Z-codex.archivist.BR10.r1-a1",
+      "fact_id": "BR10.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T062436099136Z-codex.archivist.BR10.r1-a1",
+      "fact_id": "BR10.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T062650440065Z-codex.both.BR06.r2-a1",
+      "fact_id": "BR06.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T062822485813Z-codex.both.BR07.r2-a1",
+      "fact_id": "BR07.f14",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T062846559436Z-codex.web.BR08.r2-a1",
+      "fact_id": "BR08.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T062912139859Z-codex.archivist.BR08.r2-a1",
+      "fact_id": "BR08.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T063146264722Z-codex.archivist.BR09.r2-a1",
+      "fact_id": "BR09.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T063315262502Z-codex.archivist.BR10.r2-a1",
+      "fact_id": "BR10.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T063418244404Z-codex.both.BR10.r2-a1",
+      "fact_id": "BR10.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T063513197054Z-codex.archivist.BR06.r3-a1",
+      "fact_id": "BR06.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T063709621505Z-codex.both.BR07.r3-a1",
+      "fact_id": "BR07.f13",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T063709621505Z-codex.both.BR07.r3-a1",
+      "fact_id": "BR07.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T063731446046Z-codex.web.BR08.r3-a1",
+      "fact_id": "BR08.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T063917379418Z-codex.both.BR08.r3-a1",
+      "fact_id": "BR08.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T064030614206Z-codex.web.BR09.r3-a1",
+      "fact_id": "BR09.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T064146043994Z-codex.both.BR09.r3-a1",
+      "fact_id": "BR09.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T064251940258Z-codex.archivist.BR10.r3-a1",
+      "fact_id": "BR10.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T064251940258Z-codex.archivist.BR10.r3-a1",
+      "fact_id": "BR10.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T064701718098Z-codex.web.BR13.r1-a1",
+      "fact_id": "BR13.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T064708942638Z-codex.archivist.BR13.r1-a1",
+      "fact_id": "BR13.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T064708942638Z-codex.archivist.BR13.r1-a1",
+      "fact_id": "BR13.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T064840158121Z-codex.both.BR14.r1-a1",
+      "fact_id": "BR14.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T064840158121Z-codex.both.BR14.r1-a1",
+      "fact_id": "BR14.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T064915982687Z-codex.web.BR15.r1-a1",
+      "fact_id": "BR15.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T064915982687Z-codex.web.BR15.r1-a1",
+      "fact_id": "BR15.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T064944118196Z-codex.archivist.BR15.r1-a1",
+      "fact_id": "BR15.f5",
+      "verdict": "incorrect",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T064944118196Z-codex.archivist.BR15.r1-a1",
+      "fact_id": "BR15.f9",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T065038113880Z-codex.both.BR15.r1-a1",
+      "fact_id": "BR15.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T065052429108Z-codex.web.BR11.r2-a1",
+      "fact_id": "BR11.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T065150952756Z-codex.archivist.BR11.r2-a1",
+      "fact_id": "BR11.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T065150952756Z-codex.archivist.BR11.r2-a1",
+      "fact_id": "BR11.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T065156097283Z-codex.both.BR11.r2-a1",
+      "fact_id": "BR11.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T065325621523Z-codex.both.BR12.r2-a1",
+      "fact_id": "BR12.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T065720581291Z-codex.both.BR15.r2-a1",
+      "fact_id": "BR15.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T065759407448Z-codex.web.BR11.r3-a1",
+      "fact_id": "BR11.f9",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T065922645782Z-codex.web.BR12.r3-a1",
+      "fact_id": "BR12.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T065935268691Z-codex.archivist.BR12.r3-a1",
+      "fact_id": "BR12.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T070005005608Z-codex.both.BR12.r3-a1",
+      "fact_id": "BR12.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T070128206842Z-codex.both.BR13.r3-a1",
+      "fact_id": "BR13.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T070332656343Z-codex.both.BR14.r3-a1",
+      "fact_id": "BR14.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T070351530431Z-codex.web.BR15.r3-a1",
+      "fact_id": "BR15.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T070457306710Z-codex.both.BR15.r3-a1",
+      "fact_id": "BR15.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T070855986209Z-codex.archivist.RC02.r1-a1",
+      "fact_id": "RC02.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T070905487644Z-codex.both.RC02.r1-a1",
+      "fact_id": "RC02.f12",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T070905487644Z-codex.both.RC02.r1-a1",
+      "fact_id": "RC02.f13",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071023041321Z-codex.web.RC03.r1-a1",
+      "fact_id": "RC03.f22",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071124876456Z-codex.archivist.RC03.r1-a1",
+      "fact_id": "RC03.f15",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071124876456Z-codex.archivist.RC03.r1-a1",
+      "fact_id": "RC03.f9",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071155544285Z-codex.both.RC03.r1-a1",
+      "fact_id": "RC03.f17",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071155544285Z-codex.both.RC03.r1-a1",
+      "fact_id": "RC03.f24",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071302825789Z-codex.web.RC04.r1-a1",
+      "fact_id": "RC04.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071302825789Z-codex.web.RC04.r1-a1",
+      "fact_id": "RC04.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071302825789Z-codex.web.RC04.r1-a1",
+      "fact_id": "RC04.f9",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071335451065Z-codex.archivist.RC04.r1-a1",
+      "fact_id": "RC04.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071427185011Z-codex.both.RC04.r1-a1",
+      "fact_id": "RC04.f15",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071427185011Z-codex.both.RC04.r1-a1",
+      "fact_id": "RC04.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071427185011Z-codex.both.RC04.r1-a1",
+      "fact_id": "RC04.f9",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071531519520Z-codex.web.RC05.r1-a1",
+      "fact_id": "RC05.f11",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071604126714Z-codex.archivist.RC05.r1-a1",
+      "fact_id": "RC05.f10",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071604126714Z-codex.archivist.RC05.r1-a1",
+      "fact_id": "RC05.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071604126714Z-codex.archivist.RC05.r1-a1",
+      "fact_id": "RC05.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071604126714Z-codex.archivist.RC05.r1-a1",
+      "fact_id": "RC05.f9",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071645237138Z-codex.both.RC05.r1-a1",
+      "fact_id": "RC05.f21",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071822581086Z-codex.archivist.RC01.r2-a1",
+      "fact_id": "RC01.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T071822581086Z-codex.archivist.RC01.r2-a1",
+      "fact_id": "RC01.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T072037956114Z-codex.web.RC02.r2-a1",
+      "fact_id": "RC02.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T072525873538Z-codex.web.RC04.r2-a1",
+      "fact_id": "RC04.f17",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T072559851998Z-codex.archivist.RC04.r2-a1",
+      "fact_id": "RC04.f24",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T072559851998Z-codex.archivist.RC04.r2-a1",
+      "fact_id": "RC04.f9",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T072735960173Z-codex.web.RC05.r2-a1",
+      "fact_id": "RC05.f10",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T072735960173Z-codex.web.RC05.r2-a1",
+      "fact_id": "RC05.f23",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T072921956144Z-codex.both.RC05.r2-a1",
+      "fact_id": "RC05.f16",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T073345888918Z-codex.web.RC02.r3-a1",
+      "fact_id": "RC02.f15",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T073345888918Z-codex.web.RC02.r3-a1",
+      "fact_id": "RC02.f21",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T073520668605Z-codex.both.RC02.r3-a1",
+      "fact_id": "RC02.f15",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T073527037334Z-codex.web.RC03.r3-a1",
+      "fact_id": "RC03.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T073647718519Z-codex.archivist.RC03.r3-a1",
+      "fact_id": "RC03.f13",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T073647718519Z-codex.archivist.RC03.r3-a1",
+      "fact_id": "RC03.f24",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T073739264132Z-codex.both.RC03.r3-a1",
+      "fact_id": "RC03.f22",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T073739264132Z-codex.both.RC03.r3-a1",
+      "fact_id": "RC03.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T073956342874Z-codex.archivist.RC04.r3-a1",
+      "fact_id": "RC04.f12",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T074036325500Z-codex.both.RC04.r3-a1",
+      "fact_id": "RC04.f23",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T074252057322Z-codex.archivist.RC05.r3-a1",
+      "fact_id": "RC05.f16",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T074429025187Z-codex.both.RC05.r3-a1",
+      "fact_id": "RC05.f13",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T074429025187Z-codex.both.RC05.r3-a1",
+      "fact_id": "RC05.f16",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T074429025187Z-codex.both.RC05.r3-a1",
+      "fact_id": "RC05.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T074429025187Z-codex.both.RC05.r3-a1",
+      "fact_id": "RC05.f22",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T074602596333Z-codex.web.RC06.r1-a1",
+      "fact_id": "RC06.f12",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T074602596917Z-codex.archivist.RC06.r1-a1",
+      "fact_id": "RC06.f18",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T074748480513Z-codex.web.RC07.r1-a1",
+      "fact_id": "RC07.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T074748480513Z-codex.web.RC07.r1-a1",
+      "fact_id": "RC07.f19",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T074748480513Z-codex.web.RC07.r1-a1",
+      "fact_id": "RC07.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T074916360857Z-codex.both.RC07.r1-a1",
+      "fact_id": "RC07.f16",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075044252473Z-codex.web.RC08.r1-a1",
+      "fact_id": "RC08.f17",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075044252473Z-codex.web.RC08.r1-a1",
+      "fact_id": "RC08.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075147896075Z-codex.archivist.RC08.r1-a1",
+      "fact_id": "RC08.f18",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075147896075Z-codex.archivist.RC08.r1-a1",
+      "fact_id": "RC08.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075219410546Z-codex.both.RC08.r1-a1",
+      "fact_id": "RC08.f15",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075219410546Z-codex.both.RC08.r1-a1",
+      "fact_id": "RC08.f22",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075219410546Z-codex.both.RC08.r1-a1",
+      "fact_id": "RC08.f23",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075403847173Z-codex.archivist.RC09.r1-a1",
+      "fact_id": "RC09.f21",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075403847173Z-codex.archivist.RC09.r1-a1",
+      "fact_id": "RC09.f9",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075617190879Z-codex.web.RC10.r1-a1",
+      "fact_id": "RC10.f10",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075617190879Z-codex.web.RC10.r1-a1",
+      "fact_id": "RC10.f13",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075617190879Z-codex.web.RC10.r1-a1",
+      "fact_id": "RC10.f19",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075617190879Z-codex.web.RC10.r1-a1",
+      "fact_id": "RC10.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075748027651Z-codex.archivist.RC10.r1-a1",
+      "fact_id": "RC10.f17",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075800303095Z-codex.both.RC10.r1-a1",
+      "fact_id": "RC10.f19",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T075800303095Z-codex.both.RC10.r1-a1",
+      "fact_id": "RC10.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T080105632936Z-codex.both.RC06.r2-a1",
+      "fact_id": "RC06.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T080105632936Z-codex.both.RC06.r2-a1",
+      "fact_id": "RC06.f18",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T080145238348Z-codex.web.RC07.r2-a1",
+      "fact_id": "RC07.f12",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T080324411810Z-codex.both.RC07.r2-a1",
+      "fact_id": "RC07.f13",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T080324411810Z-codex.both.RC07.r2-a1",
+      "fact_id": "RC07.f24",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T080324411810Z-codex.both.RC07.r2-a1",
+      "fact_id": "RC07.f6",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T080543687771Z-codex.archivist.RC08.r2-a1",
+      "fact_id": "RC08.f13",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T080726612948Z-codex.web.RC09.r2-a1",
+      "fact_id": "RC09.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T080909746857Z-codex.both.RC09.r2-a1",
+      "fact_id": "RC09.f14",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T080909746857Z-codex.both.RC09.r2-a1",
+      "fact_id": "RC09.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081031750594Z-codex.web.RC10.r2-a1",
+      "fact_id": "RC10.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081031750594Z-codex.web.RC10.r2-a1",
+      "fact_id": "RC10.f13",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081031750594Z-codex.web.RC10.r2-a1",
+      "fact_id": "RC10.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081228304112Z-codex.both.RC10.r2-a1",
+      "fact_id": "RC10.f17",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081228304112Z-codex.both.RC10.r2-a1",
+      "fact_id": "RC10.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081300526278Z-codex.web.RC06.r3-a1",
+      "fact_id": "RC06.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081438124551Z-codex.archivist.RC06.r3-a1",
+      "fact_id": "RC06.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081449704940Z-codex.both.RC06.r3-a1",
+      "fact_id": "RC06.f14",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081449704940Z-codex.both.RC06.r3-a1",
+      "fact_id": "RC06.f15",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081449704940Z-codex.both.RC06.r3-a1",
+      "fact_id": "RC06.f17",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081449704940Z-codex.both.RC06.r3-a1",
+      "fact_id": "RC06.f19",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081449704940Z-codex.both.RC06.r3-a1",
+      "fact_id": "RC06.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081558990949Z-codex.web.RC07.r3-a1",
+      "fact_id": "RC07.f19",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081709003506Z-codex.both.RC07.r3-a1",
+      "fact_id": "RC07.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081807404545Z-codex.web.RC08.r3-a1",
+      "fact_id": "RC08.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T081849975598Z-codex.archivist.RC08.r3-a1",
+      "fact_id": "RC08.f10",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T082025480900Z-codex.web.RC09.r3-a1",
+      "fact_id": "RC09.f13",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T082139011327Z-codex.archivist.RC09.r3-a1",
+      "fact_id": "RC09.f20",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T082201540034Z-codex.both.RC09.r3-a1",
+      "fact_id": "RC09.f22",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T082201540034Z-codex.both.RC09.r3-a1",
+      "fact_id": "RC09.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T082531688526Z-codex.both.RC10.r3-a1",
+      "fact_id": "RC10.f19",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T140713808356Z-codex.web.RC11.r1-a1",
+      "fact_id": "RC11.f17",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T140917270031Z-codex.both.RC11.r1-a1",
+      "fact_id": "RC11.f17",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T141155784870Z-codex.both.RC11.r2-a1",
+      "fact_id": "RC11.f10",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T141155784870Z-codex.both.RC11.r2-a1",
+      "fact_id": "RC11.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T141405043363Z-codex.archivist.RC11.r3-a1",
+      "fact_id": "RC11.f11",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T141405043363Z-codex.archivist.RC11.r3-a1",
+      "fact_id": "RC11.f9",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T141730784425Z-codex.web.RC12.r1-a1",
+      "fact_id": "RC12.f9",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T141730784750Z-codex.archivist.RC12.r1-a1",
+      "fact_id": "RC12.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T141842097408Z-codex.both.RC12.r1-a1",
+      "fact_id": "RC12.f24",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T142059058434Z-codex.archivist.RC12.r2-a1",
+      "fact_id": "RC12.f7",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T142347407445Z-codex.archivist.RC12.r3-a1",
+      "fact_id": "RC12.f17",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T142347407445Z-codex.archivist.RC12.r3-a1",
+      "fact_id": "RC12.f22",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T142623689481Z-codex.archivist.RC13.r1-a1",
+      "fact_id": "RC13.f14",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T142623689481Z-codex.archivist.RC13.r1-a1",
+      "fact_id": "RC13.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T142812862996Z-codex.both.RC13.r1-a1",
+      "fact_id": "RC13.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T142853583014Z-codex.web.RC13.r2-a1",
+      "fact_id": "RC13.f14",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T143211271241Z-codex.web.RC13.r3-a1",
+      "fact_id": "RC13.f17",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T143211271241Z-codex.web.RC13.r3-a1",
+      "fact_id": "RC13.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T143252401385Z-codex.archivist.RC13.r3-a1",
+      "fact_id": "RC13.f5",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T143346400208Z-codex.both.RC13.r3-a1",
+      "fact_id": "RC13.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T143546085104Z-codex.web.RC14.r1-a1",
+      "fact_id": "RC14.f17",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T143546085104Z-codex.web.RC14.r1-a1",
+      "fact_id": "RC14.f18",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T143546085104Z-codex.web.RC14.r1-a1",
+      "fact_id": "RC14.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T143546085601Z-codex.archivist.RC14.r1-a1",
+      "fact_id": "RC14.f18",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T143546085601Z-codex.archivist.RC14.r1-a1",
+      "fact_id": "RC14.f19",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T143722503130Z-codex.both.RC14.r1-a1",
+      "fact_id": "RC14.f11",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T144033371623Z-codex.both.RC14.r2-a1",
+      "fact_id": "RC14.f10",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T144033371623Z-codex.both.RC14.r2-a1",
+      "fact_id": "RC14.f16",
+      "verdict": "incorrect",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T144052772228Z-codex.web.RC14.r3-a1",
+      "fact_id": "RC14.f12",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T144210677818Z-codex.archivist.RC14.r3-a1",
+      "fact_id": "RC14.f14",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T144313550210Z-codex.both.RC14.r3-a1",
+      "fact_id": "RC14.f13",
+      "verdict": "incorrect",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T144500976122Z-codex.archivist.RC15.r1-a1",
+      "fact_id": "RC15.f18",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T144500976122Z-codex.archivist.RC15.r1-a1",
+      "fact_id": "RC15.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T144825274293Z-codex.archivist.RC15.r2-a1",
+      "fact_id": "RC15.f18",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T144825274293Z-codex.archivist.RC15.r2-a1",
+      "fact_id": "RC15.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T144838570760Z-codex.both.RC15.r2-a1",
+      "fact_id": "RC15.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T144838570760Z-codex.both.RC15.r2-a1",
+      "fact_id": "RC15.f4",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T144838570760Z-codex.both.RC15.r2-a1",
+      "fact_id": "RC15.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T145032262292Z-codex.web.RC15.r3-a1",
+      "fact_id": "RC15.f24",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T145143576140Z-codex.archivist.RC15.r3-a1",
+      "fact_id": "RC15.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T145222479250Z-codex.both.RC15.r3-a1",
+      "fact_id": "RC15.f8",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T145222479250Z-codex.both.RC15.r3-a1",
+      "fact_id": "RC15.f9",
+      "verdict": "correct",
+      "selection": "sample"
+    }
+  ],
+  "audit_corrections": [],
+  "completion": [
+    {
+      "agent": "codex",
+      "stratum": "breadth",
+      "arm": "archivist",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 63,
+      "runs_with_truncation": 38
+    },
+    {
+      "agent": "codex",
+      "stratum": "breadth",
+      "arm": "both",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 40,
+      "runs_with_truncation": 23
+    },
+    {
+      "agent": "codex",
+      "stratum": "breadth",
+      "arm": "web",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 6,
+      "runs_with_truncation": 5
+    },
+    {
+      "agent": "codex",
+      "stratum": "control",
+      "arm": "archivist",
+      "runs": 6,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 0,
+      "runs_with_truncation": 0
+    },
+    {
+      "agent": "codex",
+      "stratum": "control",
+      "arm": "both",
+      "runs": 6,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 0,
+      "runs_with_truncation": 0
+    },
+    {
+      "agent": "codex",
+      "stratum": "control",
+      "arm": "web",
+      "runs": 6,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 0,
+      "runs_with_truncation": 0
+    },
+    {
+      "agent": "codex",
+      "stratum": "lookup",
+      "arm": "archivist",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 0,
+      "runs_with_truncation": 0
+    },
+    {
+      "agent": "codex",
+      "stratum": "lookup",
+      "arm": "both",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 2,
+      "runs_with_truncation": 2
+    },
+    {
+      "agent": "codex",
+      "stratum": "lookup",
+      "arm": "web",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 0,
+      "runs_with_truncation": 0
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_document",
+      "arm": "archivist",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 5,
+      "runs_with_truncation": 5
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_document",
+      "arm": "both",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 2,
+      "runs_with_truncation": 2
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_document",
+      "arm": "web",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 2,
+      "runs_with_truncation": 2
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_hop_document",
+      "arm": "archivist",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 2,
+      "runs_with_truncation": 2
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_hop_document",
+      "arm": "both",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 1,
+      "runs_with_truncation": 1
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_hop_document",
+      "arm": "web",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 0,
+      "runs_with_truncation": 0
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_period",
+      "arm": "archivist",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 37,
+      "runs_with_truncation": 31
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_period",
+      "arm": "both",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 31,
+      "runs_with_truncation": 26
+    },
+    {
+      "agent": "codex",
+      "stratum": "multi_period",
+      "arm": "web",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 3,
+      "runs_with_truncation": 3
+    },
+    {
+      "agent": "codex",
+      "stratum": "reach",
+      "arm": "archivist",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 65,
+      "runs_with_truncation": 40
+    },
+    {
+      "agent": "codex",
+      "stratum": "reach",
+      "arm": "both",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 59,
+      "runs_with_truncation": 40
+    },
+    {
+      "agent": "codex",
+      "stratum": "reach",
+      "arm": "web",
+      "runs": 45,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 17,
+      "runs_with_truncation": 11
+    }
+  ],
+  "excluded_runs": [
+    {
+      "run_id": "20261007T032906059008Z-codex.archivist.CT02.r1-a1",
+      "status": "invalid",
+      "reason": "arm_isolation: MCP server codex loaded outside the arm allowlist; tool mcp:codex.list_mcp_resource_templates outside the arm allowlist; tool mcp:codex.list_mcp_resources outside the arm allowlist",
+      "contaminated": false
+    }
+  ],
+  "runs_without_valid_judgement": [],
+  "billing_warnings": [],
+  "answer_file_mismatches": []
+}

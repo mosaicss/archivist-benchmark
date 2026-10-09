@@ -1,0 +1,3 @@
+time,kind,source,ok,error,status,windows,credits_balance,has_credits,overage_status,overage_disabled_reason,is_using_overage,warning
+2026-10-08T03:24:08Z,claude_probe,plan-probes.jsonl,true,,allowed,five_hour 0.25 (resets 1791440400); seven_day 0.05 (resets 1791853200),,,rejected,org_level_disabled,false,
+2026-10-08T03:49:00Z,codex_judge_closing,plan-probes.jsonl,true,,,primary 20% (10080 min),62500,true,,,,

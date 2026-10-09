@@ -1,0 +1,428 @@
+{
+  "harness_version": "1.5.1",
+  "primary_judge": "B",
+  "evidence_fingerprint": "d385543d9d86bf886686d14f3c5c3f81b64db782fdbbfef241a85f6d7cc98477",
+  "questions_sha256": "806984fbfc8e087172ccdde7ab6decf0f96050efedbf5007d1e9749acebe2111",
+  "audit_files": [],
+  "comparisons": [
+    {
+      "agent": "claude_code",
+      "stratum": "all_scored",
+      "arm": "archivist",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 3.721,
+        "ci95": [
+          1.6174,
+          6.7129
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "claude_code",
+      "stratum": "all_scored",
+      "arm": "both",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 3.9307,
+        "ci95": [
+          1.855,
+          6.5127
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "claude_code",
+      "stratum": "all_scored",
+      "arm": "both",
+      "baseline": "archivist",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.0564,
+        "ci95": [
+          0.9219,
+          1.3017
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "claude_code",
+      "stratum": "contamination",
+      "arm": "archivist",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 3.721,
+        "ci95": [
+          1.6174,
+          6.7129
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "claude_code",
+      "stratum": "contamination",
+      "arm": "both",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 3.9307,
+        "ci95": [
+          1.855,
+          6.5127
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "claude_code",
+      "stratum": "contamination",
+      "arm": "both",
+      "baseline": "archivist",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.0564,
+        "ci95": [
+          0.9219,
+          1.3017
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    }
+  ],
+  "single_judge_sensitivity": {
+    "deferred": "deferred with the Claude Code arm (pre registration section 13, amendment 2): the family interaction and the single judge recomputations need both answering families and both judges on every answer; pass_agreement reports the descriptive pass A and pass B agreement"
+  },
+  "judge_bias": {
+    "deferred": "deferred with the Claude Code arm (pre registration section 13, amendment 2): the family interaction and the single judge recomputations need both answering families and both judges on every answer; pass_agreement reports the descriptive pass A and pass B agreement"
+  },
+  "pass_agreement": {
+    "label": "exploratory",
+    "description": "descriptive agreement of pass A (Claude Code) and pass B (Codex) on the answers both graded; not a judge bias check (amendment 2)",
+    "answers": 0,
+    "facts": 0,
+    "agreed_facts": 0,
+    "agreement_share": null,
+    "complete_agreement_share": null,
+    "cross_table_rows_A_columns_B": {
+      "correct": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0
+      },
+      "incorrect": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0
+      },
+      "missing": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0
+      }
+    }
+  },
+  "token_sensitivity_with_partial_usage": [
+    {
+      "agent": "claude_code",
+      "stratum": "all_scored",
+      "arm": "archivist",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 3.721,
+        "ci95": [
+          1.6174,
+          6.7129
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "claude_code",
+      "stratum": "all_scored",
+      "arm": "both",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 3.9307,
+        "ci95": [
+          1.855,
+          6.5127
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "claude_code",
+      "stratum": "all_scored",
+      "arm": "both",
+      "baseline": "archivist",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.0564,
+        "ci95": [
+          0.9219,
+          1.3017
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "claude_code",
+      "stratum": "contamination",
+      "arm": "archivist",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 3.721,
+        "ci95": [
+          1.6174,
+          6.7129
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "claude_code",
+      "stratum": "contamination",
+      "arm": "both",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 3.9307,
+        "ci95": [
+          1.855,
+          6.5127
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "claude_code",
+      "stratum": "contamination",
+      "arm": "both",
+      "baseline": "archivist",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.0564,
+        "ci95": [
+          0.9219,
+          1.3017
+        ],
+        "n_questions": 8,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    }
+  ],
+  "control_overhead": [],
+  "audit_queue": [
+    {
+      "run_id": "20261008T032601608723Z-claude_code.archivist.CN04.r1-a1",
+      "fact_id": "CN04.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261008T032730940615Z-claude_code.both.CN05.r1-a1",
+      "fact_id": "CN05.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    }
+  ],
+  "audit_corrections": [],
+  "completion": [
+    {
+      "agent": "claude_code",
+      "stratum": "contamination",
+      "arm": "archivist",
+      "runs": 8,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 0,
+      "runs_with_truncation": 0
+    },
+    {
+      "agent": "claude_code",
+      "stratum": "contamination",
+      "arm": "both",
+      "runs": 8,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 0,
+      "runs_with_truncation": 0
+    },
+    {
+      "agent": "claude_code",
+      "stratum": "contamination",
+      "arm": "web",
+      "runs": 8,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 0,
+      "runs_with_truncation": 0
+    }
+  ],
+  "excluded_runs": [],
+  "runs_without_valid_judgement": [],
+  "billing_warnings": [],
+  "answer_file_mismatches": []
+}

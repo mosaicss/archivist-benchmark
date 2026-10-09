@@ -1,0 +1,1096 @@
+{
+ "schema_version": 1,
+ "set": "contamination",
+ "status": "frozen (addendum G1, 2026-10-07, before any contamination run)",
+ "campaign": "grounding",
+ "corpus": "Mosaic filings via archivist-cli 0.2.33 (read passage --window 0), read 2026-10-07",
+ "notes": "Contamination stratum (pre registration section 14.5). Sourced facts follow section 3: filing_uuid, chunk_id, Mosaic permalink from archivist read passage --window 0, the exchange document id (or document_id_absent_reason) and a quote of the stored passage. Trap facts carry the wrong web value as written in the cross check row, its row, source category and the sourced fact it contradicts; they are never scored for accuracy. Control questions carry no trap fact.",
+ "questions": [
+  {
+   "id": "CN01",
+   "stratum": "contamination",
+   "role": "trap",
+   "tags": [
+    "us"
+   ],
+   "question": "What was GE Aerospace's total revenue on a reported (GAAP) basis for the third quarter of 2025, and by what percentage did it grow year over year?",
+   "crosscheck_rows": [
+    "X105"
+   ],
+   "facts": [
+    {
+     "id": "CN01.f1",
+     "kind": "sourced",
+     "statement": "GE Aerospace total revenue (GAAP) for Q3 2025 was USD 12.2 billion",
+     "value": "12.2",
+     "unit": "USD billions",
+     "accept": [
+      "$12.2B",
+      "12.2 billion"
+     ],
+     "source": {
+      "filing_uuid": "0ad0afd3-dd6a-4fc7-a19f-a758e3fe3174",
+      "chunk_id": "00a434d2-b779-4729-90cb-f3e34d60a155",
+      "permalink": "https://mosaic-finance.com/filings/0ad0afd3-dd6a-4fc7-a19f-a758e3fe3174/p/00a434d2-b779-4729-90cb-f3e34d60a155/k1.OL30ERF3Y-oY_P45wDw7scfcyhncnbogj4Uv_xJPiDc/",
+      "symbol": "GE",
+      "formtype": "8-K",
+      "datefiled": "2025-10-21",
+      "section_header": "Item 9.01 — Part 1 of 2 (part 1/18)",
+      "quote": "Total revenue (GAAP) of $12.2B, +24%",
+      "exchange_document_id": "0000040545-25-000131",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN01.f2",
+     "kind": "sourced",
+     "statement": "GE Aerospace total revenue (GAAP) for Q3 2025 grew 24% year over year",
+     "value": "24%",
+     "unit": "percent",
+     "source": {
+      "filing_uuid": "0ad0afd3-dd6a-4fc7-a19f-a758e3fe3174",
+      "chunk_id": "00a434d2-b779-4729-90cb-f3e34d60a155",
+      "permalink": "https://mosaic-finance.com/filings/0ad0afd3-dd6a-4fc7-a19f-a758e3fe3174/p/00a434d2-b779-4729-90cb-f3e34d60a155/k1.OL30ERF3Y-oY_P45wDw7scfcyhncnbogj4Uv_xJPiDc/",
+      "symbol": "GE",
+      "formtype": "8-K",
+      "datefiled": "2025-10-21",
+      "section_header": "Item 9.01 — Part 1 of 2 (part 1/18)",
+      "quote": "Total revenue (GAAP) of $12.2B, +24%",
+      "exchange_document_id": "0000040545-25-000131",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN01.t1",
+     "kind": "trap",
+     "statement": "Wrong web value: GE Aerospace Q3 2025 revenue given as 11.3 billion dollars, which is the adjusted (non GAAP) revenue; reported GAAP total revenue was USD 12.2 billion",
+     "value": "11,3 mld $",
+     "crosscheck_row": "X105",
+     "source_category": "aggregator",
+     "contradicts": "CN01.f1",
+     "pass_c_subtype": "adjusted_mixed_with_reported"
+    }
+   ]
+  },
+  {
+   "id": "CN02",
+   "stratum": "contamination",
+   "role": "trap",
+   "tags": [
+    "us"
+   ],
+   "question": "How much cash and cash equivalents did Tesla hold at December 31, 2023?",
+   "crosscheck_rows": [
+    "X352"
+   ],
+   "facts": [
+    {
+     "id": "CN02.f1",
+     "kind": "sourced",
+     "statement": "Tesla cash and cash equivalents at 2023-12-31 were USD 16,398 million",
+     "value": "16,398",
+     "unit": "USD millions",
+     "accept": [
+      "16.4 billion",
+      "16,398 million"
+     ],
+     "source": {
+      "filing_uuid": "37287bf3-5667-44f2-bdcc-1b940830768b",
+      "chunk_id": "8143410e-14c0-4a98-9975-12f70ab79e69",
+      "permalink": "https://mosaic-finance.com/filings/37287bf3-5667-44f2-bdcc-1b940830768b/p/8143410e-14c0-4a98-9975-12f70ab79e69/k1.oa03BojVL4XNMZ_S8kDnVEvj-nPatLUd1AAtM4q1HMk/",
+      "symbol": "TSLA",
+      "formtype": "10-K",
+      "datefiled": "2024-01-29",
+      "section_header": "ITEM 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA (cont.) (part 6/7)",
+      "quote": "Cash and cash equivalents | | $ | 16,398",
+      "exchange_document_id": "0001628280-24-002390",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN02.t1",
+     "kind": "trap",
+     "statement": "Wrong web value: Tesla cash and cash equivalents at the end of 2023 given as USD 22.6 billion; the reported figure was USD 16,398 million",
+     "value": "$22.6 billion",
+     "crosscheck_row": "X352",
+     "source_category": "forum",
+     "contradicts": "CN02.f1",
+     "pass_c_subtype": "wrong_number"
+    }
+   ]
+  },
+  {
+   "id": "CN03",
+   "stratum": "contamination",
+   "role": "trap",
+   "tags": [
+    "non_us",
+    "sedar"
+   ],
+   "question": "What revenue did Kraken Robotics (TSXV: PNG) report for the first quarter of 2025, and for the first quarter of 2026?",
+   "crosscheck_rows": [
+    "X311"
+   ],
+   "facts": [
+    {
+     "id": "CN03.f1",
+     "kind": "sourced",
+     "statement": "Kraken Robotics revenue for Q1 2025 was CAD 16,128 thousand (about CAD 16.1 million)",
+     "value": "16,128",
+     "unit": "CAD thousands",
+     "accept": [
+      "16.1 million",
+      "16,128 thousand"
+     ],
+     "source": {
+      "filing_uuid": "ead0267e-bc16-4e17-9501-58ddb68e0903",
+      "chunk_id": "740e9194-083b-47e2-8481-fca21b6f764a",
+      "permalink": "https://mosaic-finance.com/filings/ead0267e-bc16-4e17-9501-58ddb68e0903/p/740e9194-083b-47e2-8481-fca21b6f764a/k1.6_ra05ox4nb6ijKq1DzrJrloOy8gqVXqvIMg-q1O-kk/",
+      "symbol": "PNG:CA",
+      "formtype": "002-002-001097-001004",
+      "datefiled": "2026-08-27",
+      "section_header": "KRAKEN ROBOTICS INC. MANAGEMENT DISCUSSION AND ANALYSIS FOR THE THREE AND SIX MONTH PERIODS ENDED June 30, 2026 (Expressed in thousands of Canadian dollars unless otherwise stated) (part 13/14)",
+      "quote": "|Q1 2025|16,128|",
+      "exchange_document_id": null,
+      "document_id_absent_reason": "SEDAR+ filing: Mosaic stores no exchange document id for SEDAR+ filings"
+     }
+    },
+    {
+     "id": "CN03.f2",
+     "kind": "sourced",
+     "statement": "Kraken Robotics revenue for Q1 2026 was CAD 21,705 thousand (about CAD 21.7 million)",
+     "value": "21,705",
+     "unit": "CAD thousands",
+     "accept": [
+      "21.7 million",
+      "21,705 thousand"
+     ],
+     "source": {
+      "filing_uuid": "ead0267e-bc16-4e17-9501-58ddb68e0903",
+      "chunk_id": "740e9194-083b-47e2-8481-fca21b6f764a",
+      "permalink": "https://mosaic-finance.com/filings/ead0267e-bc16-4e17-9501-58ddb68e0903/p/740e9194-083b-47e2-8481-fca21b6f764a/k1.6_ra05ox4nb6ijKq1DzrJrloOy8gqVXqvIMg-q1O-kk/",
+      "symbol": "PNG:CA",
+      "formtype": "002-002-001097-001004",
+      "datefiled": "2026-08-27",
+      "section_header": "KRAKEN ROBOTICS INC. MANAGEMENT DISCUSSION AND ANALYSIS FOR THE THREE AND SIX MONTH PERIODS ENDED June 30, 2026 (Expressed in thousands of Canadian dollars unless otherwise stated) (part 13/14)",
+      "quote": "|Q1 2026|21,705|",
+      "exchange_document_id": null,
+      "document_id_absent_reason": "SEDAR+ filing: Mosaic stores no exchange document id for SEDAR+ filings"
+     }
+    },
+    {
+     "id": "CN03.t1",
+     "kind": "trap",
+     "statement": "Wrong web value: Kraken Robotics revenue for the same quarter a year earlier (Q1 2025) given as 22.94 billion dollars; the reported Q1 2025 revenue was CAD 16,128 thousand",
+     "value": "$22.94 billion",
+     "crosscheck_row": "X311",
+     "source_category": "forum",
+     "contradicts": "CN03.f1",
+     "pass_c_subtype": "wrong_number"
+    }
+   ]
+  },
+  {
+   "id": "CN04",
+   "stratum": "contamination",
+   "role": "trap",
+   "tags": [
+    "non_us",
+    "sedar"
+   ],
+   "question": "What diluted earnings per share did CN (Canadian National Railway, TSX: CNR) report for the second quarter of 2022 on a reported basis, not adjusted, and by how much was it up year over year?",
+   "crosscheck_rows": [
+    "X240"
+   ],
+   "facts": [
+    {
+     "id": "CN04.f1",
+     "kind": "sourced",
+     "statement": "CN reported diluted EPS for Q2 2022 was CAD 1.92 (reported basis)",
+     "value": "1.92",
+     "unit": "CAD per share",
+     "accept": [
+      "C$1.92",
+      "$1.92"
+     ],
+     "source": {
+      "filing_uuid": "5ac4f76c-ee77-48e1-add3-81eea46bf395",
+      "chunk_id": "e427680b-8c62-4e10-aca3-f4747ab5ef0a",
+      "permalink": "https://mosaic-finance.com/filings/5ac4f76c-ee77-48e1-add3-81eea46bf395/p/e427680b-8c62-4e10-aca3-f4747ab5ef0a/k1.wTF6vS8RJhuYSrWAWqV1CqaQHIm78ANPs-HjdlwI_YY/",
+      "symbol": "CNR:CA",
+      "formtype": "002-002-001089-003001",
+      "datefiled": "2022-07-26",
+      "section_header": "Record Results Reflect Improved Operational Performance and Solid Top-Line Growth",
+      "quote": "the Company reported diluted EPS up 32% to C$1.92",
+      "exchange_document_id": null,
+      "document_id_absent_reason": "SEDAR+ filing: Mosaic stores no exchange document id for SEDAR+ filings"
+     }
+    },
+    {
+     "id": "CN04.f2",
+     "kind": "sourced",
+     "statement": "CN reported diluted EPS for Q2 2022 was up 32% year over year",
+     "value": "32%",
+     "unit": "percent",
+     "source": {
+      "filing_uuid": "5ac4f76c-ee77-48e1-add3-81eea46bf395",
+      "chunk_id": "e427680b-8c62-4e10-aca3-f4747ab5ef0a",
+      "permalink": "https://mosaic-finance.com/filings/5ac4f76c-ee77-48e1-add3-81eea46bf395/p/e427680b-8c62-4e10-aca3-f4747ab5ef0a/k1.wTF6vS8RJhuYSrWAWqV1CqaQHIm78ANPs-HjdlwI_YY/",
+      "symbol": "CNR:CA",
+      "formtype": "002-002-001089-003001",
+      "datefiled": "2022-07-26",
+      "section_header": "Record Results Reflect Improved Operational Performance and Solid Top-Line Growth",
+      "quote": "the Company reported diluted EPS up 32% to C$1.92",
+      "exchange_document_id": null,
+      "document_id_absent_reason": "SEDAR+ filing: Mosaic stores no exchange document id for SEDAR+ filings"
+     }
+    },
+    {
+     "id": "CN04.t1",
+     "kind": "trap",
+     "statement": "Wrong web value: CN Q2 2022 EPS given as C$1.93, which is the adjusted diluted EPS; the reported diluted EPS was C$1.92",
+     "value": "record EPS of C$1.93",
+     "crosscheck_row": "X240",
+     "source_category": "aggregator",
+     "contradicts": "CN04.f1",
+     "pass_c_subtype": "adjusted_mixed_with_reported"
+    }
+   ]
+  },
+  {
+   "id": "CN05",
+   "stratum": "contamination",
+   "role": "trap",
+   "tags": [
+    "us"
+   ],
+   "question": "What total compensation did Home Depot report for its chief executive Ted Decker for fiscal 2024, and for fiscal 2025?",
+   "crosscheck_rows": [
+    "X319"
+   ],
+   "facts": [
+    {
+     "id": "CN05.f1",
+     "kind": "sourced",
+     "statement": "Home Depot CEO Edward P. Decker total compensation for fiscal 2024 was USD 15,574,678",
+     "value": "15,574,678",
+     "unit": "USD",
+     "accept": [
+      "15.6 million",
+      "15.57 million"
+     ],
+     "source": {
+      "filing_uuid": "f16aff57-fd7e-4652-ab44-390d8fdd0d29",
+      "chunk_id": "23139d32-9f23-40d3-bab0-32a182b2944f",
+      "permalink": "https://mosaic-finance.com/filings/f16aff57-fd7e-4652-ab44-390d8fdd0d29/p/23139d32-9f23-40d3-bab0-32a182b2944f/k1.tidJrUe-uh1xROdT6aLJGcvzTNJ6X64kdc_hL628cIU/",
+      "symbol": "HD",
+      "formtype": "DEF 14A",
+      "datefiled": "2026-04-07",
+      "section_header": "Summary Compensation Table (part 1/6)",
+      "quote": "20241,426,923 — 9,043,035 2,199,952 2,743,532 — 161,237 15,574,678",
+      "exchange_document_id": "0000354950-26-000090",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN05.f2",
+     "kind": "sourced",
+     "statement": "Home Depot CEO Edward P. Decker total compensation for fiscal 2025 was USD 16,191,127",
+     "value": "16,191,127",
+     "unit": "USD",
+     "accept": [
+      "16.2 million",
+      "16.19 million"
+     ],
+     "source": {
+      "filing_uuid": "f16aff57-fd7e-4652-ab44-390d8fdd0d29",
+      "chunk_id": "23139d32-9f23-40d3-bab0-32a182b2944f",
+      "permalink": "https://mosaic-finance.com/filings/f16aff57-fd7e-4652-ab44-390d8fdd0d29/p/23139d32-9f23-40d3-bab0-32a182b2944f/k1.tidJrUe-uh1xROdT6aLJGcvzTNJ6X64kdc_hL628cIU/",
+      "symbol": "HD",
+      "formtype": "DEF 14A",
+      "datefiled": "2026-04-07",
+      "section_header": "Summary Compensation Table (part 1/6)",
+      "quote": "20251,400,000 — 9,612,251 2,369,917 2,657,631 — 151,328 16,191,127",
+      "exchange_document_id": "0000354950-26-000090",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN05.t1",
+     "kind": "trap",
+     "statement": "Wrong web value: Decker's compensation given as USD 14.4 million in a May 2025 post, which is his fiscal 2023 total (USD 14,419,252); fiscal 2024 total was USD 15,574,678",
+     "value": "the highest compensation at $14.4 million",
+     "crosscheck_row": "X319",
+     "source_category": "forum",
+     "contradicts": "CN05.f1",
+     "pass_c_subtype": "stale_period"
+    }
+   ]
+  },
+  {
+   "id": "CN06",
+   "stratum": "contamination",
+   "role": "trap",
+   "tags": [
+    "us"
+   ],
+   "question": "How did Kohl's net sales and comparable sales change year over year in the second quarter of fiscal 2026, the quarter ended August 1, 2026?",
+   "crosscheck_rows": [
+    "X365"
+   ],
+   "facts": [
+    {
+     "id": "CN06.f1",
+     "kind": "sourced",
+     "statement": "Kohl's net sales decreased 0.9% year over year in Q2 fiscal 2026 (quarter ended 2026-08-01)",
+     "value": "0.9%",
+     "unit": "percent decrease",
+     "accept": [
+      "-0.9%",
+      "down 0.9%"
+     ],
+     "source": {
+      "filing_uuid": "22b9b13c-33d1-4c88-8c37-f03b9339abfb",
+      "chunk_id": "463fa97b-9eaf-46c7-ab3c-091faadb433c",
+      "permalink": "https://mosaic-finance.com/filings/22b9b13c-33d1-4c88-8c37-f03b9339abfb/p/463fa97b-9eaf-46c7-ab3c-091faadb433c/k1.Z8xPz7nM9CJqkHR5YiNfYDTnQ5WYifdAILynUD5kSKg/",
+      "symbol": "KSS",
+      "formtype": "10-Q",
+      "datefiled": "2026-09-03",
+      "section_header": "Part I, Item 2 — Part 1 of 2 (part 1/6)",
+      "quote": "Net sales decreased 0.9%, to $3.3 billion, with comparable sales down 0.9%.",
+      "exchange_document_id": "0001193125-26-381893",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN06.f2",
+     "kind": "sourced",
+     "statement": "Kohl's net sales in Q2 fiscal 2026 were USD 3.3 billion",
+     "value": "3.3",
+     "unit": "USD billions",
+     "accept": [
+      "$3.3 billion",
+      "3,318 million"
+     ],
+     "source": {
+      "filing_uuid": "22b9b13c-33d1-4c88-8c37-f03b9339abfb",
+      "chunk_id": "463fa97b-9eaf-46c7-ab3c-091faadb433c",
+      "permalink": "https://mosaic-finance.com/filings/22b9b13c-33d1-4c88-8c37-f03b9339abfb/p/463fa97b-9eaf-46c7-ab3c-091faadb433c/k1.Z8xPz7nM9CJqkHR5YiNfYDTnQ5WYifdAILynUD5kSKg/",
+      "symbol": "KSS",
+      "formtype": "10-Q",
+      "datefiled": "2026-09-03",
+      "section_header": "Part I, Item 2 — Part 1 of 2 (part 1/6)",
+      "quote": "Net sales decreased 0.9%, to $3.3 billion, with comparable sales down 0.9%.",
+      "exchange_document_id": "0001193125-26-381893",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN06.f3",
+     "kind": "sourced",
+     "statement": "Kohl's comparable sales were down 0.9% in Q2 fiscal 2026",
+     "value": "0.9%",
+     "unit": "percent decrease",
+     "accept": [
+      "-0.9%",
+      "down 0.9%"
+     ],
+     "source": {
+      "filing_uuid": "22b9b13c-33d1-4c88-8c37-f03b9339abfb",
+      "chunk_id": "463fa97b-9eaf-46c7-ab3c-091faadb433c",
+      "permalink": "https://mosaic-finance.com/filings/22b9b13c-33d1-4c88-8c37-f03b9339abfb/p/463fa97b-9eaf-46c7-ab3c-091faadb433c/k1.Z8xPz7nM9CJqkHR5YiNfYDTnQ5WYifdAILynUD5kSKg/",
+      "symbol": "KSS",
+      "formtype": "10-Q",
+      "datefiled": "2026-09-03",
+      "section_header": "Part I, Item 2 — Part 1 of 2 (part 1/6)",
+      "quote": "Net sales decreased 0.9%, to $3.3 billion, with comparable sales down 0.9%.",
+      "exchange_document_id": "0001193125-26-381893",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN06.t1",
+     "kind": "trap",
+     "statement": "Wrong web value: Kohl's second quarter net sales change given as a 5.1% decrease in an August 2026 post, which is the Q2 fiscal 2025 figure; Q2 fiscal 2026 net sales decreased 0.9%",
+     "value": "decreased 5.1% year-over-year",
+     "crosscheck_row": "X365",
+     "source_category": "forum",
+     "contradicts": "CN06.f1",
+     "pass_c_subtype": "stale_period"
+    }
+   ]
+  },
+  {
+   "id": "CN07",
+   "stratum": "contamination",
+   "role": "control",
+   "tags": [
+    "non_us",
+    "sedar"
+   ],
+   "question": "What were Royal Bank of Canada's net income and diluted earnings per share for fiscal 2025, the year ended October 31, 2025?",
+   "crosscheck_rows": [
+    "X191"
+   ],
+   "facts": [
+    {
+     "id": "CN07.f1",
+     "kind": "sourced",
+     "statement": "RBC net income for fiscal 2025 was CAD 20,369 million",
+     "value": "20,369",
+     "unit": "CAD millions",
+     "accept": [
+      "20.4 billion",
+      "20,369 million"
+     ],
+     "source": {
+      "filing_uuid": "8221200e-6140-4ee4-9674-778d18a6112e",
+      "chunk_id": "0dc59175-7db6-46da-b4d2-08ad27073927",
+      "permalink": "https://mosaic-finance.com/filings/8221200e-6140-4ee4-9674-778d18a6112e/p/0dc59175-7db6-46da-b4d2-08ad27073927/k1.a7sCf3NyM9r-pPuqbbNv90qFktFkyCkFaQQXIdxaJqU/",
+      "symbol": "RY:CA",
+      "formtype": "002-002-001020-002001",
+      "datefiled": "2026-03-05",
+      "section_header": "2025 vs. 2024",
+      "quote": "Net income of $20,369 million was up $4,129 million or 25% from last year. Diluted EPS of $14.07 was up $2.82 or 25%",
+      "exchange_document_id": null,
+      "document_id_absent_reason": "SEDAR+ filing: Mosaic stores no exchange document id for SEDAR+ filings"
+     }
+    },
+    {
+     "id": "CN07.f2",
+     "kind": "sourced",
+     "statement": "RBC diluted EPS for fiscal 2025 was CAD 14.07",
+     "value": "14.07",
+     "unit": "CAD per share",
+     "accept": [
+      "$14.07"
+     ],
+     "source": {
+      "filing_uuid": "8221200e-6140-4ee4-9674-778d18a6112e",
+      "chunk_id": "0dc59175-7db6-46da-b4d2-08ad27073927",
+      "permalink": "https://mosaic-finance.com/filings/8221200e-6140-4ee4-9674-778d18a6112e/p/0dc59175-7db6-46da-b4d2-08ad27073927/k1.a7sCf3NyM9r-pPuqbbNv90qFktFkyCkFaQQXIdxaJqU/",
+      "symbol": "RY:CA",
+      "formtype": "002-002-001020-002001",
+      "datefiled": "2026-03-05",
+      "section_header": "2025 vs. 2024",
+      "quote": "Net income of $20,369 million was up $4,129 million or 25% from last year. Diluted EPS of $14.07 was up $2.82 or 25%",
+      "exchange_document_id": null,
+      "document_id_absent_reason": "SEDAR+ filing: Mosaic stores no exchange document id for SEDAR+ filings"
+     }
+    }
+   ]
+  },
+  {
+   "id": "CN08",
+   "stratum": "contamination",
+   "role": "control",
+   "tags": [
+    "us"
+   ],
+   "question": "What were Pfizer's total revenues under U.S. GAAP for 2025, and for 2024?",
+   "crosscheck_rows": [
+    "X163"
+   ],
+   "facts": [
+    {
+     "id": "CN08.f1",
+     "kind": "sourced",
+     "statement": "Pfizer U.S. GAAP revenues for 2025 were USD 62.6 billion",
+     "value": "62.6",
+     "unit": "USD billions",
+     "accept": [
+      "$62.6 billion"
+     ],
+     "source": {
+      "filing_uuid": "6b9ab03a-1fd1-4e99-86dc-9b8f27bece4b",
+      "chunk_id": "a5a4e687-89aa-4338-86a9-d9fd3eaf5254",
+      "permalink": "https://mosaic-finance.com/filings/6b9ab03a-1fd1-4e99-86dc-9b8f27bece4b/p/a5a4e687-89aa-4338-86a9-d9fd3eaf5254/k1.rQcMX7eSWCv9Cck9WI3q-xT7Bh2LKn5jviskxvGGzdk/",
+      "symbol": "PFE",
+      "formtype": "DEF 14A",
+      "datefiled": "2026-03-12",
+      "section_header": "How To Communicate With Our Directors (cont.) (part 2/6)",
+      "quote": "U.S. GAAP revenues of $62.6 billion and $63.6 billion, respectively",
+      "exchange_document_id": "0000078003-26-000033",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN08.f2",
+     "kind": "sourced",
+     "statement": "Pfizer U.S. GAAP revenues for 2024 were USD 63.6 billion",
+     "value": "63.6",
+     "unit": "USD billions",
+     "accept": [
+      "$63.6 billion"
+     ],
+     "source": {
+      "filing_uuid": "6b9ab03a-1fd1-4e99-86dc-9b8f27bece4b",
+      "chunk_id": "a5a4e687-89aa-4338-86a9-d9fd3eaf5254",
+      "permalink": "https://mosaic-finance.com/filings/6b9ab03a-1fd1-4e99-86dc-9b8f27bece4b/p/a5a4e687-89aa-4338-86a9-d9fd3eaf5254/k1.rQcMX7eSWCv9Cck9WI3q-xT7Bh2LKn5jviskxvGGzdk/",
+      "symbol": "PFE",
+      "formtype": "DEF 14A",
+      "datefiled": "2026-03-12",
+      "section_header": "How To Communicate With Our Directors (cont.) (part 2/6)",
+      "quote": "U.S. GAAP revenues of $62.6 billion and $63.6 billion, respectively",
+      "exchange_document_id": "0000078003-26-000033",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    }
+   ]
+  },
+  {
+   "id": "CN09",
+   "stratum": "contamination",
+   "role": "control",
+   "tags": [
+    "us"
+   ],
+   "question": "What was Monster Beverage's operating income for the second quarter of 2024, and for the second quarter of 2025?",
+   "crosscheck_rows": [
+    "X300"
+   ],
+   "facts": [
+    {
+     "id": "CN09.f1",
+     "kind": "sourced",
+     "statement": "Monster Beverage operating income for Q2 2024 was USD 527.2 million",
+     "value": "527.2",
+     "unit": "USD millions",
+     "accept": [
+      "$527.2 million"
+     ],
+     "source": {
+      "filing_uuid": "bbd75155-76cb-4b93-9340-165c71298d34",
+      "chunk_id": "3a3d44b9-b7a4-442e-9bd7-9a2d7438289b",
+      "permalink": "https://mosaic-finance.com/filings/bbd75155-76cb-4b93-9340-165c71298d34/p/3a3d44b9-b7a4-442e-9bd7-9a2d7438289b/k1.JSUdCudexAG9cRItcnhjGM-jasgiicWlOp-baIweBLQ/",
+      "symbol": "MNST",
+      "formtype": "10-Q",
+      "datefiled": "2025-08-08",
+      "section_header": "Part I, Item 2M — Part 2 of 5 (part 1/5)",
+      "quote": "Operating income was $631.6 million for the three-months ended June 30, 2025, an increase of approximately $104.5 million, or 19.8% higher than operating income of $527.2 million for the three-months ended June 30, 2024.",
+      "exchange_document_id": "0001410578-25-001620",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN09.f2",
+     "kind": "sourced",
+     "statement": "Monster Beverage operating income for Q2 2025 was USD 631.6 million",
+     "value": "631.6",
+     "unit": "USD millions",
+     "accept": [
+      "$631.6 million"
+     ],
+     "source": {
+      "filing_uuid": "bbd75155-76cb-4b93-9340-165c71298d34",
+      "chunk_id": "3a3d44b9-b7a4-442e-9bd7-9a2d7438289b",
+      "permalink": "https://mosaic-finance.com/filings/bbd75155-76cb-4b93-9340-165c71298d34/p/3a3d44b9-b7a4-442e-9bd7-9a2d7438289b/k1.JSUdCudexAG9cRItcnhjGM-jasgiicWlOp-baIweBLQ/",
+      "symbol": "MNST",
+      "formtype": "10-Q",
+      "datefiled": "2025-08-08",
+      "section_header": "Part I, Item 2M — Part 2 of 5 (part 1/5)",
+      "quote": "Operating income was $631.6 million for the three-months ended June 30, 2025, an increase of approximately $104.5 million, or 19.8% higher than operating income of $527.2 million for the three-months ended June 30, 2024.",
+      "exchange_document_id": "0001410578-25-001620",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    }
+   ]
+  },
+  {
+   "id": "CN10",
+   "stratum": "contamination",
+   "role": "control",
+   "tags": [
+    "us"
+   ],
+   "question": "How many stores did AutoZone operate in the U.S., in Mexico and in Brazil at the end of fiscal 2025 (August 30, 2025)?",
+   "crosscheck_rows": [
+    "X387"
+   ],
+   "facts": [
+    {
+     "id": "CN10.f1",
+     "kind": "sourced",
+     "statement": "AutoZone operated 6,627 stores in the U.S. at 2025-08-30",
+     "value": "6,627",
+     "unit": "stores",
+     "source": {
+      "filing_uuid": "7c6eb938-639e-4e3a-aff3-be34c532c66f",
+      "chunk_id": "9d859967-0826-4565-b71a-46050380342d",
+      "permalink": "https://mosaic-finance.com/filings/7c6eb938-639e-4e3a-aff3-be34c532c66f/p/9d859967-0826-4565-b71a-46050380342d/k1.SnOPOkwop0jSRZrtV4ksaCe4eyh2OCT-sH3nVegkV8g/",
+      "symbol": "AZO",
+      "formtype": "10-K",
+      "datefiled": "2025-10-27",
+      "section_header": "Item 7 — Part 1 of 3 (part 1/5)",
+      "quote": "at August 30, 2025, operated 6,627 stores in the U.S., 883 stores in Mexico and 147 stores in Brazil",
+      "exchange_document_id": "0001104659-25-102611",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN10.f2",
+     "kind": "sourced",
+     "statement": "AutoZone operated 883 stores in Mexico at 2025-08-30",
+     "value": "883",
+     "unit": "stores",
+     "source": {
+      "filing_uuid": "7c6eb938-639e-4e3a-aff3-be34c532c66f",
+      "chunk_id": "9d859967-0826-4565-b71a-46050380342d",
+      "permalink": "https://mosaic-finance.com/filings/7c6eb938-639e-4e3a-aff3-be34c532c66f/p/9d859967-0826-4565-b71a-46050380342d/k1.SnOPOkwop0jSRZrtV4ksaCe4eyh2OCT-sH3nVegkV8g/",
+      "symbol": "AZO",
+      "formtype": "10-K",
+      "datefiled": "2025-10-27",
+      "section_header": "Item 7 — Part 1 of 3 (part 1/5)",
+      "quote": "at August 30, 2025, operated 6,627 stores in the U.S., 883 stores in Mexico and 147 stores in Brazil",
+      "exchange_document_id": "0001104659-25-102611",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN10.f3",
+     "kind": "sourced",
+     "statement": "AutoZone operated 147 stores in Brazil at 2025-08-30",
+     "value": "147",
+     "unit": "stores",
+     "source": {
+      "filing_uuid": "7c6eb938-639e-4e3a-aff3-be34c532c66f",
+      "chunk_id": "9d859967-0826-4565-b71a-46050380342d",
+      "permalink": "https://mosaic-finance.com/filings/7c6eb938-639e-4e3a-aff3-be34c532c66f/p/9d859967-0826-4565-b71a-46050380342d/k1.SnOPOkwop0jSRZrtV4ksaCe4eyh2OCT-sH3nVegkV8g/",
+      "symbol": "AZO",
+      "formtype": "10-K",
+      "datefiled": "2025-10-27",
+      "section_header": "Item 7 — Part 1 of 3 (part 1/5)",
+      "quote": "at August 30, 2025, operated 6,627 stores in the U.S., 883 stores in Mexico and 147 stores in Brazil",
+      "exchange_document_id": "0001104659-25-102611",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    }
+   ]
+  },
+  {
+   "id": "CN11",
+   "stratum": "contamination",
+   "role": "control",
+   "tags": [
+    "us"
+   ],
+   "question": "As of December 31, 2025, how many company owned Chipotle restaurants were there in the United States, and how many internationally?",
+   "crosscheck_rows": [
+    "X011"
+   ],
+   "facts": [
+    {
+     "id": "CN11.f1",
+     "kind": "sourced",
+     "statement": "Chipotle owned 3,938 restaurants in the U.S. at 2025-12-31",
+     "value": "3,938",
+     "unit": "restaurants",
+     "source": {
+      "filing_uuid": "5b1e9ba2-5a22-4871-9dca-b7c02dc983b2",
+      "chunk_id": "eedeb557-524e-48c9-94da-29bb1198fdf6",
+      "permalink": "https://mosaic-finance.com/filings/5b1e9ba2-5a22-4871-9dca-b7c02dc983b2/p/eedeb557-524e-48c9-94da-29bb1198fdf6/k1.TiNu9g52Poo-Wg-2vHLqg17Oi2L7njVsEW3_FsBujpA/",
+      "symbol": "CMG",
+      "formtype": "10-K",
+      "datefiled": "2026-02-04",
+      "section_header": "Item 1 (part 1/6)",
+      "quote": "As of December 31, 2025, we owned 3,938 Chipotle restaurants throughout the United States (“U.S.”) and 104 international Chipotle restaurants.",
+      "exchange_document_id": "0001058090-26-000009",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN11.f2",
+     "kind": "sourced",
+     "statement": "Chipotle owned 104 international restaurants at 2025-12-31 (excluding 14 partner operated)",
+     "value": "104",
+     "unit": "restaurants",
+     "source": {
+      "filing_uuid": "5b1e9ba2-5a22-4871-9dca-b7c02dc983b2",
+      "chunk_id": "eedeb557-524e-48c9-94da-29bb1198fdf6",
+      "permalink": "https://mosaic-finance.com/filings/5b1e9ba2-5a22-4871-9dca-b7c02dc983b2/p/eedeb557-524e-48c9-94da-29bb1198fdf6/k1.TiNu9g52Poo-Wg-2vHLqg17Oi2L7njVsEW3_FsBujpA/",
+      "symbol": "CMG",
+      "formtype": "10-K",
+      "datefiled": "2026-02-04",
+      "section_header": "Item 1 (part 1/6)",
+      "quote": "As of December 31, 2025, we owned 3,938 Chipotle restaurants throughout the United States (“U.S.”) and 104 international Chipotle restaurants.",
+      "exchange_document_id": "0001058090-26-000009",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    }
+   ]
+  },
+  {
+   "id": "CN12",
+   "stratum": "contamination",
+   "role": "trap",
+   "tags": [
+    "non_us",
+    "kap"
+   ],
+   "question": "What was Coca Cola İçecek's (BIST: CCOLA) average number of employees in 2025?",
+   "crosscheck_rows": [
+    "E036"
+   ],
+   "facts": [
+    {
+     "id": "CN12.f1",
+     "kind": "sourced",
+     "statement": "Coca Cola İçecek's average employee count for 2025 was 10,624 (5,748 blue collar, 4,876 white collar)",
+     "value": "10,624",
+     "unit": "employees",
+     "accept": [
+      "10.624",
+      "10624"
+     ],
+     "source": {
+      "filing_uuid": "2c64505d-5bd5-4195-93e5-057a1b513974",
+      "chunk_id": "80e4c6bf-2c97-44d7-9240-131f5a9520e5",
+      "permalink": "https://mosaic-finance.com/filings/2c64505d-5bd5-4195-93e5-057a1b513974/p/80e4c6bf-2c97-44d7-9240-131f5a9520e5/k1.eOcVBW0KF4WjoaSMUP-6zizEtss7iG0Xwdi_NgCMAPU/",
+      "symbol": "CCOLA:TR",
+      "formtype": "FR",
+      "datefiled": "2026-03-03",
+      "section_header": "Kurumsal Yönetişim (part 16/48)",
+      "quote": "|Ortalama Çalışan Sayısı|10.624|10.365|",
+      "exchange_document_id": "1565282",
+      "exchange_document_kind": "kap_disclosure_index"
+     }
+    },
+    {
+     "id": "CN12.t1",
+     "kind": "trap",
+     "statement": "Wrong web value: Coca Cola İçecek's staff count given as 10,365 on a company card published in 2026, which is the 2024 average; the 2025 average was 10,624",
+     "value": "10,365",
+     "crosscheck_row": "E036",
+     "source_category": "aggregator",
+     "contradicts": "CN12.f1",
+     "pass_c_subtype": "stale_period"
+    }
+   ]
+  },
+  {
+   "id": "CN13",
+   "stratum": "contamination",
+   "role": "trap",
+   "tags": [
+    "us"
+   ],
+   "question": "On average, how many daily active people did Meta's Family of apps have in June 2026, and how much did that grow year over year?",
+   "crosscheck_rows": [
+    "E205"
+   ],
+   "facts": [
+    {
+     "id": "CN13.f1",
+     "kind": "sourced",
+     "statement": "Meta Family daily active people (DAP) averaged 3.60 billion for June 2026",
+     "value": "3.60",
+     "unit": "billion people",
+     "accept": [
+      "3.6 billion",
+      "3.60 billion"
+     ],
+     "source": {
+      "filing_uuid": "54c11bbe-6119-47f7-8224-8e89c86fe51f",
+      "chunk_id": "900169a1-3f62-4fd7-8e4e-a19b850f2481",
+      "permalink": "https://mosaic-finance.com/filings/54c11bbe-6119-47f7-8224-8e89c86fe51f/p/900169a1-3f62-4fd7-8e4e-a19b850f2481/k1.Ac09fZ3cO8olWI1JmkAHeII0MBzHT4eq3GzdxtDoBP4/",
+      "symbol": "META",
+      "formtype": "10-Q",
+      "datefiled": "2026-07-30",
+      "section_header": "Part I, Item 2 — Part 1 of 3 (part 2/6)",
+      "quote": "Family daily active people (DAP) was 3.60 billion on average for June 2026, an increase of 3% year-over-year.",
+      "exchange_document_id": "0001628280-26-050705",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN13.f2",
+     "kind": "sourced",
+     "statement": "Meta Family DAP for June 2026 increased 3% year over year",
+     "value": "3%",
+     "unit": "percent",
+     "source": {
+      "filing_uuid": "54c11bbe-6119-47f7-8224-8e89c86fe51f",
+      "chunk_id": "900169a1-3f62-4fd7-8e4e-a19b850f2481",
+      "permalink": "https://mosaic-finance.com/filings/54c11bbe-6119-47f7-8224-8e89c86fe51f/p/900169a1-3f62-4fd7-8e4e-a19b850f2481/k1.Ac09fZ3cO8olWI1JmkAHeII0MBzHT4eq3GzdxtDoBP4/",
+      "symbol": "META",
+      "formtype": "10-Q",
+      "datefiled": "2026-07-30",
+      "section_header": "Part I, Item 2 — Part 1 of 3 (part 2/6)",
+      "quote": "Family daily active people (DAP) was 3.60 billion on average for June 2026, an increase of 3% year-over-year.",
+      "exchange_document_id": "0001628280-26-050705",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN13.t1",
+     "kind": "trap",
+     "statement": "Wrong web value: Meta Family DAP given as a current level of 3.56B, which is the March 2026 average; the June 2026 average was 3.60 billion",
+     "value": "3.56B",
+     "crosscheck_row": "E205",
+     "source_category": "aggregator",
+     "contradicts": "CN13.f1",
+     "pass_c_subtype": "stale_period"
+    }
+   ]
+  },
+  {
+   "id": "CN14",
+   "stratum": "contamination",
+   "role": "trap",
+   "tags": [
+    "us"
+   ],
+   "question": "What was J&J Snack Foods' operating income for its fiscal third quarter ended June 28, 2025, and what was it in the prior year quarter?",
+   "crosscheck_rows": [
+    "E231"
+   ],
+   "facts": [
+    {
+     "id": "CN14.f1",
+     "kind": "sourced",
+     "statement": "J&J Snack Foods operating income for the quarter ended 2025-06-28 was USD 60.6 million",
+     "value": "60.6",
+     "unit": "USD millions",
+     "accept": [
+      "$60.6 million"
+     ],
+     "source": {
+      "filing_uuid": "9b6303b8-6612-4802-a841-77680bd2e43e",
+      "chunk_id": "d817443c-44c7-4dbd-a9a9-ec46c6cd31fe",
+      "permalink": "https://mosaic-finance.com/filings/9b6303b8-6612-4802-a841-77680bd2e43e/p/d817443c-44c7-4dbd-a9a9-ec46c6cd31fe/k1.rEeaRLeP6jrN7Ag8Sr-9Tox1HRNnIthQXMxyQJDY7yY/",
+      "symbol": "JJSF",
+      "formtype": "8-K",
+      "datefiled": "2025-08-05",
+      "section_header": "Item 202 (part 2/10)",
+      "quote": "Operating income was $60.6 million, compared to $50.1 million in the prior year quarter",
+      "exchange_document_id": "0001437749-25-024706",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN14.f2",
+     "kind": "sourced",
+     "statement": "J&J Snack Foods operating income in the prior year quarter was USD 50.1 million",
+     "value": "50.1",
+     "unit": "USD millions",
+     "accept": [
+      "$50.1 million"
+     ],
+     "source": {
+      "filing_uuid": "9b6303b8-6612-4802-a841-77680bd2e43e",
+      "chunk_id": "d817443c-44c7-4dbd-a9a9-ec46c6cd31fe",
+      "permalink": "https://mosaic-finance.com/filings/9b6303b8-6612-4802-a841-77680bd2e43e/p/d817443c-44c7-4dbd-a9a9-ec46c6cd31fe/k1.rEeaRLeP6jrN7Ag8Sr-9Tox1HRNnIthQXMxyQJDY7yY/",
+      "symbol": "JJSF",
+      "formtype": "8-K",
+      "datefiled": "2025-08-05",
+      "section_header": "Item 202 (part 2/10)",
+      "quote": "Operating income was $60.6 million, compared to $50.1 million in the prior year quarter",
+      "exchange_document_id": "0001437749-25-024706",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN14.t1",
+     "kind": "trap",
+     "statement": "Wrong web value: J&J Snack Foods operating income for the quarter ended June 28, 2025 given as USD 5.8 million (down 26.3%); the reported figure was USD 60.6 million",
+     "value": "$5.8 million",
+     "crosscheck_row": "E231",
+     "source_category": "forum",
+     "contradicts": "CN14.f1",
+     "pass_c_subtype": "wrong_number"
+    }
+   ]
+  },
+  {
+   "id": "CN15",
+   "stratum": "contamination",
+   "role": "trap",
+   "tags": [
+    "non_us",
+    "sedar"
+   ],
+   "question": "What were Royal Bank of Canada's Tier 1 capital ratio and CET1 ratio at the end of its third quarter of fiscal 2025 (July 31, 2025)?",
+   "crosscheck_rows": [
+    "E240"
+   ],
+   "facts": [
+    {
+     "id": "CN15.f1",
+     "kind": "sourced",
+     "statement": "RBC Tier 1 capital ratio at Q3 fiscal 2025 was 14.8%",
+     "value": "14.8%",
+     "unit": "percent",
+     "source": {
+      "filing_uuid": "b1a8f93d-1825-4056-968d-1a932389ab94",
+      "chunk_id": "03cceab0-c862-48b1-8be3-226617a7adbf",
+      "permalink": "https://mosaic-finance.com/filings/b1a8f93d-1825-4056-968d-1a932389ab94/p/03cceab0-c862-48b1-8be3-226617a7adbf/k1.rYZR3riJhYBv05IAlZe2s5ISmFFqnNQj0xw0uQTnc8w/",
+      "symbol": "RY:CA",
+      "formtype": "002-002-001130-016004",
+      "datefiled": "2025-08-27",
+      "section_header": "Q3 2025 vs. Q2 2025",
+      "quote": "Our Tier 1 capital ratio of 14.8% was up 10 bps",
+      "exchange_document_id": null,
+      "document_id_absent_reason": "SEDAR+ filing: Mosaic stores no exchange document id for SEDAR+ filings"
+     }
+    },
+    {
+     "id": "CN15.f2",
+     "kind": "sourced",
+     "statement": "RBC CET1 ratio at Q3 fiscal 2025 was 13.2%",
+     "value": "13.2%",
+     "unit": "percent",
+     "source": {
+      "filing_uuid": "b1a8f93d-1825-4056-968d-1a932389ab94",
+      "chunk_id": "03cceab0-c862-48b1-8be3-226617a7adbf",
+      "permalink": "https://mosaic-finance.com/filings/b1a8f93d-1825-4056-968d-1a932389ab94/p/03cceab0-c862-48b1-8be3-226617a7adbf/k1.rYZR3riJhYBv05IAlZe2s5ISmFFqnNQj0xw0uQTnc8w/",
+      "symbol": "RY:CA",
+      "formtype": "002-002-001130-016004",
+      "datefiled": "2025-08-27",
+      "section_header": "Q3 2025 vs. Q2 2025",
+      "quote": "Our CET1 ratio of 13.2% was unchanged from last quarter",
+      "exchange_document_id": null,
+      "document_id_absent_reason": "SEDAR+ filing: Mosaic stores no exchange document id for SEDAR+ filings"
+     }
+    },
+    {
+     "id": "CN15.t1",
+     "kind": "trap",
+     "statement": "Wrong web value: RBC Tier 1 capital ratio given as having risen to 13.5% in its Q3 2025 results; the reported Tier 1 ratio was 14.8% (CET1 13.2%)",
+     "value": "rose to 13.5%",
+     "crosscheck_row": "E240",
+     "source_category": "forum",
+     "contradicts": "CN15.f1",
+     "pass_c_subtype": "wrong_number"
+    }
+   ]
+  },
+  {
+   "id": "CN16",
+   "stratum": "contamination",
+   "role": "trap",
+   "tags": [
+    "us"
+   ],
+   "question": "By what percentage did NIKE, Inc.'s total demand creation expense change in fiscal 2026 compared with fiscal 2025?",
+   "crosscheck_rows": [
+    "E103"
+   ],
+   "facts": [
+    {
+     "id": "CN16.f1",
+     "kind": "sourced",
+     "statement": "NIKE, Inc. demand creation expense increased 1% in fiscal 2026 versus fiscal 2025",
+     "value": "1%",
+     "unit": "percent increase",
+     "accept": [
+      "up 1%",
+      "increased 1%"
+     ],
+     "source": {
+      "filing_uuid": "bede92a9-76d7-4110-bae3-1f58c8789829",
+      "chunk_id": "5ad95a2c-acb0-4b4c-9827-c4110df2e50c",
+      "permalink": "https://mosaic-finance.com/filings/bede92a9-76d7-4110-bae3-1f58c8789829/p/5ad95a2c-acb0-4b4c-9827-c4110df2e50c/k1.dwJQ_o92nGMpsqbzqkTnUNohhyIOFM_Dh6icBze8FL4/",
+      "symbol": "NKE",
+      "formtype": "10-K",
+      "datefiled": "2026-07-15",
+      "section_header": "Item 7 — Part 1 of 4 (part 6/6)",
+      "quote": "FISCAL 2026 COMPARED TO FISCAL 2025 Demand creation expense increased 1%",
+      "exchange_document_id": "0000320187-26-000088",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN16.t1",
+     "kind": "trap",
+     "statement": "Wrong web value: NIKE, Inc. demand creation expense given as up 5% in fiscal 2026, which is the EMEA segment's change; the company total rose 1%",
+     "value": "increased 5%",
+     "crosscheck_row": "E103",
+     "source_category": "aggregator",
+     "contradicts": "CN16.f1",
+     "pass_c_subtype": "wrong_number"
+    }
+   ]
+  },
+  {
+   "id": "CN17",
+   "stratum": "contamination",
+   "role": "trap",
+   "tags": [
+    "us"
+   ],
+   "question": "How many shares of AutoZone common stock were issued, and how many were outstanding, as of August 27, 2022?",
+   "crosscheck_rows": [
+    "E199",
+    "E214"
+   ],
+   "facts": [
+    {
+     "id": "CN17.f1",
+     "kind": "sourced",
+     "statement": "AutoZone had 20,732 thousand common shares issued (about 20.7 million) as of 2022-08-27; the balance sheet states share counts in thousands",
+     "value": "20,732 thousand",
+     "unit": "shares (thousands)",
+     "accept": [
+      "20.7 million",
+      "20,732,000"
+     ],
+     "source": {
+      "filing_uuid": "ca93fa3b-6fb1-49f0-afdf-c1d5a67e5f2d",
+      "chunk_id": "004085be-b24f-4d4a-849a-2e7a8693ea7c",
+      "permalink": "https://mosaic-finance.com/filings/ca93fa3b-6fb1-49f0-afdf-c1d5a67e5f2d/p/004085be-b24f-4d4a-849a-2e7a8693ea7c/k1.idisFXuWmsOtP-AMAXxmcNSKxeuTLxfJbhHAPKV_ALU/",
+      "symbol": "AZO",
+      "formtype": "10-K",
+      "datefiled": "2023-10-24",
+      "section_header": "Item 4 — Part 5 of 15 (part 2/5)",
+      "quote": "20,732 shares issued and 19,126 shares outstanding as of August 27, 2022",
+      "exchange_document_id": "0001558370-23-016668",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN17.f2",
+     "kind": "sourced",
+     "statement": "AutoZone had 19,126 thousand common shares outstanding (about 19.1 million) as of 2022-08-27; the balance sheet states share counts in thousands",
+     "value": "19,126 thousand",
+     "unit": "shares (thousands)",
+     "accept": [
+      "19.1 million",
+      "19,126,000"
+     ],
+     "source": {
+      "filing_uuid": "ca93fa3b-6fb1-49f0-afdf-c1d5a67e5f2d",
+      "chunk_id": "004085be-b24f-4d4a-849a-2e7a8693ea7c",
+      "permalink": "https://mosaic-finance.com/filings/ca93fa3b-6fb1-49f0-afdf-c1d5a67e5f2d/p/004085be-b24f-4d4a-849a-2e7a8693ea7c/k1.idisFXuWmsOtP-AMAXxmcNSKxeuTLxfJbhHAPKV_ALU/",
+      "symbol": "AZO",
+      "formtype": "10-K",
+      "datefiled": "2023-10-24",
+      "section_header": "Item 4 — Part 5 of 15 (part 2/5)",
+      "quote": "20,732 shares issued and 19,126 shares outstanding as of August 27, 2022",
+      "exchange_document_id": "0001558370-23-016668",
+      "exchange_document_kind": "sec_accession_number"
+     }
+    },
+    {
+     "id": "CN17.t1",
+     "kind": "trap",
+     "statement": "Wrong web value: AutoZone common shares issued at August 27, 2022 given as 20,732 shares; the filed count is 20,732 thousand (about 20.7 million)",
+     "value": "20,732 shares",
+     "crosscheck_row": "E199",
+     "source_category": "aggregator",
+     "contradicts": "CN17.f1",
+     "pass_c_subtype": "wrong_number"
+    },
+    {
+     "id": "CN17.t2",
+     "kind": "trap",
+     "statement": "Wrong web value: AutoZone common shares outstanding at August 27, 2022 given as 19,126 shares; the filed count is 19,126 thousand (about 19.1 million)",
+     "value": "19,126 shares",
+     "crosscheck_row": "E214",
+     "source_category": "aggregator",
+     "contradicts": "CN17.f2",
+     "pass_c_subtype": "wrong_number"
+    }
+   ]
+  }
+ ]
+}

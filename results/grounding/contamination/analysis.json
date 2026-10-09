@@ -1,0 +1,625 @@
+{
+  "harness_version": "1.6.0",
+  "primary_judge": "B",
+  "evidence_fingerprint": "99936733a7401871467ed2ebd3c49c8d85a41392ff8c77a318283c4a515e0685",
+  "questions_sha256": "806984fbfc8e087172ccdde7ab6decf0f96050efedbf5007d1e9749acebe2111",
+  "audit_files": [
+    {
+      "name": "audit-queue-001.csv",
+      "sha256": "591b159de3627786b56b7db92f1bcc9eaaac4db296c036808a7ef55c62491e54"
+    },
+    {
+      "name": "key-rescore-amendment-5.csv",
+      "sha256": "b268ec774736039003b1ce3bfbb940a5240b6540641d9f7aee582efef08f574f"
+    }
+  ],
+  "comparisons": [
+    {
+      "agent": "codex",
+      "stratum": "all_scored",
+      "arm": "archivist",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.5196,
+        "ci95": [
+          0.4512,
+          0.5916
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "all_scored",
+      "arm": "both",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.8355,
+        "ci95": [
+          0.7506,
+          0.9267
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "all_scored",
+      "arm": "both",
+      "baseline": "archivist",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.6081,
+        "ci95": [
+          1.3746,
+          1.8933
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "contamination",
+      "arm": "archivist",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.5196,
+        "ci95": [
+          0.4512,
+          0.5916
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "contamination",
+      "arm": "both",
+      "baseline": "web",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.8355,
+        "ci95": [
+          0.7506,
+          0.9267
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    },
+    {
+      "agent": "codex",
+      "stratum": "contamination",
+      "arm": "both",
+      "baseline": "archivist",
+      "dropped_questions": {},
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.6081,
+        "ci95": [
+          1.3746,
+          1.8933
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "accuracy_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "completion_diff_arm_minus_baseline": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      }
+    }
+  ],
+  "single_judge_sensitivity": {
+    "deferred": "deferred with the Claude Code arm (pre registration section 13, amendment 2): the family interaction and the single judge recomputations need both answering families and both judges on every answer; pass_agreement reports the descriptive pass A and pass B agreement"
+  },
+  "judge_bias": {
+    "deferred": "deferred with the Claude Code arm (pre registration section 13, amendment 2): the family interaction and the single judge recomputations need both answering families and both judges on every answer; pass_agreement reports the descriptive pass A and pass B agreement"
+  },
+  "pass_agreement": {
+    "label": "exploratory",
+    "description": "descriptive agreement of pass A (Claude Code) and pass B (Codex) on the answers both graded; not a judge bias check (amendment 2)",
+    "answers": 0,
+    "facts": 0,
+    "agreed_facts": 0,
+    "agreement_share": null,
+    "complete_agreement_share": null,
+    "cross_table_rows_A_columns_B": {
+      "correct": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0
+      },
+      "incorrect": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0
+      },
+      "missing": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0
+      }
+    }
+  },
+  "token_sensitivity_with_partial_usage": [
+    {
+      "agent": "codex",
+      "stratum": "all_scored",
+      "arm": "archivist",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.5196,
+        "ci95": [
+          0.4512,
+          0.5916
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "all_scored",
+      "arm": "both",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.8355,
+        "ci95": [
+          0.7506,
+          0.9267
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "all_scored",
+      "arm": "both",
+      "baseline": "archivist",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.6081,
+        "ci95": [
+          1.3746,
+          1.8933
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "contamination",
+      "arm": "archivist",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.5196,
+        "ci95": [
+          0.4512,
+          0.5916
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "contamination",
+      "arm": "both",
+      "baseline": "web",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 0.8355,
+        "ci95": [
+          0.7506,
+          0.9267
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    },
+    {
+      "agent": "codex",
+      "stratum": "contamination",
+      "arm": "both",
+      "baseline": "archivist",
+      "token_ratio_baseline_over_arm": {
+        "estimate": 1.6081,
+        "ci95": [
+          1.3746,
+          1.8933
+        ],
+        "n_questions": 17,
+        "resamples": 10000,
+        "seed": 8105
+      },
+      "dropped_questions": []
+    }
+  ],
+  "control_overhead": [],
+  "audit_queue": [
+    {
+      "run_id": "20261007T223034961821Z-codex.both.CN04.r1-a1",
+      "fact_id": "CN04.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T223418767562Z-codex.both.CN12.r1-a1",
+      "fact_id": "CN12.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T223700773942Z-codex.archivist.CN01.r2-a1",
+      "fact_id": "CN01.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T223701191303Z-codex.both.CN01.r2-a1",
+      "fact_id": "CN01.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T223722559036Z-codex.both.CN02.r2-a1",
+      "fact_id": "CN02.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T224032297379Z-codex.archivist.CN09.r2-a1",
+      "fact_id": "CN09.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T224055548380Z-codex.archivist.CN10.r2-a1",
+      "fact_id": "CN10.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T224135499535Z-codex.archivist.CN12.r2-a1",
+      "fact_id": "CN12.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T224142768900Z-codex.both.CN12.r2-a1",
+      "fact_id": "CN12.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T224244460873Z-codex.web.CN15.r2-a1",
+      "fact_id": "CN15.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T224425631277Z-codex.web.CN02.r3-a1",
+      "fact_id": "CN02.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T224600927191Z-codex.web.CN06.r3-a1",
+      "fact_id": "CN06.f2",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T224739250786Z-codex.web.CN10.r3-a1",
+      "fact_id": "CN10.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T224753339115Z-codex.both.CN10.r3-a1",
+      "fact_id": "CN10.f3",
+      "verdict": "correct",
+      "selection": "sample"
+    },
+    {
+      "run_id": "20261007T224802707494Z-codex.web.CN11.r3-a1",
+      "fact_id": "CN11.f1",
+      "verdict": "correct",
+      "selection": "sample"
+    }
+  ],
+  "audit_corrections": [
+    {
+      "run_id": "20261007T223406784773Z-codex.web.CN12.r1-a1",
+      "fact_id": "CN12.f1",
+      "audit_verdict": "correct",
+      "audit_note": "amendment 5 key correction (pre registration section 16.2): CN12.f1 statement replaced; pass B re-judged on the corrected key, stored verdict correct",
+      "judge_verdict": "correct",
+      "judge_score": 1.0,
+      "audit_score": 1.0,
+      "source": "key_correction",
+      "run_accuracy_judged": 1.0,
+      "run_accuracy_audited": 1.0
+    },
+    {
+      "run_id": "20261007T223412380714Z-codex.archivist.CN12.r1-a1",
+      "fact_id": "CN12.f1",
+      "audit_verdict": "correct",
+      "audit_note": "amendment 5 key correction (pre registration section 16.2): CN12.f1 statement replaced; pass B re-judged on the corrected key, stored verdict incorrect",
+      "judge_verdict": "incorrect",
+      "judge_score": 0.0,
+      "audit_score": 1.0,
+      "source": "key_correction",
+      "run_accuracy_judged": 0.0,
+      "run_accuracy_audited": 1.0
+    },
+    {
+      "run_id": "20261007T223418767562Z-codex.both.CN12.r1-a1",
+      "fact_id": "CN12.f1",
+      "audit_verdict": "correct",
+      "audit_note": "amendment 5 key correction (pre registration section 16.2): CN12.f1 statement replaced; pass B re-judged on the corrected key, stored verdict correct",
+      "judge_verdict": "correct",
+      "judge_score": 1.0,
+      "audit_score": 1.0,
+      "source": "key_correction",
+      "run_accuracy_judged": 1.0,
+      "run_accuracy_audited": 1.0
+    },
+    {
+      "run_id": "20261007T224129821347Z-codex.web.CN12.r2-a1",
+      "fact_id": "CN12.f1",
+      "audit_verdict": "correct",
+      "audit_note": "amendment 5 key correction (pre registration section 16.2): CN12.f1 statement replaced; pass B re-judged on the corrected key, stored verdict correct",
+      "judge_verdict": "correct",
+      "judge_score": 1.0,
+      "audit_score": 1.0,
+      "source": "key_correction",
+      "run_accuracy_judged": 1.0,
+      "run_accuracy_audited": 1.0
+    },
+    {
+      "run_id": "20261007T224135499535Z-codex.archivist.CN12.r2-a1",
+      "fact_id": "CN12.f1",
+      "audit_verdict": "correct",
+      "audit_note": "amendment 5 key correction (pre registration section 16.2): CN12.f1 statement replaced; pass B re-judged on the corrected key, stored verdict correct",
+      "judge_verdict": "correct",
+      "judge_score": 1.0,
+      "audit_score": 1.0,
+      "source": "key_correction",
+      "run_accuracy_judged": 1.0,
+      "run_accuracy_audited": 1.0
+    },
+    {
+      "run_id": "20261007T224142768900Z-codex.both.CN12.r2-a1",
+      "fact_id": "CN12.f1",
+      "audit_verdict": "correct",
+      "audit_note": "amendment 5 key correction (pre registration section 16.2): CN12.f1 statement replaced; pass B re-judged on the corrected key, stored verdict correct",
+      "judge_verdict": "correct",
+      "judge_score": 1.0,
+      "audit_score": 1.0,
+      "source": "key_correction",
+      "run_accuracy_judged": 1.0,
+      "run_accuracy_audited": 1.0
+    },
+    {
+      "run_id": "20261007T224822972921Z-codex.web.CN12.r3-a1",
+      "fact_id": "CN12.f1",
+      "audit_verdict": "correct",
+      "audit_note": "amendment 5 key correction (pre registration section 16.2): CN12.f1 statement replaced; pass B re-judged on the corrected key, stored verdict correct",
+      "judge_verdict": "correct",
+      "judge_score": 1.0,
+      "audit_score": 1.0,
+      "source": "key_correction",
+      "run_accuracy_judged": 1.0,
+      "run_accuracy_audited": 1.0
+    },
+    {
+      "run_id": "20261007T224830508431Z-codex.archivist.CN12.r3-a1",
+      "fact_id": "CN12.f1",
+      "audit_verdict": "correct",
+      "audit_note": "amendment 5 key correction (pre registration section 16.2): CN12.f1 statement replaced; pass B re-judged on the corrected key, stored verdict correct",
+      "judge_verdict": "correct",
+      "judge_score": 1.0,
+      "audit_score": 1.0,
+      "source": "key_correction",
+      "run_accuracy_judged": 1.0,
+      "run_accuracy_audited": 1.0
+    },
+    {
+      "run_id": "20261007T224836510048Z-codex.both.CN12.r3-a1",
+      "fact_id": "CN12.f1",
+      "audit_verdict": "correct",
+      "audit_note": "amendment 5 key correction (pre registration section 16.2): CN12.f1 statement replaced; pass B re-judged on the corrected key, stored verdict correct",
+      "judge_verdict": "correct",
+      "judge_score": 1.0,
+      "audit_score": 1.0,
+      "source": "key_correction",
+      "run_accuracy_judged": 1.0,
+      "run_accuracy_audited": 1.0
+    }
+  ],
+  "superseded_corrections": [],
+  "completion": [
+    {
+      "agent": "codex",
+      "stratum": "contamination",
+      "arm": "archivist",
+      "runs": 51,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 0,
+      "runs_with_truncation": 0
+    },
+    {
+      "agent": "codex",
+      "stratum": "contamination",
+      "arm": "both",
+      "runs": 51,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 0,
+      "runs_with_truncation": 0
+    },
+    {
+      "agent": "codex",
+      "stratum": "contamination",
+      "arm": "web",
+      "runs": 51,
+      "runs_without_valid_judgement": 0,
+      "completion_rate": 1.0,
+      "timeouts": 0,
+      "turn_limits": 0,
+      "compactions": 0,
+      "truncations": 0,
+      "runs_with_truncation": 0
+    }
+  ],
+  "excluded_runs": [],
+  "runs_without_valid_judgement": [],
+  "billing_warnings": [],
+  "answer_file_mismatches": []
+}
